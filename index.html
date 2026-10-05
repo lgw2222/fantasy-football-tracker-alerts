@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1F5136">
 <title>Knee-ver Over the Hill · Live</title>
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -135,6 +136,17 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
 .xbtn{background:var(--ink);color:var(--paper)!important;border-color:var(--ink)!important}
 .links a.xbtn{border:1px solid var(--ink)}
 .wkx{display:inline-block;margin-top:10px;font-size:13.5px;font-weight:600;text-decoration:none;border-radius:999px;padding:8px 14px}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:6px;margin-top:10px}
+.sc{background:var(--chalk);border:1px solid var(--line);border-radius:8px;padding:7px 8px}
+.sc b{display:block;font:800 20px/1 var(--disp);font-variant-numeric:tabular-nums}
+.sc span{display:block;font-size:11px;color:var(--mute);margin-top:3px}
+.plays{margin-top:10px;font-size:13px;display:grid;gap:5px}
+.plays em{font-style:normal;font-weight:600;color:var(--pylon);margin-right:4px}
+.xclips:not(:empty){margin-top:10px;display:grid;gap:10px}
+.xemb{min-height:60px}
+.xrow{display:flex;justify-content:space-between;font-size:12.5px}
+.xdel{background:none;border:0;color:var(--bad);cursor:pointer;font-size:12.5px}
+.xadd{display:inline-block;margin:10px 8px 0 0;background:none;border:1px dashed var(--line);border-radius:999px;padding:7px 13px;font-size:13px;font-weight:600;cursor:pointer}
 .wk .more{font-size:12.5px;margin-top:8px;display:inline-block}
 
 /* Toast */
@@ -189,6 +201,8 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
     <label class="ck"><input type="checkbox" id="startersOnly"> Only notify for starters</label>
     <label class="ck"><input type="checkbox" id="wakeLock"> Keep screen on while this page is open</label>
 
+    <h3>Add X clips in one tap</h3>
+    <p>In Chrome, tap ⋮ then Add to Home screen, then Install. After that, on any post in the X app tap Share and pick Knee-ver. It asks which player and week, then the video plays right in his game log.</p>
     <h3>Scoring</h3>
     <select id="scoring">
       <option value="ppr">PPR</option>
@@ -290,6 +304,7 @@ const S = {
   seen: new Set(lsGet('kvh.seen', [])),
   settings: Object.assign({ scoring:'ppr', startersOnly:false, wake:false,
     kinds:{score:true,bigplay:true,milestone:true,turnover:true,kickoff:true,final:true} }, lsGet('kvh.settings', {})),
+  xclips: lsGet('kvh.xclips', {}),
   events: {}, teamEvent: {}, parsed: {}, sbCache: {},
   week: null, year: LEAGUE.season, seasonType: 2,
   primed: false, busy: false, unread: 0, matchup: null, swReg: null, wakeLock: null, lastUpdate: null
@@ -633,7 +648,7 @@ function updateUnread(){
 /* ============ Player sheet ============ */
 async function openPlayer(k){
   const p = S.roster.find(x => keyOf(x) === k); if (!p) return;
-  const dlg = $('#sheet'); const id = S.ids[k];
+  const dlg = $('#sheet'); const id = S.ids[k]; S.sheetKey = k;
   const yt = q => `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
   const links = [
     `<a class="xbtn" href="${xUrl(p)}" target="_blank" rel="noopener">Latest clips on X</a>`,
@@ -666,7 +681,10 @@ async function openPlayer(k){
           const vids = parsed ? videosFor(p, parsed) : [];
           const game = parsed ? parsed.videos.find(v => /highlights/i.test(v.h) && !vids.includes(v)) : null;
           block = `<div class="wk"><div class="wh"><span class="wt">Week ${w}, ${esc(gs.txt)}</span><span class="wp">${fmt(points(p, s))}</span></div>
-            <div class="wl">${esc(s ? statLine(p, s) : 'Did not record stats')}</div>
+            ${s ? statGrid(p, s) : '<div class="wl">Did not record stats</div>'}
+            ${parsed ? scoringHTML(p, parsed) : ''}
+            <div class="xclips" data-w="${w}"></div>
+            <button class="xadd" data-w="${w}">+ Add X clip</button>
             <a class="xbtn wkx" href="${xUrl(p, e.date, e.home.abbr === p.team ? e.away.abbr : e.home.abbr)}" target="_blank" rel="noopener">Week ${w} clips on X</a>
             ${vids.length ? `<div class="wl" style="margin-top:10px">ESPN clips</div><div class="vids">${vids.map(vidHTML).join('')}</div>` : ''}
             ${game ? `<a class="more" href="${esc(game.url)}" target="_blank" rel="noopener">Full game highlights: ${esc(game.h)}</a><br>` : ''}
@@ -677,7 +695,12 @@ async function openPlayer(k){
       }
     } catch { block = `<div class="wk"><div class="wh"><span class="wt">Week ${w}</span><span class="wl">Couldn't load from ESPN</span></div></div>`; }
     if (!dlg.open) return;
-    blocks.push(block); log.innerHTML = blocks.join('') + (blocks.length < weeks.length ? `<p class="note">Loading earlier weeks…</p>` : '');
+    if (!blocks.length) log.innerHTML = '<p class="note" id="logLoad">Loading earlier weeks…</p>';
+    blocks.push(block);
+    const ld = log.querySelector('#logLoad');
+    ld.insertAdjacentHTML('beforebegin', block);
+    renderXClips(log, p, w);
+    if (blocks.length === weeks.length) ld.remove();
   }
   // headshot may now be known
   const hs = dlg.querySelector('.sh .init'); if (hs && S.ids[k]) hs.outerHTML = headshot(p);
@@ -695,6 +718,80 @@ function vidHTML(v){
   const d = v.dur ? `${Math.floor(v.dur / 60)}:${String(v.dur % 60).padStart(2, '0')}` : '';
   return `<a class="vid" href="${esc(v.url)}" target="_blank" rel="noopener">${v.img ? `<img src="${esc(v.img)}" alt="" loading="lazy">` : ''}
     <span>${esc(v.h)}</span>${d ? `<em>${d}</em>` : ''}</a>`;
+}
+
+/* ============ Per-game stat grid ============ */
+function statGrid(p, s){
+  const c = [];
+  const add = (l, v) => c.push(`<div class="sc"><b>${esc(v)}</b><span>${l}</span></div>`);
+  if (s.dst){
+    add('Pts allowed', s.pa); add('Sacks', s.sacks); add('INT', s.dInt); add('Fum rec', s.fr); add('Def/ST TD', s.dTD); if (s.saf) add('Safety', s.saf);
+  } else if (p.pos === 'K'){
+    add('FG', `${s.fgm}/${s.fga}`); add('XP', `${s.xpm}/${s.xpa}`);
+    if (s.fgDist && s.fgDist.length){ add('Long', Math.max(...s.fgDist)); add('Distances', s.fgDist.join(', ')); }
+  } else {
+    if (s.att){ add('Cmp/Att', `${s.cmp}/${s.att}`); add('Pass yds', s.passYds); add('Pass TD', s.passTD); add('INT', s.int);
+      add('Cmp %', Math.round(100 * s.cmp / s.att) + '%'); add('Yds/att', (s.passYds / s.att).toFixed(1)); if (s.sacksTaken) add('Sacked', s.sacksTaken); }
+    if (s.rushAtt){ add('Carries', s.rushAtt); add('Rush yds', s.rushYds); add('Yds/carry', (s.rushYds / s.rushAtt).toFixed(1)); add('Rush TD', s.rushTD); if (s.longRush) add('Long run', s.longRush); }
+    if (s.tgt || s.rec){ add('Targets', s.tgt || s.rec); add('Catches', s.rec); add('Rec yds', s.recYds); add('Rec TD', s.recTD);
+      if (s.rec) add('Yds/catch', (s.recYds / s.rec).toFixed(1)); if (s.longRec) add('Long catch', s.longRec); }
+    if (s.fumLost) add('Fum lost', s.fumLost);
+  }
+  return c.length ? `<div class="sgrid">${c.join('')}</div>` : '<div class="wl">Did not record stats</div>';
+}
+function scoringHTML(p, parsed){
+  const ln = new RegExp('\\b' + reEsc(lastName(p.name)) + '\\b', 'i');
+  const plays = parsed.plays.filter(pl => pl.team === p.team && (
+    p.pos === 'D/ST' ? (DST_RE.test(pl.type) && !/own/i.test(pl.type)) || /safety/i.test(pl.type)
+    : p.pos === 'K' ? /field goal/i.test(pl.type) && ln.test(pl.text) : ln.test(pl.text)));
+  if (!plays.length) return '';
+  return `<div class="plays">${plays.map(pl => `<div><em>Q${pl.q} ${esc(pl.clock)}</em> ${esc(pl.text)}</div>`).join('')}</div>`;
+}
+
+/* ============ Embedded X clips ============ */
+function tweetId(url){ const m = String(url).match(/(?:x|twitter)\.com\/[^/\s]+\/status(?:es)?\/(\d+)/i); return m ? m[1] : null; }
+function addClip(k, w, url){
+  const id = tweetId(url); if (!id || !k) return false;
+  const list = S.xclips[k] = S.xclips[k] || [];
+  if (!list.some(c => c.id === id && c.w === w)) list.push({ id, w });
+  lsSet('kvh.xclips', S.xclips); return true;
+}
+let twP;
+function loadTwitter(){
+  if (twP) return twP;
+  twP = new Promise((res, rej) => {
+    const sc = document.createElement('script'); sc.src = 'https://platform.twitter.com/widgets.js'; sc.async = true;
+    sc.onload = () => window.twttr && window.twttr.ready ? window.twttr.ready(res) : rej(); sc.onerror = rej;
+    document.head.appendChild(sc);
+  });
+  return twP;
+}
+function renderXClips(root, p, w){
+  const box = root && root.querySelector(`.xclips[data-w="${w}"]`); if (!box || !p) return;
+  const list = (S.xclips[keyOf(p)] || []).filter(c => c.w === w);
+  box.innerHTML = list.map(c => `<div class="xc"><div class="xemb" data-id="${c.id}"></div>
+    <div class="xrow"><a href="https://x.com/i/status/${c.id}" target="_blank" rel="noopener">Open on X</a>
+    <button class="xdel" data-id="${c.id}" data-w="${w}">Remove</button></div></div>`).join('');
+  if (!list.length) return;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  loadTwitter().then(tw => box.querySelectorAll('.xemb').forEach(el =>
+    tw.widgets.createTweet(el.dataset.id, el, { theme: dark ? 'dark' : 'light', dnt: true, conversation: 'none', align: 'center' })
+      .then(r => { if (!r) el.innerHTML = '<p class="wl">X wouldn’t load this post here. Use Open on X.</p>'; })))
+    .catch(() => box.querySelectorAll('.xemb').forEach(el => el.innerHTML = '<p class="wl">Couldn’t reach X. Use Open on X.</p>'));
+}
+
+/* Share from the X app straight into a player's week */
+function clipPicker(id, text){
+  const dlg = $('#sheet');
+  const guess = S.roster.find(p => p.pos !== 'D/ST' && new RegExp('\\b' + reEsc(lastName(p.name)) + '\\b', 'i').test(text || ''));
+  const wk = S.week || lsGet('kvh.lastWeek') || 1;
+  dlg.innerHTML = `<div class="sh"><div><h2>Add X clip</h2><div class="ln">Pick who it's for and which week</div></div><button class="x" aria-label="Close">✕</button></div>
+    <div class="sb set"><h3>Player</h3><select id="cpP">${S.roster.map(p => `<option value="${esc(keyOf(p))}" ${guess === p ? 'selected' : ''}>${esc(p.pos === 'D/ST' ? p.name + ' D/ST' : p.name)}</option>`).join('')}</select>
+    <h3>Week</h3><select id="cpW">${Array.from({ length: 18 }, (_, i) => `<option ${i + 1 === wk ? 'selected' : ''}>${i + 1}</option>`).join('')}</select>
+    <div class="btns" style="margin-top:16px"><button class="btn" id="cpSave">Save clip</button></div></div>`;
+  dlg.querySelector('.x').onclick = () => dlg.close();
+  dlg.querySelector('#cpSave').onclick = () => { const k = $('#cpP').value; S.xclips[k] = S.xclips[k] || []; addClip(k, +$('#cpW').value, 'https://x.com/i/status/' + id); dlg.close(); openPlayer(k); };
+  if (!dlg.open) dlg.showModal();
 }
 
 /* X (Twitter) clip search: official NFL, team and network accounts, video posts only */
@@ -727,7 +824,7 @@ async function refresh(){
   try {
     await loadTeamJson();
     const sb = await getJSON(SB);
-    S.week = (sb.week && sb.week.number) || S.week;
+    S.week = (sb.week && sb.week.number) || S.week; lsSet('kvh.lastWeek', S.week);
     S.year = (sb.season && sb.season.year) || S.year;
     const teams = new Set(S.roster.map(p => p.team));
     S.events = {}; S.teamEvent = {};
@@ -814,7 +911,22 @@ document.querySelectorAll('.tab').forEach(t => t.onclick = () => {
 document.addEventListener('click', e => {
   const r = e.target.closest('[data-k]'); if (r && !e.target.closest('dialog')) openPlayer(r.dataset.k);
 });
-$('#sheet').addEventListener('click', e => { if (e.target.id === 'sheet') e.target.close(); });
+$('#sheet').addEventListener('click', e => {
+  if (e.target.id === 'sheet') return e.target.close();
+  const add = e.target.closest('.xadd');
+  if (add){
+    const url = prompt('Paste the link to the X post (Share > Copy link in the X app)');
+    if (url && !addClip(S.sheetKey, +add.dataset.w, url)) toast('That isn’t an X post link', 'It should look like x.com/NFL/status/123…');
+    else if (url) renderXClips($('#sheet'), S.roster.find(x => keyOf(x) === S.sheetKey), +add.dataset.w);
+  }
+  const del = e.target.closest('.xdel');
+  if (del){
+    const list = S.xclips[S.sheetKey] || [];
+    S.xclips[S.sheetKey] = list.filter(c => !(c.id === del.dataset.id && c.w === +del.dataset.w));
+    lsSet('kvh.xclips', S.xclips);
+    renderXClips($('#sheet'), S.roster.find(x => keyOf(x) === S.sheetKey), +del.dataset.w);
+  }
+});
 
 $('#notifBtn').onclick = async () => {
   if (!('Notification' in window)) return;
@@ -853,6 +965,12 @@ if ('serviceWorker' in navigator && location.protocol.startsWith('http')){
 }
 fillSettings();
 render();
+(() => {
+  const sp = new URLSearchParams(location.search);
+  const shared = ['url', 'text', 'title'].map(k => sp.get(k) || '').join(' ');
+  const id = tweetId(shared);
+  if (id){ history.replaceState(null, '', location.pathname); clipPicker(id, shared); }
+})();
 refresh();
 setInterval(() => { if (document.visibilityState === 'visible') renderFeed(); }, 60e3);
 applyWake();
