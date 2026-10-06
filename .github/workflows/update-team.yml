@@ -15,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 9
     steps:
       - uses: actions/checkout@v4
 
@@ -23,6 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: Pull team from ESPN
+        continue-on-error: true
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
@@ -30,11 +32,19 @@ jobs:
           export SITE_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
           python scripts/fetch_team.py
 
+      - name: Live play alerts and clips to Discord
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          export SITE_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
+          python scripts/live_alerts.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/team.json
+          git add data/
           if git diff --staged --quiet; then
             echo "Nothing new."
           else

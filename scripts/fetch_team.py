@@ -10,7 +10,7 @@ Phone alerts go to the ntfy topic below (subscribe to it in the ntfy app).
 import json, os, sys, pathlib, datetime, urllib.request, urllib.error
 
 LEAGUE_ID, TEAM_ID, SEASON = 332193, 1, 2026
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or "kneever-garrott-332193-alerts"
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC") or ""  # alerts now go to Discord via live_alerts.py
 MIN_GAIN = float(os.environ.get("MIN_GAIN", "4"))   # alert when a player gains this many points between checks
 MIN_LOSS = float(os.environ.get("MIN_LOSS", "2"))   # alert when a player loses this many (INT, fumble)
 
