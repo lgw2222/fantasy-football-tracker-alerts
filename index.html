@@ -147,6 +147,15 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
 .xrow{display:flex;justify-content:space-between;font-size:12.5px}
 .xdel{background:none;border:0;color:var(--bad);cursor:pointer;font-size:12.5px}
 .xadd{display:inline-block;margin:10px 8px 0 0;background:none;border:1px dashed var(--line);border-radius:999px;padding:7px 13px;font-size:13px;font-weight:600;cursor:pointer}
+#vplayer{max-width:960px;width:100%;background:#000;border-radius:12px;margin:auto;color:#fff}
+#vplayer::backdrop{background:rgba(0,0,0,.85)}
+#vplayer video{display:block;width:100%;max-height:78vh;background:#000}
+.vpt{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 12px;font-size:14px;font-weight:600}
+.vpt .x{background:none;border:1px solid #444;color:#fff;border-radius:50%;width:34px;height:34px;flex:none;cursor:pointer}
+.vpf{padding:10px 12px;font-size:13px}.vpf a{color:#8FB1FF}
+.vid{position:relative}
+.vid .play{position:absolute;left:8px;top:76px;width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.65);color:#fff;
+  font-style:normal;font-size:13px;display:flex;align-items:center;justify-content:center;padding-left:2px}
 .wk .more{font-size:12.5px;margin-top:8px;display:inline-block}
 
 /* Toast */
@@ -224,6 +233,7 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
 </main>
 
 <dialog id="sheet"></dialog>
+<dialog id="vplayer"></dialog>
 <div class="toast" id="toast" role="status"></div>
 
 <script>
@@ -276,7 +286,7 @@ const LABELMAP = {
 /* ============ Storage ============ */
 const lsGet = (k, d=null) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch { pruneCache(); } };
-function pruneCache(){ try { Object.keys(localStorage).filter(k=>k.startsWith('kvh.ev.')).slice(0,40).forEach(k=>localStorage.removeItem(k)); } catch {} }
+function pruneCache(){ try { Object.keys(localStorage).filter(k=>k.startsWith('kvh.ev')).slice(0,40).forEach(k=>localStorage.removeItem(k)); } catch {} }
 
 /* ============ Helpers ============ */
 const $ = s => document.querySelector(s);
@@ -367,13 +377,16 @@ function parseSummary(sum, e){
     team: (p.team && p.team.abbreviation) || '', q: p.period && p.period.number, clock: (p.clock && p.clock.displayValue) || '' }));
   const videos = (sum.videos || []).map(v => ({ id: v.id, h: v.headline || '', d: v.description || '',
     url: (v.links && ((v.links.web && v.links.web.href) || (v.links.mobile && v.links.mobile.href))) || '',
-    img: v.thumbnail || '', dur: v.duration || 0 })).filter(v => v.url);
+    img: v.thumbnail || '', dur: v.duration || 0,
+    src: (v.links && v.links.source && ((v.links.source.HD && v.links.source.HD.href) || v.links.source.href || (v.links.source.full && v.links.source.full.href))) ||
+         (v.links && v.links.mobile && v.links.mobile.source && v.links.mobile.source.href) || '',
+    hls: (v.links && v.links.source && v.links.source.HLS && v.links.source.HLS.href) || '' })).filter(v => v.url || v.src);
   return { id: e.id, at: Date.now(), final: e.state === 'post', state: e.state, date: e.date, detail: e.detail,
     home: e.home, away: e.away, players, agg, plays, videos };
 }
 
 async function loadEvent(e){
-  const key = 'kvh.ev.' + e.id, now = Date.now();
+  const key = 'kvh.ev2.' + e.id, now = Date.now();
   const mem = S.parsed[e.id], cached = mem || lsGet(key);
   const recent = now - new Date(e.date).getTime() < 20 * 3600e3;
   let stale = !cached || !cached.final || e.state === 'in' || (recent && now - cached.at > 10 * 60e3);
@@ -716,7 +729,7 @@ function videosFor(p, parsed){
 }
 function vidHTML(v){
   const d = v.dur ? `${Math.floor(v.dur / 60)}:${String(v.dur % 60).padStart(2, '0')}` : '';
-  return `<a class="vid" href="${esc(v.url)}" target="_blank" rel="noopener">${v.img ? `<img src="${esc(v.img)}" alt="" loading="lazy">` : ''}
+  return `<a class="vid" href="${esc(v.url || v.src)}" target="_blank" rel="noopener" data-src="${esc(v.src || '')}" data-hls="${esc(v.hls || '')}" data-poster="${esc(v.img)}" data-title="${esc(v.h)}">${v.src ? '<i class="play">▶</i>' : ''}${v.img ? `<img src="${esc(v.img)}" alt="" loading="lazy">` : ''}
     <span>${esc(v.h)}</span>${d ? `<em>${d}</em>` : ''}</a>`;
 }
 
@@ -911,8 +924,25 @@ document.querySelectorAll('.tab').forEach(t => t.onclick = () => {
 document.addEventListener('click', e => {
   const r = e.target.closest('[data-k]'); if (r && !e.target.closest('dialog')) openPlayer(r.dataset.k);
 });
+function playVideo(a){
+  const dlg = $('#vplayer');
+  dlg.innerHTML = `<div class="vpt"><span>${esc(a.dataset.title)}</span><button class="x" aria-label="Close">✕</button></div>
+    <video controls autoplay playsinline preload="auto" poster="${esc(a.dataset.poster)}" src="${esc(a.dataset.src)}"></video>`;
+  const vid = dlg.querySelector('video');
+  vid.onerror = () => {
+    if (a.dataset.hls && vid.src !== a.dataset.hls){ vid.src = a.dataset.hls; vid.play().catch(() => {}); return; }
+    vid.insertAdjacentHTML('afterend', `<p class="vpf">This clip won’t play here. <a href="${esc(a.href)}" target="_blank" rel="noopener">Open on ESPN</a></p>`);
+  };
+  dlg.querySelector('.x').onclick = () => dlg.close();
+  dlg.showModal();
+}
+$('#vplayer').addEventListener('close', e => { e.target.innerHTML = ''; });
+$('#vplayer').addEventListener('click', e => { if (e.target.id === 'vplayer') e.target.close(); });
+
 $('#sheet').addEventListener('click', e => {
   if (e.target.id === 'sheet') return e.target.close();
+  const vc = e.target.closest('.vid');
+  if (vc && vc.dataset.src){ e.preventDefault(); return playVideo(vc); }
   const add = e.target.closest('.xadd');
   if (add){
     const url = prompt('Paste the link to the X post (Share > Copy link in the X app)');
