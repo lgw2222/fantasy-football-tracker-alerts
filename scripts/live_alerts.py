@@ -20,6 +20,9 @@ LOOP_EVERY = 40
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 STATE = ROOT / "data" / "alerts-state.json"
 TEAM = ROOT / "data" / "team.json"
+XCLIPS = ROOT / "data" / "xclips.json"
+X_NETWORKS = ["NFL", "NFLonFOX", "NFLonCBS", "NFLonPrime", "NFLonNBC", "ESPNNFL"]
+X_SCAN_EVERY = 150        # seconds between X scans while games are on
 SB = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 SUM = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event="
 UA = {"User-Agent": "Mozilla/5.0 (KneeverAlerts)"}
@@ -195,6 +198,81 @@ def classify(p, pl, opp):
     return None
 
 
+# ---------- X (official accounts) ----------
+def x_timeline(handle):
+    """Recent posts from a public X account via X's embed-timeline feed (no login). Best effort."""
+    req = urllib.request.Request(f"https://syndication.twitter.com/srv/timeline-profile/screen-name/{handle}",
+                                 headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                          "(KHTML, like Gecko) Chrome/128.0 Safari/537.36", "Accept": "text/html"})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        html = r.read().decode("utf-8", "replace")
+    m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.S)
+    if not m:
+        return []
+    entries = (((json.loads(m.group(1)).get("props") or {}).get("pageProps") or {}).get("timeline") or {}).get("entries") or []
+    out = []
+    for e in entries:
+        t = (e.get("content") or {}).get("tweet") or {}
+        media = ((t.get("extended_entities") or {}).get("media")) or ((t.get("entities") or {}).get("media")) or []
+        if not t.get("id_str") or not any(mm.get("type") == "video" for mm in media):
+            continue
+        try:
+            dt = datetime.datetime.strptime(t.get("created_at", ""), "%a %b %d %H:%M:%S %z %Y")
+        except Exception:
+            continue
+        out.append({"id": t["id_str"], "text": t.get("full_text") or t.get("text") or "",
+                    "user": (t.get("user") or {}).get("screen_name") or handle, "date": dt.isoformat()})
+    return out
+
+
+def x_matches(p, clip):
+    text, user = clip["text"], clip["user"].lower()
+    team_acct = (TEAM_X.get(p["team"]) or "").lower()
+    if p["pos"] == "D/ST":
+        return user == team_acct and re.search(r"defen|sack|intercept|pick|fumble|strip|takeaway|return|block|safety", text, re.I)
+    full = r"\b" + r"[\s\-]+".join(re.escape(w) for w in p["name"].split()) + r"\b"
+    if re.search(full, text, re.I):
+        return True
+    return user == team_acct and mentions(text, p["name"])
+
+
+def scan_x(state, ros, active_teams):
+    if not active_teams:
+        return
+    handles = list(X_NETWORKS) + [TEAM_X[t] for t in sorted(active_teams) if t in TEAM_X]
+    try:
+        store = json.loads(XCLIPS.read_text())
+    except Exception:
+        store = {"clips": []}
+    have = {(c["id"], c["player"]) for c in store["clips"]}
+    first = not state.get("xInit")
+    now = datetime.datetime.now(datetime.timezone.utc)
+    found, failures = 0, 0
+    for h in handles:
+        try:
+            posts = x_timeline(h)
+        except Exception as e:
+            failures += 1
+            print(f"X feed {h} failed: {e}")
+            continue
+        for c in posts:
+            for p in ros:
+                if p["team"] not in active_teams or not x_matches(p, c) or (c["id"], p["name"]) in have:
+                    continue
+                have.add((c["id"], p["name"]))
+                store["clips"].append({"id": c["id"], "user": c["user"], "date": c["date"], "player": p["name"],
+                                       "team": p["team"], "text": c["text"][:280]})
+                found += 1
+                age = (now - datetime.datetime.fromisoformat(c["date"])).total_seconds()
+                if not first and age < 3 * 3600:
+                    discord({"content": f"🎥 **{label(p)}** on X\nhttps://fixupx.com/{c['user']}/status/{c['id']}"})
+                    state["pending"] = [x for x in state["pending"] if x["name"] != p["name"]]
+    print(f"X scan: {len(handles)} accounts, {failures} failed, {found} new clips")
+    state["xInit"] = True
+    store["clips"] = sorted(store["clips"], key=lambda c: c["date"])[-800:]
+    XCLIPS.write_text(json.dumps(store, indent=0))
+
+
 # ---------- main ----------
 def load_state():
     try:
@@ -208,6 +286,7 @@ def run_once(state, ros, first_run):
     teams = {p["team"] for p in ros}
     live = False
     now = time.time()
+    state["_active"] = set()
     for ev in sb.get("events") or []:
         c = ev["competitions"][0]
         st = c["status"]["type"]["state"]
@@ -216,6 +295,13 @@ def run_once(state, ros, first_run):
         if not ({h, a} & teams) or st == "pre":
             continue
         live = live or st == "in"
+        try:
+            age_h = (datetime.datetime.now(datetime.timezone.utc) -
+                     datetime.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))).total_seconds() / 3600
+        except Exception:
+            age_h = 0
+        if st == "in" or age_h < 30:
+            state["_active"].update({h, a} & teams)
         recent_final = st == "post" and any(pd["event"] == ev["id"] for pd in state["pending"])
         if st == "post" and not recent_final and ev["id"] in state.get("doneEvents", []):
             continue
@@ -290,6 +376,13 @@ def main():
             print("check failed:", e)
             live = False
         first_run = False
+        if time.time() - state.get("xLast", 0) >= X_SCAN_EVERY:
+            try:
+                scan_x(state, ros, state.get("_active") or set())
+            except Exception as e:
+                print("X scan failed:", e)
+            state["xLast"] = time.time()
+        state.pop("_active", None)
         state["seen"] = state["seen"][-4000:]
         state["sentClips"] = state["sentClips"][-1000:]
         state["doneEvents"] = state.get("doneEvents", [])[-300:]

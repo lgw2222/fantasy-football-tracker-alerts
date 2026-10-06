@@ -314,7 +314,7 @@ const S = {
   seen: new Set(lsGet('kvh.seen', [])),
   settings: Object.assign({ scoring:'ppr', startersOnly:false, wake:false,
     kinds:{score:true,bigplay:true,milestone:true,turnover:true,kickoff:true,final:true} }, lsGet('kvh.settings', {})),
-  xclips: lsGet('kvh.xclips', {}),
+  xclips: lsGet('kvh.xclips', {}), xhide: lsGet('kvh.xhide', []), autoClips: [],
   events: {}, teamEvent: {}, parsed: {}, sbCache: {},
   week: null, year: LEAGUE.season, seasonType: 2,
   primed: false, busy: false, unread: 0, matchup: null, swReg: null, wakeLock: null, lastUpdate: null
@@ -696,7 +696,7 @@ async function openPlayer(k){
           block = `<div class="wk"><div class="wh"><span class="wt">Week ${w}, ${esc(gs.txt)}</span><span class="wp">${fmt(points(p, s))}</span></div>
             ${s ? statGrid(p, s) : '<div class="wl">Did not record stats</div>'}
             ${parsed ? scoringHTML(p, parsed) : ''}
-            <div class="xclips" data-w="${w}"></div>
+            <div class="xclips" data-w="${w}" data-date="${esc(e.date)}"></div>
             <button class="xadd" data-w="${w}">+ Add X clip</button>
             <a class="xbtn wkx" href="${xUrl(p, e.date, e.home.abbr === p.team ? e.away.abbr : e.home.abbr)}" target="_blank" rel="noopener">Week ${w} clips on X</a>
             ${vids.length ? `<div class="wl" style="margin-top:10px">ESPN clips</div><div class="vids">${vids.map(vidHTML).join('')}</div>` : ''}
@@ -781,10 +781,14 @@ function loadTwitter(){
 }
 function renderXClips(root, p, w){
   const box = root && root.querySelector(`.xclips[data-w="${w}"]`); if (!box || !p) return;
-  const list = (S.xclips[keyOf(p)] || []).filter(c => c.w === w);
+  const gd = box.dataset.date ? new Date(box.dataset.date).getTime() : null;
+  const auto = gd ? S.autoClips.filter(c => norm(c.player) === norm(p.name) && c.team === p.team && !S.xhide.includes(c.id) &&
+    (t => t > gd - 12 * 3600e3 && t < gd + 48 * 3600e3)(new Date(c.date).getTime())).map(c => ({ id: c.id, w, auto: true, user: c.user })) : [];
+  const manual = (S.xclips[keyOf(p)] || []).filter(c => c.w === w);
+  const list = [...auto, ...manual.filter(m => !auto.some(a => a.id === m.id))];
   box.innerHTML = list.map(c => `<div class="xc"><div class="xemb" data-id="${c.id}"></div>
-    <div class="xrow"><a href="https://x.com/i/status/${c.id}" target="_blank" rel="noopener">Open on X</a>
-    <button class="xdel" data-id="${c.id}" data-w="${w}">Remove</button></div></div>`).join('');
+    <div class="xrow"><a href="https://x.com/i/status/${c.id}" target="_blank" rel="noopener">Open on X${c.user ? ' (@' + esc(c.user) + ')' : ''}</a>
+    <button class="xdel" data-id="${c.id}" data-w="${w}" ${c.auto ? 'data-auto="1"' : ''}>${c.auto ? 'Hide' : 'Remove'}</button></div></div>`).join('');
   if (!list.length) return;
   const dark = matchMedia('(prefers-color-scheme: dark)').matches;
   loadTwitter().then(tw => box.querySelectorAll('.xemb').forEach(el =>
@@ -836,6 +840,7 @@ async function refresh(){
   if (S.busy) return; S.busy = true;
   try {
     await loadTeamJson();
+    try { const xc = await getJSON('data/xclips.json?t=' + Date.now()); S.autoClips = (xc && xc.clips) || []; } catch {}
     const sb = await getJSON(SB);
     S.week = (sb.week && sb.week.number) || S.week; lsSet('kvh.lastWeek', S.week);
     S.year = (sb.season && sb.season.year) || S.year;
@@ -951,6 +956,7 @@ $('#sheet').addEventListener('click', e => {
   }
   const del = e.target.closest('.xdel');
   if (del){
+    if (del.dataset.auto){ S.xhide.push(del.dataset.id); lsSet('kvh.xhide', S.xhide); }
     const list = S.xclips[S.sheetKey] || [];
     S.xclips[S.sheetKey] = list.filter(c => !(c.id === del.dataset.id && c.w === +del.dataset.w));
     lsSet('kvh.xclips', S.xclips);
