@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 9
+    timeout-minutes: 355   # one run can watch a whole game window
     steps:
       - uses: actions/checkout@v4
 
