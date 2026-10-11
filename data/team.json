@@ -6,8 +6,8 @@
   "record": "2-2-0"
  },
  "matchup": {
-  "me": 34.4,
-  "opp": 95.8,
+  "me": 104.9,
+  "opp": 123.1,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Thor: God of PA"
  },
@@ -18,7 +18,7 @@
    "team": "CIN",
    "pos": "QB",
    "espnId": 3915511,
-   "pts": 10.1,
+   "pts": 24.0,
    "proj": 19.22,
    "injury": "ACTIVE"
   },
@@ -29,7 +29,7 @@
    "pos": "RB",
    "espnId": 4882093,
    "pts": 11.6,
-   "proj": 13.93,
+   "proj": 13.94,
    "injury": "ACTIVE"
   },
   {
@@ -38,7 +38,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4887558,
-   "pts": 27.0,
+   "pts": 8.5,
    "proj": 13.59,
    "injury": "ACTIVE"
   },
@@ -48,8 +48,8 @@
    "team": "SEA",
    "pos": "WR",
    "espnId": 4430878,
-   "pts": 12.6,
-   "proj": 20.49,
+   "pts": 7.8,
+   "proj": 20.48,
    "injury": "ACTIVE"
   },
   {
@@ -58,8 +58,8 @@
    "team": "NYG",
    "pos": "WR",
    "espnId": 4595348,
-   "pts": 4.7,
-   "proj": 13.55,
+   "pts": 29.1,
+   "proj": 13.56,
    "injury": "ACTIVE"
   },
   {
@@ -68,7 +68,7 @@
    "team": "LAC",
    "pos": "RB",
    "espnId": 4685382,
-   "pts": 13.3,
+   "pts": 3.4,
    "proj": 12.01,
    "injury": "ACTIVE"
   },
@@ -78,7 +78,7 @@
    "team": "SF",
    "pos": "WR",
    "espnId": 16737,
-   "pts": 12.6,
+   "pts": 9.5,
    "proj": 12.77,
    "injury": "ACTIVE"
   },
@@ -88,8 +88,8 @@
    "team": "CLE",
    "pos": "D/ST",
    "espnId": -16005,
-   "pts": 8.0,
-   "proj": 5.65,
+   "pts": 11.0,
+   "proj": 5.69,
    "injury": "ACTIVE"
   },
   {
@@ -128,7 +128,7 @@
    "team": "IND",
    "pos": "WR",
    "espnId": 4688813,
-   "pts": 6.2,
+   "pts": 7.7,
    "proj": 12.04,
    "injury": "ACTIVE"
   },
@@ -158,8 +158,8 @@
    "team": "NO",
    "pos": "WR",
    "espnId": 4569559,
-   "pts": 3.4,
-   "proj": 10.78,
+   "pts": 6.6,
+   "proj": 10.79,
    "injury": "ACTIVE"
   },
   {
@@ -168,9 +168,9 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4429835,
-   "pts": 3.0,
+   "pts": 4.6,
    "proj": 7.52,
-   "injury": "QUESTIONABLE"
+   "injury": "ACTIVE"
   },
   {
    "slot": "IR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-11T18:01:25+00:00"
+ "updated": "2026-10-11T21:41:28+00:00"
 }
