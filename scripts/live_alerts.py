@@ -2,7 +2,7 @@
 Live play alerts for Knee-ver Over the Hill, sent to Discord.
 
 Every run (GitHub Actions, every ~5 min; loops every 40s while games are live):
-  - checks ESPN's public NFL data for touchdowns, 40+ yard plays and D/ST takeaways by your players
+  - checks ESPN's public NFL data for touchdowns, 10+ yard plays and D/ST takeaways by your players
   - posts the alert to Discord right away, with a one-tap X search for that game
   - keeps watching for ESPN's clip of the play and posts the video into Discord when it appears
 
@@ -12,7 +12,7 @@ import json, os, re, sys, time, uuid, pathlib, datetime, urllib.request, urllib.
 
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK") or "https://discord.com/api/webhooks/1557042917086863378/6YmcA-UBA3B2Z8tYI2aWpsqUuH-Z2vgbpXtK29h2I4Yip2UTji-AmWYYZo-3bbfRSm34"
 SITE_URL = os.environ.get("SITE_URL", "")
-BIG_PLAY = 40            # yards
+BIG_PLAY = 10            # yards
 CLIP_WAIT_MIN = 120      # keep looking for a clip this long after the play
 LOOP_SECONDS = 240       # how long one run keeps checking while games are live
 LOOP_EVERY = 40
@@ -365,7 +365,7 @@ def main():
     ros = roster()
     if first_run:
         discord({"embeds": [{"title": "✅ Knee-ver Alerts connected",
-                             "description": f"Watching {len(ros)} players. Touchdowns, 40+ yard plays and D/ST takeaways will post here, then ESPN's clip when it's up."
+                             "description": f"Watching {len(ros)} players. Touchdowns, 10+ yard plays and D/ST takeaways will post here, then ESPN's clip when it's up."
                                             + (f"\n[Open tracker]({SITE_URL})" if SITE_URL else ""),
                              "color": 0x1F5136}]})
     start = time.time()

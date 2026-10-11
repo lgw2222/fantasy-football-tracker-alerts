@@ -197,12 +197,12 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
       <button class="btn" id="notifBtn">Turn on notifications</button>
       <button class="btn ghost" id="testBtn">Send test alert</button>
     </div>
-    <p>Touchdowns and big plays also post to your Discord channel with the ESPN clip, even when this page is closed.</p>
+    <p>Touchdowns and 10+ yard plays also post to your Discord channel with the ESPN clip, even when this page is closed.</p>
     <p>In-page alerts fire while this page is open. On game day, keep the tab open (or turn on "Keep screen on") so your phone doesn't pause it.</p>
 
     <h3>Alert me about</h3>
     <label class="ck"><input type="checkbox" data-kind="score"> Touchdowns, field goals and D/ST scores</label>
-    <label class="ck"><input type="checkbox" data-kind="bigplay"> Big plays (40+ yard runs and catches)</label>
+    <label class="ck"><input type="checkbox" data-kind="bigplay"> Big plays: every run or catch of <select id="bigYds" style="margin:0 4px"><option value="10">10+</option><option value="20">20+</option><option value="30">30+</option><option value="40">40+</option></select> yards</label>
     <label class="ck"><input type="checkbox" data-kind="milestone"> Milestones (100 yards, 300 passing, 20+ points)</label>
     <label class="ck"><input type="checkbox" data-kind="turnover"> Interceptions and lost fumbles</label>
     <label class="ck"><input type="checkbox" data-kind="kickoff"> Kickoffs for my players' games</label>
@@ -312,7 +312,7 @@ const S = {
   ids: lsGet('kvh.ids', {}),
   feed: lsGet('kvh.feed', []),
   seen: new Set(lsGet('kvh.seen', [])),
-  settings: Object.assign({ scoring:'ppr', startersOnly:false, wake:false,
+  settings: Object.assign({ scoring:'ppr', startersOnly:false, wake:false, bigYds:10,
     kinds:{score:true,bigplay:true,milestone:true,turnover:true,kickoff:true,final:true} }, lsGet('kvh.settings', {})),
   xclips: lsGet('kvh.xclips', {}), xhide: lsGet('kvh.xhide', []), autoClips: [],
   events: {}, teamEvent: {}, parsed: {}, sbCache: {},
@@ -375,6 +375,18 @@ function parseSummary(sum, e){
   for (const P of Object.values(players)){ const g = agg[P.team]; g.sacks += P.s.sacksTaken; g.ints += P.s.int; g.fumLost += P.s.fumLost; }
   const plays = (sum.scoringPlays || []).map(p => ({ id: p.id, type: (p.type && p.type.text) || '', text: p.text || '',
     team: (p.team && p.team.abbreviation) || '', q: p.period && p.period.number, clock: (p.clock && p.clock.displayValue) || '' }));
+  const big = [];
+  const drives = (sum.drives && [...(sum.drives.previous || []), ...(sum.drives.current ? [sum.drives.current] : [])]) || [];
+  const seenP = new Set();
+  for (const d of drives){
+    const off = (d.team && d.team.abbreviation) || '';
+    for (const pl of d.plays || []){
+      if (seenP.has(pl.id)) continue; seenP.add(pl.id);
+      const yds = pl.statYardage || 0, type = (pl.type && pl.type.text) || '', text = pl.text || '';
+      if (yds < 10 || !/rush|pass|reception/i.test(type) || /no play|penalty/i.test(text)) continue;
+      big.push({ id: pl.id, type, text, team: off, yds, q: pl.period && pl.period.number, clock: (pl.clock && pl.clock.displayValue) || '' });
+    }
+  }
   const videos = (sum.videos || []).map(v => ({ id: v.id, h: v.headline || '', d: v.description || '',
     url: (v.links && ((v.links.web && v.links.web.href) || (v.links.mobile && v.links.mobile.href))) || '',
     img: v.thumbnail || '', dur: v.duration || 0,
@@ -382,7 +394,7 @@ function parseSummary(sum, e){
          (v.links && v.links.mobile && v.links.mobile.source && v.links.mobile.source.href) || '',
     hls: (v.links && v.links.source && v.links.source.HLS && v.links.source.HLS.href) || '' })).filter(v => v.url || v.src);
   return { id: e.id, at: Date.now(), final: e.state === 'post', state: e.state, date: e.date, detail: e.detail,
-    home: e.home, away: e.away, players, agg, plays, videos };
+    home: e.home, away: e.away, players, agg, plays, big, videos };
 }
 
 async function loadEvent(e){
@@ -543,8 +555,18 @@ function detect(){
       } else if (p.pos !== 'K'){
         for (let i = 1; i <= s.int; i++) pushAlert(`int-${tag}-${i}`, 'turnover', `Interception thrown: ${p.name}`, line, p);
         for (let i = 1; i <= s.fumLost; i++) pushAlert(`fum-${tag}-${i}`, 'turnover', `Fumble lost: ${p.name}`, line, p);
-        if (s.longRush >= 40) pushAlert(`lr-${tag}`, 'bigplay', `Big run: ${p.name}, ${s.longRush} yards`, line, p);
-        if (s.longRec >= 40) pushAlert(`lc-${tag}`, 'bigplay', `Big catch: ${p.name}, ${s.longRec} yards`, line, p);
+        const minYds = +S.settings.bigYds || 10;
+        if (parsed.big){
+          const ln = new RegExp('\\b' + reEsc(lastName(p.name)) + '\\b', 'i');
+          for (const pl of parsed.big){
+            if (pl.team !== p.team || pl.yds < minYds || !ln.test(pl.text)) continue;
+            const what = /rush/i.test(pl.type) ? 'run' : p.pos === 'QB' ? 'pass' : 'catch';
+            pushAlert(`bp-${pl.id}-${k}`, 'bigplay', `${pl.yds}-yard ${what}: ${p.name}`, `${pl.text}${pl.q ? ` (Q${pl.q} ${pl.clock})` : ''}`, p);
+          }
+        } else {
+          if (s.longRush >= minYds) pushAlert(`lr${minYds}-${tag}`, 'bigplay', `Big run: ${p.name}, ${s.longRush} yards`, line, p);
+          if (s.longRec >= minYds) pushAlert(`lc${minYds}-${tag}`, 'bigplay', `Big catch: ${p.name}, ${s.longRec} yards`, line, p);
+        }
         for (const t of [100,150,200]){
           if (s.rushYds >= t) pushAlert(`ry${t}-${tag}`, 'milestone', `${p.name} passes ${t} rushing yards`, line, p);
           if (s.recYds >= t) pushAlert(`cy${t}-${tag}`, 'milestone', `${p.name} passes ${t} receiving yards`, line, p);
@@ -909,6 +931,7 @@ function fillSettings(){
   $('#rosterSrc').textContent = S.rosterSrc === 'espn' ? 'Synced from your ESPN league every few minutes. Edits here get replaced on the next sync, so make roster moves on ESPN.' :
     S.rosterSrc === 'manual' ? 'Using the roster you saved here.' : 'Using your Week 4 roster. ESPN sync isn’t set up yet (data/team.json is missing), so update this after trades or pickups.';
   $('#scoring').value = S.settings.scoring;
+  $('#bigYds').value = String(S.settings.bigYds || 10);
   $('#startersOnly').checked = S.settings.startersOnly;
   $('#wakeLock').checked = S.settings.wake;
   document.querySelectorAll('[data-kind]').forEach(cb => cb.checked = !!S.settings.kinds[cb.dataset.kind]);
@@ -972,6 +995,7 @@ $('#notifBtn').onclick = async () => {
 $('#testBtn').onclick = () => notify('Touchdown: Joe Burrow', 'Test alert. This is what a scoring alert looks like.', 'kvh-test-' + Date.now(), S.roster[0]);
 document.querySelectorAll('[data-kind]').forEach(cb => cb.onchange = () => { S.settings.kinds[cb.dataset.kind] = cb.checked; saveSettings(); });
 $('#startersOnly').onchange = e => { S.settings.startersOnly = e.target.checked; saveSettings(); };
+$('#bigYds').onchange = e => { S.settings.bigYds = +e.target.value; saveSettings(); };
 $('#scoring').onchange = e => { S.settings.scoring = e.target.value; saveSettings(); render(); };
 $('#wakeLock').onchange = e => { S.settings.wake = e.target.checked; saveSettings(); applyWake(); };
 $('#saveRoster').onclick = () => {
