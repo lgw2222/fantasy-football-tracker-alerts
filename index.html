@@ -158,6 +158,37 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
   font-style:normal;font-size:13px;display:flex;align-items:center;justify-content:center;padding-left:2px}
 .wk .more{font-size:12.5px;margin-top:8px;display:inline-block}
 
+/* Clips feed */
+.cbar{display:flex;gap:8px;overflow-x:auto;padding:14px 16px 6px;scrollbar-width:none}
+.cbar::-webkit-scrollbar{display:none}
+.chip{flex:none;display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);border-radius:999px;
+  padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip img,.chip .init{width:22px;height:22px;border-radius:50%;object-fit:cover;margin:-2px 0 -2px -6px;font-size:10px}
+.cpost{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 16px 14px;margin-top:10px}
+.cpost.watched .ctitle{color:var(--mute)}
+.chead{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--mute);flex-wrap:wrap}
+.chead b{color:var(--ink);font-size:14px}
+.chead .hs,.chead .init{width:34px;height:34px;border-radius:50%;object-fit:cover;flex:none;background:var(--line)}
+.chead .init{display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--ink)}
+.ckind{font-size:11px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;padding:2px 7px;border-radius:5px;background:var(--line);color:var(--ink)}
+.ckind.int{background:var(--link);color:#fff}
+.cnew{font-size:11px;font-weight:700;color:#fff;background:var(--pylon);padding:2px 7px;border-radius:5px}
+.ctitle{margin:8px 0 10px;font-size:15px;line-height:1.35}
+.cmedia{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden}
+.cmedia.tall{aspect-ratio:auto;min-height:200px;background:transparent}
+.cmedia iframe,.cmedia video{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}
+.cmedia.tall .xemb{position:static}
+.ctap{position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;background:#111;cursor:pointer;display:block}
+.ctap img{width:100%;height:100%;object-fit:cover;display:block}
+.ctap .pi{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;
+  background:rgba(0,0,0,.6);color:#fff;font-size:22px;display:flex;align-items:center;justify-content:center;padding-left:4px}
+.ctap .cd{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.75);color:#fff;font-size:12px;font-weight:600;padding:2px 6px;border-radius:4px}
+.ctap .xlbl{position:absolute;left:0;right:0;bottom:0;padding:30px 12px 10px;color:#fff;font-size:13px;text-align:left;
+  background:linear-gradient(transparent,rgba(0,0,0,.8))}
+.cfoot{display:flex;justify-content:space-between;gap:10px;margin-top:8px;font-size:12.5px;color:var(--mute)}
+.cmore{display:block;margin:16px auto;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:9px 18px;font-weight:600;cursor:pointer}
+
 /* Toast */
 .toast{position:fixed;left:50%;transform:translate(-50%,-140%);top:calc(env(safe-area-inset-top,0px) + 10px);z-index:50;
   background:var(--ink);color:var(--paper);border-left:5px solid var(--pylon);border-radius:10px;padding:10px 14px;
@@ -182,6 +213,7 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
 <nav class="tabs" role="tablist">
   <div class="in">
     <button class="tab" role="tab" aria-selected="true" data-v="team">My team</button>
+    <button class="tab" role="tab" aria-selected="false" data-v="clips">Clips<span class="dot" id="clipNew" hidden>0</span></button>
     <button class="tab" role="tab" aria-selected="false" data-v="alerts">Alerts<span class="dot" id="unread" hidden>0</span></button>
     <button class="tab" role="tab" aria-selected="false" data-v="settings">Settings</button>
   </div>
@@ -189,6 +221,7 @@ dialog::backdrop{background:rgba(5,15,9,.55)}
 
 <main>
   <section class="view" id="v-team"></section>
+  <section class="view" id="v-clips" hidden></section>
   <section class="view" id="v-alerts" hidden></section>
   <section class="view set" id="v-settings" hidden>
     <h3>Notifications</h3>
@@ -314,7 +347,8 @@ const S = {
   seen: new Set(lsGet('kvh.seen', [])),
   settings: Object.assign({ scoring:'ppr', startersOnly:false, wake:false, bigYds:10,
     kinds:{score:true,bigplay:true,milestone:true,turnover:true,kickoff:true,final:true} }, lsGet('kvh.settings', {})),
-  xclips: lsGet('kvh.xclips', {}), xhide: lsGet('kvh.xhide', []), autoClips: [],
+  xclips: lsGet('kvh.xclips', {}), xhide: lsGet('kvh.xhide', []), autoClips: [], ytFeed: [],
+  clipF: 'all', clipShown: 25, clipSeen: lsGet('kvh.clipSeen', {}), clipsOpened: lsGet('kvh.clipsOpened', 0), clipActive: null,
   events: {}, teamEvent: {}, parsed: {}, sbCache: {},
   week: null, year: LEAGUE.season, seasonType: 2,
   primed: false, busy: false, unread: 0, matchup: null, swReg: null, wakeLock: null, lastUpdate: null
@@ -651,7 +685,7 @@ function render(){
     $('#board').innerHTML = `<div><div class="big">${fmt(groupTotal(starters))}</div></div>
       <div class="lbl">Starter points, estimated<br>${liveN ? `${liveN} game${liveN > 1 ? 's' : ''} live now` : 'No games live right now'}</div>`;
   }
-  renderFeed(); renderTicker(); updateUnread();
+  renderFeed(); renderTicker(); updateUnread(); renderClips();
 }
 
 function ago(t){
@@ -848,6 +882,131 @@ function xUrl(p, gameDate, opp){
   return `https://x.com/search?q=${encodeURIComponent(q)}&f=${gameDate ? 'top' : 'live'}`;
 }
 
+/* ============ Clips: highlights and interviews for every player ============ */
+const INT_RE = /interview|press conference|presser|post-?game|pre-?game|media availability|speaks|talks|reacts|mic'?d up|sits down|1[- ]on[- ]1|locker room|podcast|explains|discusses/i;
+const xTime = id => { try { return Number((BigInt(id) >> 22n) + 1288834974657n); } catch { return 0; } };
+const durTxt = d => d ? `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padStart(2, '0')}` : '';
+
+function clipItems(){
+  const byKey = {}; S.roster.forEach(p => byKey[keyOf(p)] = p);
+  const cut = Date.now() - 10 * 864e5, out = new Map();
+  const add = (it) => { const prev = out.get(it.id); if (prev){ it.keys.forEach(k => { if (!prev.keys.includes(k)) prev.keys.push(k); }); } else out.set(it.id, it); };
+  // YouTube highlights + interviews (crawled by GitHub Actions)
+  for (const v of S.ytFeed){
+    const keys = (v.players || []).map(x => { const [n, t] = x.split('|'); return norm(n) + '|' + t; }).filter(k => byKey[k]);
+    if (!keys.length) continue;
+    add({ id: v.id, type: 'yt', vid: v.vid, title: v.title, src: v.channel || 'YouTube', official: v.official, kind: v.kind,
+      t: (v.ts || 0) * 1000, dur: v.dur, thumb: `https://i.ytimg.com/vi/${v.vid}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${v.vid}`, keys });
+  }
+  // Official team clips posted on X
+  for (const c of S.autoClips){
+    const p = S.roster.find(x => norm(x.name) === norm(c.player) && x.team === c.team); if (!p || S.xhide.includes(c.id)) continue;
+    const title = String(c.text || '').replace(/https?:\/\/t\.co\/\S+/g, '').trim();
+    add({ id: 'x_' + c.id, type: 'x', xid: c.id, title, src: '@' + c.user, official: true, kind: INT_RE.test(title) ? 'int' : 'hl',
+      t: Date.parse(c.date) || xTime(c.id), url: `https://x.com/i/status/${c.id}`, keys: [keyOf(p)] });
+  }
+  // X clips you added yourself
+  for (const [k, list] of Object.entries(S.xclips)) if (byKey[k]) for (const c of list)
+    add({ id: 'x_' + c.id, type: 'x', xid: c.id, title: `Week ${c.w} clip you saved`, src: 'X', kind: 'hl', t: xTime(c.id), url: `https://x.com/i/status/${c.id}`, keys: [k] });
+  // ESPN game videos (this week, plus recent games cached on this phone)
+  const games = new Map(Object.values(S.parsed).filter(Boolean).map(g => [g.id, g]));
+  try { Object.keys(localStorage).filter(k => k.startsWith('kvh.ev2.')).forEach(k => { const g = lsGet(k); if (g && g.id && !games.has(g.id)) games.set(g.id, g); }); } catch {}
+  for (const g of games.values()){
+    const gt = Date.parse(g.date) || 0; if (gt < cut) continue;
+    for (const p of S.roster){
+      if (!g.home || (p.team !== g.home.abbr && p.team !== g.away.abbr)) continue;
+      for (const v of videosFor(p, g) || [])
+        add({ id: 'e_' + v.id, type: 'espn', mp4: v.src, hls: v.hls, title: v.h, src: 'ESPN', official: true,
+          kind: INT_RE.test(v.h + ' ' + v.d) ? 'int' : 'hl', t: gt + 3 * 3600e3, dur: v.dur, thumb: v.img, url: v.url || v.src, keys: [keyOf(p)] });
+    }
+  }
+  return [...out.values()].filter(i => i.t >= cut || !i.t).sort((a, b) => b.t - a.t);
+}
+
+function clipFilterOK(it){
+  const f = S.clipF;
+  return f === 'all' || (f === 'hl' && it.kind === 'hl') || (f === 'int' && it.kind === 'int') || it.keys.includes(f);
+}
+
+function clipThumb(it){
+  return it.type === 'x'
+    ? `<button class="ctap" data-cplay="${esc(it.id)}" aria-label="Play clip"><div class="pi">▶</div><div class="xlbl">Tap to load the clip from ${esc(it.src)}</div></button>`
+    : `<button class="ctap" data-cplay="${esc(it.id)}" aria-label="Play clip">${it.thumb ? `<img src="${esc(it.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}<div class="pi">▶</div>${it.dur ? `<span class="cd">${durTxt(it.dur)}</span>` : ''}</button>`;
+}
+function clipPostHTML(it){
+  const p = S.roster.find(x => keyOf(x) === it.keys[0]);
+  const names = it.keys.map(k => S.roster.find(x => keyOf(x) === k)).filter(Boolean).map(x => x.pos === 'D/ST' ? x.name + ' D/ST' : x.name);
+  const isNew = it.t > (S.clipsOpenedPrev || 0) && S.clipsOpenedPrev && !S.clipSeen[it.id];
+  const thumb = clipThumb(it);
+  return `<article class="cpost${S.clipSeen[it.id] ? ' watched' : ''}">
+    <div class="chead">${p ? headshot(p) : ''}<b>${esc(names.join(', '))}</b><span class="ckind ${it.kind}">${it.kind === 'int' ? 'Interview' : 'Highlight'}</span>${isNew ? '<span class="cnew">New</span>' : ''}</div>
+    <p class="ctitle">${esc(it.title)}</p>
+    <div class="cmedia${it.type === 'x' ? ' tall' : ''}" data-cid="${esc(it.id)}">${thumb}</div>
+    <div class="cfoot"><span>${esc(it.src)}${it.t ? ' · ' + ago(it.t) : ''}</span><a href="${esc(it.url)}" target="_blank" rel="noopener">Open ${it.type === 'yt' ? 'on YouTube' : it.type === 'x' ? 'on X' : 'on ESPN'}</a></div>
+  </article>`;
+}
+
+function renderClips(force){
+  const root = $('#v-clips'); if (!root) return;
+  const all = clipItems(); S.clipList = all;
+  const fresh = all.filter(i => S.clipsOpened && i.t > S.clipsOpened && !S.clipSeen[i.id]).length;
+  const dot = $('#clipNew'); if (dot){ dot.hidden = !fresh; dot.textContent = fresh > 99 ? '99+' : fresh; }
+  if (!force && (root.hidden || S.clipActive)) return;   // don't yank a clip out from under you mid-play
+  const chips = [['all', 'All'], ['hl', 'Highlights'], ['int', 'Interviews']].map(([v, n]) =>
+    `<button class="chip" data-cf="${v}" aria-pressed="${S.clipF === v}">${n}</button>`).join('') +
+    S.roster.filter(p => all.some(i => i.keys.includes(keyOf(p)))).map(p =>
+      `<button class="chip" data-cf="${esc(keyOf(p))}" aria-pressed="${S.clipF === keyOf(p)}">${headshot(p)}${esc(p.pos === 'D/ST' ? p.name + ' D/ST' : lastName(p.name))}</button>`).join('');
+  const list = all.filter(clipFilterOK), shown = list.slice(0, S.clipShown);
+  root.innerHTML = `<div class="cbar">${chips}</div>` +
+    (shown.length ? shown.map(clipPostHTML).join('') : `<div class="empty">No clips yet${S.clipF !== 'all' ? ' for this filter' : ''}. Highlights and interviews from the last 10 days show up here as ESPN, the teams on X and YouTube post them.</div>`) +
+    (list.length > shown.length ? `<button class="cmore" data-cmore="1">Show more (${list.length - shown.length})</button>` : '') +
+    `<p class="note">Sources: ESPN game clips, official team accounts on X, and YouTube highlights and press conferences for everyone on your roster. YouTube refreshes about every 45 minutes.</p>`;
+}
+
+function unmountClip(){
+  const el = S.clipActive; S.clipActive = null; if (!el) return;
+  if (el._hls){ try { el._hls.destroy(); } catch {} }
+  const it = (S.clipList || []).find(i => i.id === el.dataset.cid);
+  if (el.isConnected && it){ el.innerHTML = clipThumb(it); el.classList.toggle('tall', it.type === 'x'); }
+}
+
+function mountClip(el, it){
+  if (S.clipActive && S.clipActive !== el) unmountClip();
+  S.clipSeen[it.id] = Date.now(); lsSet('kvh.clipSeen', Object.fromEntries(Object.entries(S.clipSeen).filter(([, t]) => t > Date.now() - 14 * 864e5)));
+  el.closest('.cpost')?.classList.add('watched');
+  if (it.type === 'yt'){
+    el.innerHTML = `<iframe src="https://www.youtube.com/embed/${esc(it.vid)}?autoplay=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+  } else if (it.type === 'espn'){
+    el.innerHTML = `<video controls autoplay playsinline poster="${esc(it.thumb || '')}"></video>`;
+    const v = el.querySelector('video');
+    const toHls = () => {
+      if (!it.hls || v.dataset.hls) return fail(); v.dataset.hls = 1;
+      if (v.canPlayType('application/vnd.apple.mpegurl')){ v.src = it.hls; v.play().catch(() => {}); }
+      else fail();
+    };
+    const fail = () => { el.innerHTML = `<p class="wl" style="padding:14px;color:#fff">This clip won’t play here. <a href="${esc(it.url)}" target="_blank" rel="noopener">Open on ESPN</a></p>`; };
+    v.onerror = toHls; if (it.mp4){ v.src = it.mp4; v.play().catch(() => {}); } else toHls();
+  } else {
+    el.classList.add('tall'); el.innerHTML = '<div class="xemb"><p class="wl" style="padding:14px">Loading from X…</p></div>';
+    const box = el.querySelector('.xemb'); const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+    loadTwitter().then(tw => { box.innerHTML = ''; return tw.widgets.createTweet(it.xid, box, { theme: dark ? 'dark' : 'light', dnt: true, conversation: 'none', align: 'center' }); })
+      .then(r => { if (!r) box.innerHTML = `<p class="wl" style="padding:14px">X wouldn’t load this post here. <a href="${esc(it.url)}" target="_blank" rel="noopener">Open on X</a></p>`; })
+      .catch(() => { box.innerHTML = `<p class="wl" style="padding:14px">Couldn’t reach X. <a href="${esc(it.url)}" target="_blank" rel="noopener">Open on X</a></p>`; });
+  }
+  S.clipActive = el;
+}
+
+$('#v-clips').addEventListener('click', e => {
+  const cf = e.target.closest('[data-cf]');
+  if (cf){ if (S.clipActive) unmountClip(); S.clipF = cf.dataset.cf; S.clipShown = 25; renderClips(true); return; }
+  if (e.target.closest('[data-cmore]')){ if (S.clipActive) unmountClip(); S.clipShown += 25; renderClips(true); return; }
+  const tap = e.target.closest('[data-cplay]');
+  if (tap){ const it = (S.clipList || []).find(i => i.id === tap.dataset.cplay); const el = tap.closest('.cmedia'); if (it && el) mountClip(el, it); }
+});
+// Stop a clip once it scrolls well out of view, so new clips can load in
+const clipIO = new IntersectionObserver(ents => ents.forEach(en => { if (!en.isIntersecting && en.target === S.clipActive) unmountClip(); }), { rootMargin: '200px' });
+new MutationObserver(() => { clipIO.disconnect(); if (S.clipActive) clipIO.observe(S.clipActive); }).observe($('#v-clips'), { childList: true, subtree: true });
+
 /* ============ Update loop ============ */
 let timer;
 function schedule(){
@@ -863,6 +1022,7 @@ async function refresh(){
   try {
     await loadTeamJson();
     try { const xc = await getJSON('data/xclips.json?t=' + Date.now()); S.autoClips = (xc && xc.clips) || []; } catch {}
+    try { const pf = await getJSON('data/player-feed.json?t=' + Date.now()); S.ytFeed = (pf && pf.items) || []; } catch {}
     const sb = await getJSON(SB);
     S.week = (sb.week && sb.week.number) || S.week; lsSet('kvh.lastWeek', S.week);
     S.year = (sb.season && sb.season.year) || S.year;
@@ -947,6 +1107,8 @@ document.querySelectorAll('.tab').forEach(t => t.onclick = () => {
   document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === t));
   document.querySelectorAll('.view').forEach(v => v.hidden = v.id !== 'v-' + t.dataset.v);
   if (t.dataset.v === 'alerts'){ S.unread = 0; updateUnread(); }
+  if (t.dataset.v !== 'clips' && S.clipActive) unmountClip();
+  if (t.dataset.v === 'clips'){ S.clipsOpenedPrev = S.clipsOpened; S.clipsOpened = Date.now(); lsSet('kvh.clipsOpened', S.clipsOpened); S.clipShown = 25; renderClips(true); }
   window.scrollTo({ top: 0 });
 });
 document.addEventListener('click', e => {

@@ -16,6 +16,7 @@ BIG_PLAY = 10            # yards
 CLIP_WAIT_MIN = 120      # keep looking for a clip this long after the play
 LOOP_SECONDS = 5 * 3600 + 20 * 60   # one run keeps watching up to ~5h20m while games are live or about to start
 SOON_HOURS = 3           # keep the run alive if one of your games kicks off within this many hours
+FEED_EVERY = 45 * 60     # refresh the Clips tab's YouTube highlights/interviews this often during a long run
 PUSH_EVERY = 300         # save alert state back to the repo this often during a long run
 LOOP_EVERY = 40
 
@@ -421,6 +422,14 @@ def main():
         STATE.write_text(json.dumps(state))
         if not (live or soon or state["pending"]) or time.time() - start > LOOP_SECONDS:
             break
+        if time.time() - state.get("feedLast", 0) >= FEED_EVERY:
+            try:
+                import player_feed
+                player_feed.update()
+            except Exception as e:
+                print("player feed failed:", e)
+            state["feedLast"] = time.time()
+            STATE.write_text(json.dumps(state))
         if time.time() - last_push >= PUSH_EVERY:
             push_state()
             last_push = time.time()

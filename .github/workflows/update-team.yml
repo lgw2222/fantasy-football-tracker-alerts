@@ -32,6 +32,11 @@ jobs:
           export SITE_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
           python scripts/fetch_team.py
 
+      - name: Player highlights and interviews feed
+        continue-on-error: true
+        timeout-minutes: 6
+        run: python scripts/player_feed.py
+
       - name: Live play alerts and clips to Discord
         continue-on-error: true
         env:
