@@ -6,8 +6,8 @@
   "record": "2-2-0"
  },
  "matchup": {
-  "me": 104.9,
-  "opp": 123.1,
+  "me": 142.9,
+  "opp": 133.4,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Thor: God of PA"
  },
@@ -38,7 +38,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4887558,
-   "pts": 8.5,
+   "pts": 13.2,
    "proj": 13.59,
    "injury": "ACTIVE"
   },
@@ -48,7 +48,7 @@
    "team": "SEA",
    "pos": "WR",
    "espnId": 4430878,
-   "pts": 7.8,
+   "pts": 22.8,
    "proj": 20.48,
    "injury": "ACTIVE"
   },
@@ -68,7 +68,7 @@
    "team": "LAC",
    "pos": "RB",
    "espnId": 4685382,
-   "pts": 3.4,
+   "pts": 4.9,
    "proj": 12.01,
    "injury": "ACTIVE"
   },
@@ -78,7 +78,7 @@
    "team": "SF",
    "pos": "WR",
    "espnId": 16737,
-   "pts": 9.5,
+   "pts": 26.3,
    "proj": 12.77,
    "injury": "ACTIVE"
   },
@@ -168,7 +168,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4429835,
-   "pts": 4.6,
+   "pts": 5.1,
    "proj": 7.52,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-11T21:41:28+00:00"
+ "updated": "2026-10-12T00:43:28+00:00"
 }
