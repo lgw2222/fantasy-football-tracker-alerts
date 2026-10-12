@@ -50,7 +50,7 @@
    "espnId": 4430878,
    "pts": 22.8,
    "proj": 20.48,
-   "injury": "ACTIVE"
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "WR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-12T00:43:28+00:00"
+ "updated": "2026-10-12T22:43:28+00:00"
 }
