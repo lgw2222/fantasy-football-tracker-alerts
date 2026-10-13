@@ -99,7 +99,7 @@
    "pos": "K",
    "espnId": 4574716,
    "pts": 2.0,
-   "proj": 9.79,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-13T17:42:23+00:00"
+ "updated": "2026-10-13T21:57:18+00:00"
 }

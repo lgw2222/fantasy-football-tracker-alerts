@@ -1,7 +1,49 @@
 {
-"ts": 1791913343.7018223,
-"updated": "2026-10-13T17:42:23.701822+00:00",
+"ts": 1791928638.6172817,
+"updated": "2026-10-13T21:57:18.617282+00:00",
 "items": [
+{
+"id": "yt_K9E6kQLvFLo",
+"vid": "K9E6kQLvFLo",
+"title": "Jaxon Smith-Njigba Was UNSTOPPABLE! \ud83d\udd25 | Week 1 Highlights (2026)",
+"channel": "Shawn 916",
+"kind": "hl",
+"players": [
+"Jaxon Smith-Njigba|SEA"
+],
+"ts": 1791928638.6172817,
+"dur": 108,
+"views": 1,
+"official": false
+},
+{
+"id": "yt_Efb_T2LaZTk",
+"vid": "Efb_T2LaZTk",
+"title": "What Mike McDaniel Said About Omarion Hampton\u2019s Drop in Snaps",
+"channel": "Locked On Chargers - Hit",
+"kind": "hl",
+"players": [
+"Omarion Hampton|LAC"
+],
+"ts": 1791928638.6172817,
+"dur": 367,
+"views": 6349,
+"official": true
+},
+{
+"id": "yt_NT7ajY8D8H4",
+"vid": "NT7ajY8D8H4",
+"title": "\ud83d\udea8BREAKING: Harrison Mevis Released By Rams! Instant Reaction + Blake Grupe Signing Analysis",
+"channel": "LA Rams Report by Chat Sports",
+"kind": "hl",
+"players": [
+"Harrison Mevis|LAR"
+],
+"ts": 1791928638.6172817,
+"dur": 634,
+"views": 5485,
+"official": true
+},
 {
 "id": "yt_8YojpBXc5uo",
 "vid": "8YojpBXc5uo",
@@ -13,7 +55,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 348,
-"views": 2816,
+"views": 7529,
 "official": true
 },
 {
@@ -27,7 +69,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 1303,
-"views": 35073,
+"views": 40127,
 "official": false
 },
 {
@@ -55,7 +97,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 467,
+"views": 582,
 "official": false
 },
 {
@@ -83,21 +125,21 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 743,
-"views": 1560,
+"views": 7382,
 "official": false
 },
 {
 "id": "yt_IpYA2KL3Jgs",
 "vid": "IpYA2KL3Jgs",
-"title": "Rams kicker Harrison Mevis talks about his two missed field goals, including in overtime ",
+"title": "Rams Kicker Harrison Mevis Addresses Media After Missed Field Goals & Overtime Loss",
 "channel": "The Sporting Tribune",
-"kind": "int",
+"kind": "hl",
 "players": [
 "Harrison Mevis|LAR"
 ],
 "ts": 1791913343.7018223,
 "dur": 105,
-"views": 1873,
+"views": 4627,
 "official": false
 },
 {
@@ -111,7 +153,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 261,
-"views": 7,
+"views": 17,
 "official": true
 },
 {
@@ -153,7 +195,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 811,
-"views": 2101,
+"views": 2624,
 "official": false
 },
 {
@@ -195,7 +237,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 186,
-"views": 26292,
+"views": 28053,
 "official": false
 },
 {
@@ -209,7 +251,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 82441,
+"views": 99168,
 "official": false
 },
 {
@@ -223,7 +265,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 58623,
+"views": 63503,
 "official": true
 },
 {
@@ -237,7 +279,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 1233,
-"views": 10137,
+"views": 10825,
 "official": false
 },
 {
@@ -251,7 +293,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 485,
-"views": 15256,
+"views": 15388,
 "official": false
 },
 {
@@ -265,7 +307,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 14653,
+"views": 16946,
 "official": false
 },
 {
@@ -279,7 +321,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 25129,
+"views": 30696,
 "official": false
 },
 {
@@ -293,7 +335,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 61,
-"views": 51,
+"views": 87,
 "official": false
 },
 {
@@ -335,7 +377,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 369,
-"views": 9110,
+"views": 11948,
 "official": true
 },
 {
@@ -363,7 +405,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 13227,
+"views": 13957,
 "official": true
 },
 {
@@ -377,7 +419,7 @@
 ],
 "ts": 1791861717.8038735,
 "dur": 695,
-"views": 77200,
+"views": 83449,
 "official": false
 },
 {
@@ -433,7 +475,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 2396,
-"views": 5512,
+"views": 5527,
 "official": false
 },
 {
@@ -447,7 +489,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 1307,
-"views": 3308,
+"views": 3311,
 "official": true
 },
 {
@@ -489,7 +531,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 692,
-"views": 8536,
+"views": 8552,
 "official": false
 },
 {
@@ -503,7 +545,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 638,
-"views": 12505,
+"views": 12511,
 "official": true
 },
 {
@@ -517,7 +559,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 587,
-"views": 7969,
+"views": 8020,
 "official": true
 },
 {
@@ -531,7 +573,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 435,
-"views": 3788,
+"views": 3791,
 "official": true
 },
 {
@@ -545,7 +587,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 26773,
+"views": 28313,
 "official": true
 },
 {
@@ -559,7 +601,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 13076,
+"views": 13556,
 "official": true
 },
 {
@@ -601,7 +643,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 7560,
+"views": 7937,
 "official": true
 },
 {
@@ -629,7 +671,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 16495,
+"views": 16661,
 "official": true
 },
 {
@@ -643,7 +685,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 769,
-"views": 14510,
+"views": 14524,
 "official": true
 },
 {
@@ -657,7 +699,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 739,
-"views": 10443,
+"views": 10451,
 "official": true
 },
 {
@@ -685,7 +727,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 148,
-"views": 3610,
+"views": 3635,
 "official": false
 },
 {
@@ -699,7 +741,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 136,
+"views": 184,
 "official": false
 },
 {
@@ -713,7 +755,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 349,
-"views": 1371,
+"views": 1376,
 "official": false
 },
 {
@@ -755,7 +797,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 193,
-"views": 8027,
+"views": 8079,
 "official": false
 },
 {
@@ -839,7 +881,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 24542,
+"views": 24838,
 "official": true
 },
 {
@@ -867,7 +909,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 21584,
+"views": 23705,
 "official": true
 },
 {
@@ -909,7 +951,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 62288,
+"views": 63133,
 "official": true
 },
 {
@@ -923,7 +965,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 31222,
+"views": 31576,
 "official": false
 },
 {
@@ -951,7 +993,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 364,
-"views": 41510,
+"views": 41513,
 "official": false
 },
 {
@@ -979,7 +1021,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 350,
-"views": 17893,
+"views": 17934,
 "official": true
 },
 {
@@ -993,7 +1035,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 691,
-"views": 15973,
+"views": 15984,
 "official": false
 },
 {
@@ -1021,7 +1063,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 650,
-"views": 14751,
+"views": 14754,
 "official": false
 },
 {
@@ -1049,7 +1091,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 429,
-"views": 11444,
+"views": 11451,
 "official": false
 },
 {
@@ -1063,7 +1105,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 110,
-"views": 9511,
+"views": 9696,
 "official": false
 },
 {
@@ -1091,7 +1133,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 173,
-"views": 722,
+"views": 728,
 "official": false
 },
 {
@@ -1105,21 +1147,21 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 56875,
+"views": 58374,
 "official": true
 },
 {
 "id": "yt_q_KlHqeXESw",
 "vid": "q_KlHqeXESw",
 "title": "Tom Brady\u2019s LFG Player of the Game: 49ers\u2019 Mike Evans \ud83c\udfc6 Week 5 DIGITAL EXCLUSIVE",
-"channel": "FOX Sports",
+"channel": "FOX Sports and NFL on FOX",
 "kind": "hl",
 "players": [
 "Mike Evans|SF"
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 495062,
+"views": 505480,
 "official": true
 },
 {
@@ -1133,7 +1175,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 187172,
+"views": 188499,
 "official": true
 },
 {
@@ -1147,7 +1189,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8161,
+"views": 8275,
 "official": true
 },
 {
@@ -1161,7 +1203,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 35672,
+"views": 36725,
 "official": true
 },
 {
@@ -1175,7 +1217,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 8065,
+"views": 8146,
 "official": true
 },
 {
@@ -1189,7 +1231,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 801,
-"views": 257077,
+"views": 265675,
 "official": true
 },
 {
@@ -1203,7 +1245,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 140,
-"views": 3836,
+"views": 3857,
 "official": true
 },
 {
@@ -1217,7 +1259,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 267995,
+"views": 283884,
 "official": false
 },
 {
@@ -1231,7 +1273,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 35002,
+"views": 35646,
 "official": false
 },
 {
@@ -1259,7 +1301,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 482,
-"views": 244,
+"views": 247,
 "official": false
 },
 {
@@ -1273,7 +1315,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 49459,
+"views": 50802,
 "official": true
 },
 {
@@ -1301,7 +1343,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 144,
-"views": 25163,
+"views": 25180,
 "official": true
 },
 {
@@ -1315,7 +1357,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 397,
-"views": 7336,
+"views": 7342,
 "official": true
 },
 {
@@ -1329,7 +1371,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 475,
-"views": 48594,
+"views": 48596,
 "official": false
 },
 {
@@ -1357,7 +1399,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1000,
-"views": 8264,
+"views": 8268,
 "official": false
 },
 {
@@ -1385,7 +1427,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 241,
-"views": 8724,
+"views": 8788,
 "official": false
 },
 {
@@ -1455,7 +1497,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 92,
-"views": 54,
+"views": 81,
 "official": true
 },
 {
@@ -1469,7 +1511,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 513,
-"views": 493,
+"views": 507,
 "official": true
 },
 {
@@ -1483,7 +1525,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1092,
-"views": 7743,
+"views": 7804,
 "official": true
 },
 {
@@ -1525,7 +1567,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 264,
-"views": 24,
+"views": 25,
 "official": false
 },
 {
@@ -1539,7 +1581,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 274,
-"views": 177,
+"views": 180,
 "official": false
 },
 {
@@ -1567,7 +1609,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1764,
-"views": 52935,
+"views": 53510,
 "official": false
 },
 {
@@ -1595,7 +1637,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 229,
-"views": 6031,
+"views": 6036,
 "official": false
 },
 {
@@ -1609,7 +1651,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 112,
-"views": 98,
+"views": 99,
 "official": false
 },
 {
@@ -1623,7 +1665,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 220,
-"views": 9,
+"views": 12,
 "official": false
 },
 {
@@ -1637,7 +1679,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 518,
-"views": 239,
+"views": 246,
 "official": true
 },
 {
@@ -1651,7 +1693,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 563,
+"views": 564,
 "official": false
 },
 {
@@ -1665,7 +1707,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 70,
-"views": 827,
+"views": 843,
 "official": false
 },
 {
@@ -1679,7 +1721,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 53,
-"views": 3438,
+"views": 3439,
 "official": true
 }
 ]
