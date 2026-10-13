@@ -1,7 +1,35 @@
 {
-"ts": 1791850650.5018563,
-"updated": "2026-10-13T00:17:30.501856+00:00",
+"ts": 1791856185.8616529,
+"updated": "2026-10-13T01:49:45.861653+00:00",
 "items": [
+{
+"id": "yt_A2qzOOqzTv4",
+"vid": "A2qzOOqzTv4",
+"title": "\u201cPurdy & Niners Are TERRIFYING!\u201d - Shannon on Mike Evans\u2019 DISRESPECT for Diggs, 49ers EDGE Seahawks",
+"channel": "Cara Lanelle",
+"kind": "hl",
+"players": [
+"Mike Evans|SF"
+],
+"ts": 1791856185.8616529,
+"dur": 626,
+"views": 101638,
+"official": false
+},
+{
+"id": "yt_2o8Ln7JGqfg",
+"vid": "2o8Ln7JGqfg",
+"title": "Browns Film Breakdown Post-Game Show: Browns vs Jets (2026 Week 5)",
+"channel": "Browns Film Breakdown",
+"kind": "int",
+"players": [
+"Browns|CLE"
+],
+"ts": 1791856185.8616529,
+"dur": 2545,
+"views": 3005,
+"official": true
+},
 {
 "id": "yt_jMF4w5b4NxQ",
 "vid": "jMF4w5b4NxQ",
@@ -41,7 +69,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 1307,
-"views": 3280,
+"views": 3287,
 "official": true
 },
 {
@@ -97,7 +125,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 638,
-"views": 12454,
+"views": 12471,
 "official": true
 },
 {
@@ -111,7 +139,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 587,
-"views": 7883,
+"views": 7911,
 "official": true
 },
 {
@@ -125,7 +153,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 435,
-"views": 3696,
+"views": 3741,
 "official": true
 },
 {
@@ -139,7 +167,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 22881,
+"views": 23571,
 "official": true
 },
 {
@@ -153,7 +181,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 11273,
+"views": 11769,
 "official": true
 },
 {
@@ -195,7 +223,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 6892,
+"views": 7055,
 "official": true
 },
 {
@@ -223,7 +251,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 15854,
+"views": 15981,
 "official": true
 },
 {
@@ -237,7 +265,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 769,
-"views": 14458,
+"views": 14482,
 "official": true
 },
 {
@@ -279,7 +307,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 148,
-"views": 3443,
+"views": 3499,
 "official": false
 },
 {
@@ -293,7 +321,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 4,
+"views": 31,
 "official": false
 },
 {
@@ -349,7 +377,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 193,
-"views": 7923,
+"views": 7932,
 "official": false
 },
 {
@@ -433,7 +461,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 22466,
+"views": 22756,
 "official": true
 },
 {
@@ -447,7 +475,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 98,
-"views": 119,
+"views": 120,
 "official": false
 },
 {
@@ -461,7 +489,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 17056,
+"views": 17755,
 "official": true
 },
 {
@@ -475,7 +503,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 5365,
+"views": 5880,
 "official": false
 },
 {
@@ -517,7 +545,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 29790,
+"views": 30140,
 "official": false
 },
 {
@@ -531,7 +559,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 1204,
+"views": 1253,
 "official": false
 },
 {
@@ -545,7 +573,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 364,
-"views": 41477,
+"views": 41488,
 "official": false
 },
 {
@@ -699,7 +727,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 48315,
+"views": 49592,
 "official": true
 },
 {
@@ -713,7 +741,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 432181,
+"views": 441007,
 "official": true
 },
 {
@@ -727,7 +755,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 179687,
+"views": 182678,
 "official": true
 },
 {
@@ -741,7 +769,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 7649,
+"views": 7726,
 "official": true
 },
 {
@@ -755,7 +783,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 31054,
+"views": 31914,
 "official": true
 },
 {
@@ -769,7 +797,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 7231,
+"views": 7265,
 "official": true
 },
 {
@@ -783,7 +811,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 801,
-"views": 222096,
+"views": 231153,
 "official": true
 },
 {
@@ -811,7 +839,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 188396,
+"views": 209087,
 "official": false
 },
 {
@@ -825,7 +853,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 31108,
+"views": 31464,
 "official": false
 },
 {
@@ -867,7 +895,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 43811,
+"views": 45046,
 "official": true
 },
 {
@@ -895,7 +923,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 144,
-"views": 25090,
+"views": 25122,
 "official": true
 },
 {
@@ -909,7 +937,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 397,
-"views": 7324,
+"views": 7327,
 "official": true
 },
 {
@@ -923,7 +951,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 475,
-"views": 48578,
+"views": 48583,
 "official": false
 },
 {
@@ -979,7 +1007,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 241,
-"views": 6515,
+"views": 7363,
 "official": false
 },
 {
@@ -1021,7 +1049,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 575,
-"views": 5558,
+"views": 5567,
 "official": false
 },
 {
@@ -1077,7 +1105,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1092,
-"views": 7540,
+"views": 7551,
 "official": true
 },
 {
@@ -1119,7 +1147,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 264,
-"views": 10,
+"views": 17,
 "official": false
 },
 {
@@ -1161,7 +1189,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1764,
-"views": 51717,
+"views": 51940,
 "official": false
 },
 {
@@ -1189,7 +1217,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 229,
-"views": 6007,
+"views": 6017,
 "official": false
 },
 {
@@ -1231,7 +1259,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 518,
-"views": 208,
+"views": 214,
 "official": true
 },
 {
