@@ -1,7 +1,105 @@
 {
-"ts": 1791928638.6172817,
-"updated": "2026-10-13T21:57:18.617282+00:00",
+"ts": 1791938894.0923822,
+"updated": "2026-10-14T00:48:14.092382+00:00",
 "items": [
+{
+"id": "yt_-fdVooj5dIg",
+"vid": "-fdVooj5dIg",
+"title": "Joe Burrow vs Dolphins! Was This The Best Game Ever?",
+"channel": "mobettakicks",
+"kind": "hl",
+"players": [
+"Joe Burrow|CIN"
+],
+"ts": 1791938894.0923822,
+"dur": 2292,
+"views": 2,
+"official": false
+},
+{
+"id": "yt_Mrmrg3zmi-0",
+"vid": "Mrmrg3zmi-0",
+"title": "Joe Burrow BOUNCES BACK! Bengals Beat Dolphins Behind 4 TD Performance | Instant Reaction, Highlight",
+"channel": "Chatterbox Sports | Cincinnati Sports Talk & more",
+"kind": "hl",
+"players": [
+"Joe Burrow|CIN"
+],
+"ts": 1791938894.0923822,
+"dur": 1958,
+"views": 1260,
+"official": false
+},
+{
+"id": "yt_CLdQW53Y5QM",
+"vid": "CLdQW53Y5QM",
+"title": "HUGE Seattle Seahawks Rumors Going Into NFL Week 5 ft. Nick Emmanwori + Emanuel Wilson",
+"channel": "Seahawks Today by Chat Sports",
+"kind": "hl",
+"players": [
+"Emanuel Wilson|SEA"
+],
+"ts": 1791938894.0923822,
+"dur": 807,
+"views": 9508,
+"official": true
+},
+{
+"id": "yt_VL9NpGNXVKg",
+"vid": "VL9NpGNXVKg",
+"title": "David Bailey vs Browns | 3 Sacks | Every Snap All-22 | Jets Week 5 2026",
+"channel": "JetNation",
+"kind": "hl",
+"players": [
+"Browns|CLE"
+],
+"ts": 1791938894.0923822,
+"dur": 1466,
+"views": 1470,
+"official": false
+},
+{
+"id": "yt_NMgCITVRP_s",
+"vid": "NMgCITVRP_s",
+"title": "Los Angeles Rams Fire Kicker Harrison Mevis After Overtime Heartbreak",
+"channel": "Mirror7 News",
+"kind": "hl",
+"players": [
+"Harrison Mevis|"
+],
+"ts": 1791938894.0923822,
+"dur": 186,
+"views": 12,
+"official": true
+},
+{
+"id": "yt_2xnRVlO1VxM",
+"vid": "2xnRVlO1VxM",
+"title": "Rams cut Harrison Mevis, sign Blake Grupe - Dan Quinn's scorching seat | Big Day with Peter Schrager",
+"channel": "Sobre 2 Rodas",
+"kind": "hl",
+"players": [
+"Harrison Mevis|"
+],
+"ts": 1791938894.0923822,
+"dur": 1196,
+"views": 57,
+"official": true
+},
+{
+"id": "yt_AZU2cBvMLaU",
+"vid": "AZU2cBvMLaU",
+"title": "\ud83d\udd25 NFL ON NOTICE! TETAIROA MCMILLAN NAMED NFC OFFENSIVE PLAYER OF THE WEEK AFTER 192-YARD GAME",
+"channel": "GO PANTHERS NATION! CAROLINA PANTHERS NEWS FANS",
+"kind": "hl",
+"players": [
+"Tetairoa McMillan|CAR"
+],
+"ts": 1791938894.0923822,
+"dur": 532,
+"views": 147,
+"official": true
+},
 {
 "id": "yt_K9E6kQLvFLo",
 "vid": "K9E6kQLvFLo",
@@ -13,7 +111,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 108,
-"views": 1,
+"views": 3,
 "official": false
 },
 {
@@ -33,15 +131,16 @@
 {
 "id": "yt_NT7ajY8D8H4",
 "vid": "NT7ajY8D8H4",
-"title": "\ud83d\udea8BREAKING: Harrison Mevis Released By Rams! Instant Reaction + Blake Grupe Signing Analysis",
+"title": "\ud83d\udea8BREAKING: Rams Fans Got The News They've Been Waiting For! Harrison Mevis Released + New Kicker",
 "channel": "LA Rams Report by Chat Sports",
 "kind": "hl",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791928638.6172817,
 "dur": 634,
-"views": 5485,
+"views": 12229,
 "official": true
 },
 {
@@ -55,7 +154,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 348,
-"views": 7529,
+"views": 8852,
 "official": true
 },
 {
@@ -69,7 +168,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 1303,
-"views": 40127,
+"views": 41964,
 "official": false
 },
 {
@@ -97,7 +196,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 582,
+"views": 652,
 "official": false
 },
 {
@@ -125,22 +224,23 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 743,
-"views": 7382,
+"views": 9450,
 "official": false
 },
 {
 "id": "yt_IpYA2KL3Jgs",
 "vid": "IpYA2KL3Jgs",
-"title": "Rams Kicker Harrison Mevis Addresses Media After Missed Field Goals & Overtime Loss",
+"title": "Rams Kicker Harrison Mevis Speaks Out After Brutal Overtime Loss to Bills",
 "channel": "The Sporting Tribune",
-"kind": "hl",
+"kind": "int",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791913343.7018223,
 "dur": 105,
-"views": 4627,
-"official": false
+"views": 6908,
+"official": true
 },
 {
 "id": "yt_0SwabY7mxf4",
@@ -195,7 +295,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 811,
-"views": 2624,
+"views": 2772,
 "official": false
 },
 {
@@ -237,7 +337,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 186,
-"views": 28053,
+"views": 28930,
 "official": false
 },
 {
@@ -251,7 +351,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 99168,
+"views": 105442,
 "official": false
 },
 {
@@ -265,7 +365,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 63503,
+"views": 65282,
 "official": true
 },
 {
@@ -279,7 +379,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 1233,
-"views": 10825,
+"views": 11077,
 "official": false
 },
 {
@@ -293,7 +393,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 485,
-"views": 15388,
+"views": 15393,
 "official": false
 },
 {
@@ -303,12 +403,13 @@
 "channel": "DangerousAI",
 "kind": "int",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 16946,
-"official": false
+"views": 17946,
+"official": true
 },
 {
 "id": "yt_qB0-i3IM0wM",
@@ -317,26 +418,28 @@
 "channel": "DangerousAI",
 "kind": "int",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 30696,
-"official": false
+"views": 33516,
+"official": true
 },
 {
 "id": "yt_lJyx5Lym03M",
 "vid": "lJyx5Lym03M",
-"title": "Watch - Greg Rousseau BLOCKS Harrison Mevis\u2019 Game-Winning Field Goal \ud83d\ude31 Bills vs Rams | NFL Week 5",
+"title": "Greg Rousseau BLOCKS Harrison Mevis\u2019 Game-Winning Field Goal \ud83d\ude31 Bills vs Rams | NFL Week 5",
 "channel": "Sports Scan Production",
 "kind": "hl",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791887307.3600912,
 "dur": 61,
-"views": 87,
-"official": false
+"views": 106,
+"official": true
 },
 {
 "id": "yt_ahFZLV-OMNE",
@@ -345,12 +448,13 @@
 "channel": "UNIX MEDIA",
 "kind": "hl",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791887307.3600912,
 "dur": 301,
-"views": 1883,
-"official": false
+"views": 2974,
+"official": true
 },
 {
 "id": "yt_f1JUjU_7ldI",
@@ -359,12 +463,13 @@
 "channel": "CautiousAI ",
 "kind": "int",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
 "views": 22,
-"official": false
+"official": true
 },
 {
 "id": "yt_H3haID3jFt0",
@@ -373,11 +478,12 @@
 "channel": "Los Angeles Rams",
 "kind": "hl",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791887307.3600912,
 "dur": 369,
-"views": 11948,
+"views": 12874,
 "official": true
 },
 {
@@ -387,12 +493,13 @@
 "channel": "CautiousAI ",
 "kind": "int",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791887307.3600912,
 "dur": 54,
-"views": 29,
-"official": false
+"views": 30,
+"official": true
 },
 {
 "id": "yt_Xv8FCNBLKP4",
@@ -405,7 +512,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 13957,
+"views": 14101,
 "official": true
 },
 {
@@ -419,7 +526,7 @@
 ],
 "ts": 1791861717.8038735,
 "dur": 695,
-"views": 83449,
+"views": 86034,
 "official": false
 },
 {
@@ -475,7 +582,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 2396,
-"views": 5527,
+"views": 5536,
 "official": false
 },
 {
@@ -531,7 +638,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 692,
-"views": 8552,
+"views": 8569,
 "official": false
 },
 {
@@ -545,7 +652,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 638,
-"views": 12511,
+"views": 12531,
 "official": true
 },
 {
@@ -559,7 +666,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 587,
-"views": 8020,
+"views": 8027,
 "official": true
 },
 {
@@ -587,7 +694,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 28313,
+"views": 29117,
 "official": true
 },
 {
@@ -601,7 +708,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 13556,
+"views": 13757,
 "official": true
 },
 {
@@ -629,7 +736,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 327,
-"views": 6,
+"views": 16,
 "official": false
 },
 {
@@ -643,7 +750,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 7937,
+"views": 7957,
 "official": true
 },
 {
@@ -671,7 +778,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 16661,
+"views": 16756,
 "official": true
 },
 {
@@ -685,7 +792,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 769,
-"views": 14524,
+"views": 14529,
 "official": true
 },
 {
@@ -699,7 +806,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 739,
-"views": 10451,
+"views": 10454,
 "official": true
 },
 {
@@ -741,7 +848,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 184,
+"views": 234,
 "official": false
 },
 {
@@ -881,7 +988,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 24838,
+"views": 24981,
 "official": true
 },
 {
@@ -909,7 +1016,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 23705,
+"views": 24510,
 "official": true
 },
 {
@@ -923,7 +1030,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 9040,
+"views": 11888,
 "official": false
 },
 {
@@ -951,7 +1058,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 63133,
+"views": 63559,
 "official": true
 },
 {
@@ -965,7 +1072,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 31576,
+"views": 31679,
 "official": false
 },
 {
@@ -979,7 +1086,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 1602,
+"views": 2084,
 "official": false
 },
 {
@@ -993,7 +1100,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 364,
-"views": 41513,
+"views": 41523,
 "official": false
 },
 {
@@ -1021,7 +1128,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 350,
-"views": 17934,
+"views": 17946,
 "official": true
 },
 {
@@ -1035,7 +1142,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 691,
-"views": 15984,
+"views": 15994,
 "official": false
 },
 {
@@ -1063,7 +1170,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 650,
-"views": 14754,
+"views": 14761,
 "official": false
 },
 {
@@ -1091,7 +1198,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 429,
-"views": 11451,
+"views": 11456,
 "official": false
 },
 {
@@ -1119,7 +1226,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 104,
-"views": 15,
+"views": 16,
 "official": false
 },
 {
@@ -1147,7 +1254,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 58374,
+"views": 59218,
 "official": true
 },
 {
@@ -1161,7 +1268,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 505480,
+"views": 511105,
 "official": true
 },
 {
@@ -1175,7 +1282,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 188499,
+"views": 189229,
 "official": true
 },
 {
@@ -1189,7 +1296,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8275,
+"views": 8282,
 "official": true
 },
 {
@@ -1203,7 +1310,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 36725,
+"views": 37119,
 "official": true
 },
 {
@@ -1217,7 +1324,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 8146,
+"views": 8193,
 "official": true
 },
 {
@@ -1231,7 +1338,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 801,
-"views": 265675,
+"views": 267457,
 "official": true
 },
 {
@@ -1245,7 +1352,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 140,
-"views": 3857,
+"views": 3881,
 "official": true
 },
 {
@@ -1259,7 +1366,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 283884,
+"views": 289005,
 "official": false
 },
 {
@@ -1273,7 +1380,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 35646,
+"views": 35868,
 "official": false
 },
 {
@@ -1301,7 +1408,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 482,
-"views": 247,
+"views": 248,
 "official": false
 },
 {
@@ -1315,7 +1422,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 50802,
+"views": 51527,
 "official": true
 },
 {
@@ -1343,7 +1450,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 144,
-"views": 25180,
+"views": 25200,
 "official": true
 },
 {
@@ -1357,7 +1464,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 397,
-"views": 7342,
+"views": 7346,
 "official": true
 },
 {
@@ -1371,7 +1478,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 475,
-"views": 48596,
+"views": 48597,
 "official": false
 },
 {
@@ -1427,7 +1534,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 241,
-"views": 8788,
+"views": 8836,
 "official": false
 },
 {
@@ -1469,7 +1576,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 575,
-"views": 5584,
+"views": 5590,
 "official": false
 },
 {
@@ -1493,6 +1600,7 @@
 "channel": "Rams First and Goal",
 "kind": "hl",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791845008.5833495,
@@ -1507,11 +1615,12 @@
 "channel": "WELCOME TO RAMS HOUSE! (RAMS NEWS TODAY) FANS",
 "kind": "hl",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791845008.5833495,
 "dur": 513,
-"views": 507,
+"views": 552,
 "official": true
 },
 {
@@ -1521,11 +1630,12 @@
 "channel": "LA Rams Report by Chat Sports",
 "kind": "hl",
 "players": [
+"Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791845008.5833495,
 "dur": 1092,
-"views": 7804,
+"views": 7830,
 "official": true
 },
 {
@@ -1609,7 +1719,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1764,
-"views": 53510,
+"views": 53869,
 "official": false
 },
 {
@@ -1637,7 +1747,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 229,
-"views": 6036,
+"views": 6051,
 "official": false
 },
 {
@@ -1679,7 +1789,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 518,
-"views": 246,
+"views": 247,
 "official": true
 },
 {
