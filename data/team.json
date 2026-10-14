@@ -89,7 +89,7 @@
    "pos": "D/ST",
    "espnId": -16005,
    "pts": 11.0,
-   "proj": 3.53,
+   "proj": 3.49,
    "injury": "ACTIVE"
   },
   {
@@ -130,7 +130,7 @@
    "espnId": 4688813,
    "pts": 7.7,
    "proj": 9.73,
-   "injury": "ACTIVE"
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "Bench",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-14T15:17:35+00:00"
+ "updated": "2026-10-14T22:26:55+00:00"
 }
