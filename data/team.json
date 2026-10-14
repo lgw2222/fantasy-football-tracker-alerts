@@ -164,12 +164,12 @@
   },
   {
    "slot": "Bench",
-   "name": "George Holani",
-   "team": "SEA",
+   "name": "MarShawn Lloyd",
+   "team": "GB",
    "pos": "RB",
-   "espnId": 4429835,
-   "pts": 5.1,
-   "proj": 7.89,
+   "espnId": 4429023,
+   "pts": 16.7,
+   "proj": 10.85,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-14T00:48:13+00:00"
+ "updated": "2026-10-14T10:26:30+00:00"
 }
