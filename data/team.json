@@ -64,12 +64,12 @@
   },
   {
    "slot": "FLEX",
-   "name": "Omarion Hampton",
-   "team": "LAC",
-   "pos": "RB",
-   "espnId": 4685382,
-   "pts": 4.9,
-   "proj": 9.03,
+   "name": "Tetairoa McMillan",
+   "team": "CAR",
+   "pos": "WR",
+   "espnId": 4685472,
+   "pts": 0.0,
+   "proj": 16.04,
    "injury": "ACTIVE"
   },
   {
@@ -104,12 +104,12 @@
   },
   {
    "slot": "Bench",
-   "name": "Tetairoa McMillan",
-   "team": "CAR",
-   "pos": "WR",
-   "espnId": 4685472,
-   "pts": 0.0,
-   "proj": 16.03,
+   "name": "Omarion Hampton",
+   "team": "LAC",
+   "pos": "RB",
+   "espnId": 4685382,
+   "pts": 4.9,
+   "proj": 9.03,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-14T10:26:30+00:00"
+ "updated": "2026-10-14T15:17:35+00:00"
 }
