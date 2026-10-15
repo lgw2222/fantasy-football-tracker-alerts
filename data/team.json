@@ -69,7 +69,7 @@
    "pos": "WR",
    "espnId": 4685472,
    "pts": 0.0,
-   "proj": 16.04,
+   "proj": 15.96,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-15T00:40:11+00:00"
+ "updated": "2026-10-15T18:27:31+00:00"
 }
