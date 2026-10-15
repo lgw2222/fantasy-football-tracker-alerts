@@ -1,7 +1,63 @@
 {
-"ts": 1792057794.3074584,
-"updated": "2026-10-15T09:49:54.307458+00:00",
+"ts": 1792074424.5690956,
+"updated": "2026-10-15T14:27:04.569096+00:00",
 "items": [
+{
+"id": "yt_6dYmfJnBzBg",
+"vid": "6dYmfJnBzBg",
+"title": "Postgame Report: Bengals Beat Dolphins as Joe Burrow Shines, Defense Forces 3 Turnovers",
+"channel": "Cincinnati Bengals Talk",
+"kind": "int",
+"players": [
+"Joe Burrow|CIN"
+],
+"ts": 1792074424.5690956,
+"dur": 783,
+"views": 25403,
+"official": true
+},
+{
+"id": "yt_7DfyWp6mgCo",
+"vid": "7DfyWp6mgCo",
+"title": "Raheem Morris details 49ers' challenge vs. Jaxon Smith-Njigba | NBC Sports Bay Area",
+"channel": "NBC Sports Bay Area & California",
+"kind": "hl",
+"players": [
+"Jaxon Smith-Njigba|SEA"
+],
+"ts": 1792074424.5690956,
+"dur": 476,
+"views": 5277,
+"official": true
+},
+{
+"id": "yt_TqWKhmnu6dY",
+"vid": "TqWKhmnu6dY",
+"title": "Mike Evans NFL Week 5 Highlights | Every Play",
+"channel": "FOOTBALL ARCHIVE",
+"kind": "hl",
+"players": [
+"Mike Evans|SF"
+],
+"ts": 1792074424.5690956,
+"dur": 133,
+"views": 2,
+"official": false
+},
+{
+"id": "yt_-7pH17pA3jY",
+"vid": "-7pH17pA3jY",
+"title": "Browns Special Teams Coach Byron Storer Speaks with the Media Ahead of Week 5 Against New York",
+"channel": "BrownsRoundtable",
+"kind": "int",
+"players": [
+"Browns|CLE"
+],
+"ts": 1792074424.5690956,
+"dur": 756,
+"views": 168,
+"official": true
+},
 {
 "id": "yt_szpz2B1yU0I",
 "vid": "szpz2B1yU0I",
@@ -13,7 +69,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 362,
-"views": 1115,
+"views": 1119,
 "official": true
 },
 {
@@ -27,7 +83,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 154,
+"views": 160,
 "official": false
 },
 {
@@ -41,7 +97,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 154,
-"views": 30306,
+"views": 30363,
 "official": false
 },
 {
@@ -69,7 +125,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 143,
-"views": 201,
+"views": 207,
 "official": false
 },
 {
@@ -125,7 +181,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 1717,
+"views": 1955,
 "official": false
 },
 {
@@ -209,7 +265,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 315,
-"views": 310,
+"views": 354,
 "official": false
 },
 {
@@ -223,7 +279,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 15764,
+"views": 17615,
 "official": false
 },
 {
@@ -265,7 +321,7 @@
 ],
 "ts": 1792006007.2208607,
 "dur": 1100,
-"views": 2335,
+"views": 2456,
 "official": false
 },
 {
@@ -293,7 +349,7 @@
 ],
 "ts": 1792006007.2208607,
 "dur": 1165,
-"views": 2143,
+"views": 2181,
 "official": true
 },
 {
@@ -335,7 +391,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 307,
-"views": 29623,
+"views": 30611,
 "official": true
 },
 {
@@ -363,7 +419,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 151,
-"views": 12319,
+"views": 12340,
 "official": true
 },
 {
@@ -377,7 +433,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 2937,
+"views": 3098,
 "official": false
 },
 {
@@ -391,7 +447,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 192,
-"views": 827,
+"views": 831,
 "official": false
 },
 {
@@ -405,7 +461,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 106,
-"views": 7,
+"views": 12,
 "official": false
 },
 {
@@ -419,7 +475,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 289,
+"views": 313,
 "official": false
 },
 {
@@ -461,7 +517,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 2827,
+"views": 3550,
 "official": true
 },
 {
@@ -517,7 +573,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 77,
-"views": 216,
+"views": 225,
 "official": true
 },
 {
@@ -531,7 +587,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 2292,
-"views": 77,
+"views": 89,
 "official": false
 },
 {
@@ -559,7 +615,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 807,
-"views": 9795,
+"views": 9803,
 "official": true
 },
 {
@@ -573,7 +629,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 1466,
-"views": 2071,
+"views": 2073,
 "official": false
 },
 {
@@ -629,7 +685,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 108,
-"views": 11,
+"views": 18,
 "official": false
 },
 {
@@ -643,7 +699,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 367,
-"views": 6814,
+"views": 6828,
 "official": true
 },
 {
@@ -658,7 +714,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 634,
-"views": 20945,
+"views": 21014,
 "official": true
 },
 {
@@ -714,7 +770,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 1335,
+"views": 1404,
 "official": false
 },
 {
@@ -742,22 +798,22 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 743,
-"views": 13572,
+"views": 13671,
 "official": false
 },
 {
 "id": "yt_IpYA2KL3Jgs",
 "vid": "IpYA2KL3Jgs",
-"title": "Rams Kicker Harrison Mevis Addresses Media After Missed Field Goals & Overtime Loss",
+"title": "Rams Kicker Harrison Mevis Speaks Out After Brutal Overtime Loss to Bills",
 "channel": "The Sporting Tribune",
-"kind": "hl",
+"kind": "int",
 "players": [
 "Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791913343.7018223,
 "dur": 105,
-"views": 13129,
+"views": 13311,
 "official": true
 },
 {
@@ -771,7 +827,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 261,
-"views": 82,
+"views": 83,
 "official": true
 },
 {
@@ -869,7 +925,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 136540,
+"views": 137388,
 "official": false
 },
 {
@@ -883,7 +939,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 76173,
+"views": 76517,
 "official": true
 },
 {
@@ -911,7 +967,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 485,
-"views": 15601,
+"views": 15604,
 "official": false
 },
 {
@@ -926,7 +982,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 21839,
+"views": 21946,
 "official": true
 },
 {
@@ -941,7 +997,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 42395,
+"views": 42601,
 "official": true
 },
 {
@@ -956,7 +1012,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 61,
-"views": 645,
+"views": 652,
 "official": true
 },
 {
@@ -1001,7 +1057,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 369,
-"views": 15970,
+"views": 16020,
 "official": true
 },
 {
@@ -1030,7 +1086,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 14892,
+"views": 14927,
 "official": true
 },
 {
@@ -1044,7 +1100,7 @@
 ],
 "ts": 1791861717.8038735,
 "dur": 695,
-"views": 110534,
+"views": 111010,
 "official": false
 },
 {
@@ -1142,7 +1198,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 176,
-"views": 185,
+"views": 224,
 "official": true
 },
 {
@@ -1156,7 +1212,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 692,
-"views": 8627,
+"views": 8630,
 "official": false
 },
 {
@@ -1212,7 +1268,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 32713,
+"views": 32737,
 "official": true
 },
 {
@@ -1226,7 +1282,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 14860,
+"views": 14893,
 "official": true
 },
 {
@@ -1254,7 +1310,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 327,
-"views": 18,
+"views": 19,
 "official": false
 },
 {
@@ -1268,7 +1324,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8529,
+"views": 8552,
 "official": true
 },
 {
@@ -1296,7 +1352,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17306,
+"views": 17292,
 "official": true
 },
 {
@@ -1366,7 +1422,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 704,
+"views": 720,
 "official": false
 },
 {
@@ -1506,7 +1562,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 26231,
+"views": 26265,
 "official": true
 },
 {
@@ -1534,7 +1590,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 27510,
+"views": 27674,
 "official": true
 },
 {
@@ -1548,7 +1604,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 17825,
+"views": 18061,
 "official": false
 },
 {
@@ -1576,7 +1632,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 64920,
+"views": 64921,
 "official": true
 },
 {
@@ -1590,7 +1646,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 32865,
+"views": 32809,
 "official": false
 },
 {
@@ -1604,7 +1660,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 3269,
+"views": 3357,
 "official": false
 },
 {
@@ -1716,7 +1772,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 429,
-"views": 11442,
+"views": 11425,
 "official": false
 },
 {
@@ -1772,7 +1828,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 66659,
+"views": 66956,
 "official": true
 },
 {
@@ -1786,7 +1842,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 551020,
+"views": 552121,
 "official": true
 },
 {
@@ -1800,7 +1856,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 194034,
+"views": 194108,
 "official": true
 },
 {
@@ -1814,7 +1870,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8702,
+"views": 8716,
 "official": true
 },
 {
@@ -1828,7 +1884,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 40030,
+"views": 40064,
 "official": true
 },
 {
@@ -1842,7 +1898,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 8887,
+"views": 8909,
 "official": true
 },
 {
@@ -1884,7 +1940,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 332411,
+"views": 333483,
 "official": false
 },
 {
@@ -1898,7 +1954,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37479,
+"views": 37510,
 "official": false
 },
 {
@@ -1940,7 +1996,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 55217,
+"views": 55246,
 "official": true
 },
 {
@@ -1968,7 +2024,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 144,
-"views": 25358,
+"views": 25372,
 "official": true
 },
 {
@@ -1982,7 +2038,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 397,
-"views": 7382,
+"views": 7384,
 "official": true
 },
 {
@@ -2024,7 +2080,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1000,
-"views": 8276,
+"views": 8278,
 "official": false
 },
 {
@@ -2052,7 +2108,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 241,
-"views": 8938,
+"views": 8894,
 "official": false
 },
 {
@@ -2123,7 +2179,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 92,
-"views": 112,
+"views": 113,
 "official": true
 },
 {
@@ -2195,7 +2251,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 264,
-"views": 35,
+"views": 37,
 "official": false
 },
 {
@@ -2237,7 +2293,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1764,
-"views": 56519,
+"views": 56758,
 "official": false
 },
 {
