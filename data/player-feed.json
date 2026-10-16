@@ -1,7 +1,21 @@
 {
-"ts": 1792124909.3382742,
-"updated": "2026-10-16T04:28:29.338274+00:00",
+"ts": 1792131714.7679946,
+"updated": "2026-10-16T06:21:54.767995+00:00",
 "items": [
+{
+"id": "yt_Afl93OWZSno",
+"vid": "Afl93OWZSno",
+"title": "Jaxon Smith-Njigba's best catches from 134-yard game vs. Broncos | Week 6",
+"channel": "NFL",
+"kind": "hl",
+"players": [
+"Jaxon Smith-Njigba|SEA"
+],
+"ts": 1792131714.7679946,
+"dur": 96,
+"views": 3308,
+"official": true
+},
 {
 "id": "yt_tiY1ZhDVAj0",
 "vid": "tiY1ZhDVAj0",
@@ -13,7 +27,7 @@
 ],
 "ts": 1792124909.3382742,
 "dur": 487,
-"views": 56,
+"views": 181,
 "official": false
 },
 {
@@ -41,7 +55,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 3426,
+"views": 3998,
 "official": true
 },
 {
@@ -69,7 +83,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 183,
-"views": 7780,
+"views": 7781,
 "official": true
 },
 {
@@ -97,7 +111,7 @@
 ],
 "ts": 1792105741.8010962,
 "dur": 699,
-"views": 18776,
+"views": 18786,
 "official": true
 },
 {
@@ -139,7 +153,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 746,
+"views": 904,
 "official": false
 },
 {
@@ -153,7 +167,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 11474,
+"views": 12249,
 "official": false
 },
 {
@@ -307,7 +321,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 7948,
+"views": 8103,
 "official": false
 },
 {
@@ -335,7 +349,7 @@
 ],
 "ts": 1792074424.5690956,
 "dur": 783,
-"views": 25470,
+"views": 25477,
 "official": true
 },
 {
@@ -405,7 +419,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 245,
+"views": 254,
 "official": false
 },
 {
@@ -419,7 +433,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 154,
-"views": 30751,
+"views": 30799,
 "official": false
 },
 {
@@ -503,7 +517,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 2597,
+"views": 2683,
 "official": false
 },
 {
@@ -587,7 +601,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 315,
-"views": 581,
+"views": 587,
 "official": false
 },
 {
@@ -635,7 +649,7 @@
 {
 "id": "yt_NiOu2wSWgh8",
 "vid": "NiOu2wSWgh8",
-"title": "How Matt Nagy Set Malik Nabers Up For Big-Time Performance Against Commanders | Blue Rush",
+"title": "Matt Nagy Set Malik Nabers Up For A BIG Game Against The Commanders | Blue Rush",
 "channel": "New York Post Sports",
 "kind": "hl",
 "players": [
@@ -643,7 +657,7 @@
 ],
 "ts": 1792006007.2208607,
 "dur": 1100,
-"views": 2837,
+"views": 2849,
 "official": false
 },
 {
@@ -713,7 +727,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 307,
-"views": 33736,
+"views": 34045,
 "official": true
 },
 {
@@ -741,7 +755,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 151,
-"views": 12404,
+"views": 12412,
 "official": true
 },
 {
@@ -755,7 +769,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 3628,
+"views": 3649,
 "official": false
 },
 {
@@ -769,7 +783,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 192,
-"views": 857,
+"views": 859,
 "official": false
 },
 {
@@ -797,7 +811,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 399,
+"views": 400,
 "official": false
 },
 {
@@ -839,7 +853,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 5731,
+"views": 5900,
 "official": true
 },
 {
@@ -979,7 +993,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 1196,
-"views": 211,
+"views": 272,
 "official": true
 },
 {
@@ -1007,7 +1021,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 108,
-"views": 19,
+"views": 25,
 "official": false
 },
 {
@@ -1021,7 +1035,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 367,
-"views": 6913,
+"views": 6918,
 "official": true
 },
 {
@@ -1036,7 +1050,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 634,
-"views": 21248,
+"views": 21271,
 "official": true
 },
 {
@@ -1092,7 +1106,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 1775,
+"views": 1790,
 "official": false
 },
 {
@@ -1120,22 +1134,22 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 743,
-"views": 14207,
+"views": 14260,
 "official": false
 },
 {
 "id": "yt_IpYA2KL3Jgs",
 "vid": "IpYA2KL3Jgs",
-"title": "Rams Kicker Harrison Mevis Addresses Media After Missed Field Goals & Overtime Loss",
+"title": "Rams Kicker Harrison Mevis Speaks Out After Brutal Overtime Loss to Bills",
 "channel": "The Sporting Tribune",
-"kind": "hl",
+"kind": "int",
 "players": [
 "Harrison Mevis|",
 "Harrison Mevis|LAR"
 ],
 "ts": 1791913343.7018223,
 "dur": 105,
-"views": 13837,
+"views": 13976,
 "official": true
 },
 {
@@ -1219,7 +1233,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 164,
-"views": 37,
+"views": 39,
 "official": false
 },
 {
@@ -1247,7 +1261,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 143266,
+"views": 143808,
 "official": false
 },
 {
@@ -1261,7 +1275,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 78230,
+"views": 78322,
 "official": true
 },
 {
@@ -1289,7 +1303,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 485,
-"views": 15645,
+"views": 15648,
 "official": false
 },
 {
@@ -1304,7 +1318,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 22461,
+"views": 22548,
 "official": true
 },
 {
@@ -1319,7 +1333,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 43538,
+"views": 43721,
 "official": true
 },
 {
@@ -1334,7 +1348,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 61,
-"views": 670,
+"views": 675,
 "official": true
 },
 {
@@ -1408,7 +1422,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15068,
+"views": 15088,
 "official": true
 },
 {
@@ -1422,7 +1436,7 @@
 ],
 "ts": 1791861717.8038735,
 "dur": 695,
-"views": 112795,
+"views": 112963,
 "official": false
 },
 {
@@ -1520,7 +1534,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 176,
-"views": 242,
+"views": 243,
 "official": true
 },
 {
@@ -1590,7 +1604,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 33354,
+"views": 33390,
 "official": true
 },
 {
@@ -1604,7 +1618,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 14926,
+"views": 14928,
 "official": true
 },
 {
@@ -1646,7 +1660,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8595,
+"views": 8600,
 "official": true
 },
 {
@@ -1674,7 +1688,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17376,
+"views": 17393,
 "official": true
 },
 {
@@ -1744,7 +1758,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 844,
+"views": 843,
 "official": false
 },
 {
@@ -1884,7 +1898,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 26503,
+"views": 26641,
 "official": true
 },
 {
@@ -1912,7 +1926,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 27939,
+"views": 28097,
 "official": true
 },
 {
@@ -1926,7 +1940,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 20094,
+"views": 20362,
 "official": false
 },
 {
@@ -1954,7 +1968,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 65089,
+"views": 65094,
 "official": true
 },
 {
@@ -1968,7 +1982,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 32881,
+"views": 32872,
 "official": false
 },
 {
@@ -1982,7 +1996,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 4071,
+"views": 4146,
 "official": false
 },
 {
@@ -2150,7 +2164,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 68525,
+"views": 68649,
 "official": true
 },
 {
@@ -2164,7 +2178,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 558357,
+"views": 559016,
 "official": true
 },
 {
@@ -2178,7 +2192,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 195712,
+"views": 195773,
 "official": true
 },
 {
@@ -2192,7 +2206,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8754,
+"views": 8751,
 "official": true
 },
 {
@@ -2262,7 +2276,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 338310,
+"views": 338654,
 "official": false
 },
 {
@@ -2276,7 +2290,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37698,
+"views": 37735,
 "official": false
 },
 {
@@ -2318,7 +2332,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 56093,
+"views": 56106,
 "official": true
 },
 {
@@ -2430,7 +2444,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 241,
-"views": 8911,
+"views": 8912,
 "official": false
 },
 {
@@ -2501,7 +2515,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 92,
-"views": 113,
+"views": 114,
 "official": true
 },
 {
@@ -2516,7 +2530,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 513,
-"views": 625,
+"views": 627,
 "official": true
 },
 {
@@ -2615,7 +2629,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1764,
-"views": 57648,
+"views": 57691,
 "official": false
 },
 {
