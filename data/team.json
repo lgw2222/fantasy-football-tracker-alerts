@@ -14,12 +14,12 @@
  "roster": [
   {
    "slot": "QB",
-   "name": "Joe Burrow",
-   "team": "CIN",
+   "name": "Jameis Winston",
+   "team": "NYG",
    "pos": "QB",
-   "espnId": 3915511,
-   "pts": 24.0,
-   "proj": 0.0,
+   "espnId": 2969939,
+   "pts": 25.7,
+   "proj": 16.96,
    "injury": "ACTIVE"
   },
   {
@@ -84,12 +84,12 @@
   },
   {
    "slot": "D/ST",
-   "name": "Browns",
-   "team": "CLE",
+   "name": "Jaguars",
+   "team": "JAX",
    "pos": "D/ST",
-   "espnId": -16005,
-   "pts": 11.0,
-   "proj": 5.35,
+   "espnId": -16030,
+   "pts": 4.0,
+   "proj": 6.13,
    "injury": "ACTIVE"
   },
   {
@@ -110,6 +110,16 @@
    "espnId": 4685382,
    "pts": 4.9,
    "proj": 8.98,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
+   "name": "Joe Burrow",
+   "team": "CIN",
+   "pos": "QB",
+   "espnId": 3915511,
+   "pts": 24.0,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
@@ -141,16 +151,6 @@
    "pts": 0.0,
    "proj": 0.0,
    "injury": "OUT"
-  },
-  {
-   "slot": "Bench",
-   "name": "Dylan Sampson",
-   "team": "CLE",
-   "pos": "RB",
-   "espnId": 5081397,
-   "pts": 0.0,
-   "proj": 0.0,
-   "injury": "INJURY_RESERVE"
   },
   {
    "slot": "Bench",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-17T14:11:20+00:00"
+ "updated": "2026-10-17T17:06:45+00:00"
 }
