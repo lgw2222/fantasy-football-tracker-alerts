@@ -1,7 +1,77 @@
 {
-"ts": 1792194946.8572202,
-"updated": "2026-10-16T23:55:46.857220+00:00",
+"ts": 1792202489.7064066,
+"updated": "2026-10-17T02:01:29.706407+00:00",
 "items": [
+{
+"id": "yt_xhsBaMt2T1I",
+"vid": "xhsBaMt2T1I",
+"title": "The Truth About Joe Burrow | Joe Burrow All 22 Film Analysis",
+"channel": "Talking Football",
+"kind": "hl",
+"players": [
+"Joe Burrow|CIN"
+],
+"ts": 1792202489.7064066,
+"dur": 895,
+"views": 15,
+"official": false
+},
+{
+"id": "yt_i2BEvphyqBU",
+"vid": "i2BEvphyqBU",
+"title": "WHY Sean McVay Cut Harrison Mevis AFTER OT Loss to Bills! \ud83d\ude31 Rams Sign Blake Grupe",
+"channel": "footballsportx",
+"kind": "hl",
+"players": [
+"Harrison Mevis|"
+],
+"ts": 1792202489.7064066,
+"dur": 405,
+"views": 24,
+"official": true
+},
+{
+"id": "yt_e72HXnuFh0k",
+"vid": "e72HXnuFh0k",
+"title": "Rams Release Harrison Mevis After Bills Loss! Marvin Harrison Jr. Trade & NFL Week 6 News",
+"channel": "UNIX MEDIA",
+"kind": "hl",
+"players": [
+"Harrison Mevis|"
+],
+"ts": 1792202489.7064066,
+"dur": 278,
+"views": 104,
+"official": true
+},
+{
+"id": "yt_pRMsMoYOB1c",
+"vid": "pRMsMoYOB1c",
+"title": "UNACCEPTABLE: Time to QUESTION Sean McVay as Special Teams, Harrison Mevis CHOKE in OT loss to Bills",
+"channel": "Locked On Rams",
+"kind": "hl",
+"players": [
+"Harrison Mevis|"
+],
+"ts": 1792202489.7064066,
+"dur": 1976,
+"views": 13321,
+"official": true
+},
+{
+"id": "yt_SvZAfhfup3I",
+"vid": "SvZAfhfup3I",
+"title": "We Need To Talk About Omarion Hampton...",
+"channel": "Sports Decoded",
+"kind": "hl",
+"players": [
+"Omarion Hampton|LAC"
+],
+"ts": 1792202489.7064066,
+"dur": 271,
+"views": 2132,
+"official": false
+},
 {
 "id": "yt_oDEtxJy2lrw",
 "vid": "oDEtxJy2lrw",
@@ -13,7 +83,7 @@
 ],
 "ts": 1792194946.8572202,
 "dur": 366,
-"views": 98,
+"views": 477,
 "official": false
 },
 {
@@ -139,7 +209,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 319,
+"views": 335,
 "official": false
 },
 {
@@ -153,7 +223,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 1385,
+"views": 1461,
 "official": false
 },
 {
@@ -223,7 +293,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 9082,
+"views": 9117,
 "official": false
 },
 {
@@ -237,7 +307,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 29852,
+"views": 30477,
 "official": true
 },
 {
@@ -265,7 +335,7 @@
 ],
 "ts": 1792124909.3382742,
 "dur": 43,
-"views": 635,
+"views": 638,
 "official": false
 },
 {
@@ -279,7 +349,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 6272,
+"views": 6418,
 "official": true
 },
 {
@@ -307,7 +377,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 183,
-"views": 7781,
+"views": 7778,
 "official": true
 },
 {
@@ -335,7 +405,7 @@
 ],
 "ts": 1792105741.8010962,
 "dur": 699,
-"views": 18838,
+"views": 18850,
 "official": true
 },
 {
@@ -391,7 +461,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 15053,
+"views": 15283,
 "official": false
 },
 {
@@ -433,7 +503,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 419,
-"views": 2122,
+"views": 2123,
 "official": true
 },
 {
@@ -545,7 +615,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 9185,
+"views": 9178,
 "official": false
 },
 {
@@ -573,7 +643,7 @@
 ],
 "ts": 1792074424.5690956,
 "dur": 783,
-"views": 25519,
+"views": 25536,
 "official": true
 },
 {
@@ -643,7 +713,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 287,
+"views": 288,
 "official": false
 },
 {
@@ -657,7 +727,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 154,
-"views": 31135,
+"views": 31191,
 "official": false
 },
 {
@@ -685,7 +755,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 143,
-"views": 308,
+"views": 309,
 "official": false
 },
 {
@@ -741,7 +811,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 2966,
+"views": 2973,
 "official": false
 },
 {
@@ -839,7 +909,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 25085,
+"views": 25207,
 "official": false
 },
 {
@@ -951,7 +1021,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 307,
-"views": 35412,
+"views": 35495,
 "official": true
 },
 {
@@ -979,7 +1049,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 151,
-"views": 12452,
+"views": 12453,
 "official": true
 },
 {
@@ -1035,7 +1105,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 457,
+"views": 460,
 "official": false
 },
 {
@@ -1077,7 +1147,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 6741,
+"views": 6850,
 "official": true
 },
 {
@@ -1189,7 +1259,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 1466,
-"views": 2098,
+"views": 2099,
 "official": false
 },
 {
@@ -1203,7 +1273,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 186,
-"views": 12,
+"views": 44,
 "official": true
 },
 {
@@ -1217,7 +1287,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 1196,
-"views": 272,
+"views": 274,
 "official": true
 },
 {
@@ -1265,7 +1335,7 @@
 {
 "id": "yt_NT7ajY8D8H4",
 "vid": "NT7ajY8D8H4",
-"title": "\ud83d\udea8BREAKING: Rams Fans Got The News They've Been Waiting For! Harrison Mevis Released + New Kicker",
+"title": "\ud83d\udea8BREAKING: Harrison Mevis Released By Rams! Instant Reaction + Blake Grupe Signing Analysis",
 "channel": "LA Rams Report by Chat Sports",
 "kind": "hl",
 "players": [
@@ -1274,7 +1344,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 634,
-"views": 21346,
+"views": 21361,
 "official": true
 },
 {
@@ -1330,7 +1400,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 2056,
+"views": 2084,
 "official": false
 },
 {
@@ -1373,7 +1443,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 105,
-"views": 14325,
+"views": 14377,
 "official": true
 },
 {
@@ -1387,7 +1457,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 261,
-"views": 105,
+"views": 104,
 "official": true
 },
 {
@@ -1485,7 +1555,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 146295,
+"views": 146805,
 "official": false
 },
 {
@@ -1499,7 +1569,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 79192,
+"views": 79341,
 "official": true
 },
 {
@@ -1527,7 +1597,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 485,
-"views": 15662,
+"views": 15665,
 "official": false
 },
 {
@@ -1542,7 +1612,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 22899,
+"views": 22964,
 "official": true
 },
 {
@@ -1557,7 +1627,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 44314,
+"views": 44395,
 "official": true
 },
 {
@@ -1572,7 +1642,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 61,
-"views": 682,
+"views": 683,
 "official": true
 },
 {
@@ -1587,7 +1657,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 301,
-"views": 2974,
+"views": 4223,
 "official": true
 },
 {
@@ -1617,7 +1687,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 369,
-"views": 16372,
+"views": 16381,
 "official": true
 },
 {
@@ -1646,7 +1716,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15124,
+"views": 15145,
 "official": true
 },
 {
@@ -1660,7 +1730,7 @@
 ],
 "ts": 1791861717.8038735,
 "dur": 695,
-"views": 113892,
+"views": 113997,
 "official": false
 },
 {
@@ -1758,7 +1828,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 176,
-"views": 255,
+"views": 257,
 "official": true
 },
 {
@@ -1828,7 +1898,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 33727,
+"views": 33732,
 "official": true
 },
 {
@@ -1842,7 +1912,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 15020,
+"views": 15039,
 "official": true
 },
 {
@@ -1884,7 +1954,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8640,
+"views": 8646,
 "official": true
 },
 {
@@ -1912,7 +1982,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17474,
+"views": 17496,
 "official": true
 },
 {
@@ -1982,7 +2052,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 984,
+"views": 973,
 "official": false
 },
 {
@@ -2122,7 +2192,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 27118,
+"views": 27167,
 "official": true
 },
 {
@@ -2150,7 +2220,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 28508,
+"views": 28532,
 "official": true
 },
 {
@@ -2164,7 +2234,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 21677,
+"views": 21755,
 "official": false
 },
 {
@@ -2192,7 +2262,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 65213,
+"views": 65228,
 "official": true
 },
 {
@@ -2206,7 +2276,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 32927,
+"views": 32929,
 "official": false
 },
 {
@@ -2220,7 +2290,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 4446,
+"views": 4481,
 "official": false
 },
 {
@@ -2388,7 +2458,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 69716,
+"views": 69847,
 "official": true
 },
 {
@@ -2402,7 +2472,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 561883,
+"views": 562638,
 "official": true
 },
 {
@@ -2416,7 +2486,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 196854,
+"views": 197121,
 "official": true
 },
 {
@@ -2430,7 +2500,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8796,
+"views": 8797,
 "official": true
 },
 {
@@ -2500,7 +2570,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 340815,
+"views": 341058,
 "official": false
 },
 {
@@ -2514,7 +2584,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37864,
+"views": 37863,
 "official": false
 },
 {
@@ -2556,7 +2626,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 56536,
+"views": 56537,
 "official": true
 },
 {
