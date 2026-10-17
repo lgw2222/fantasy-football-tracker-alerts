@@ -1,7 +1,77 @@
 {
-"ts": 1792219574.5525737,
-"updated": "2026-10-17T06:46:14.552574+00:00",
+"ts": 1792235514.0707815,
+"updated": "2026-10-17T11:11:54.070781+00:00",
 "items": [
+{
+"id": "yt_WXZmUppIln8",
+"vid": "WXZmUppIln8",
+"title": "Bengals Lose Tanner Hudson to Injury: Instant Reaction & Joe Burrow Impact",
+"channel": "First Word With James Rapien",
+"kind": "hl",
+"players": [
+"Joe Burrow|CIN"
+],
+"ts": 1792235514.0707815,
+"dur": 487,
+"views": 3966,
+"official": false
+},
+{
+"id": "yt_fpQJt3BztXs",
+"vid": "fpQJt3BztXs",
+"title": "\ud83d\udea8 BOMBSHELL! MALIK NABERS LISTED AS SORE \u2014 SCHEFTER: \"VEGAS IS TELLING YOU SOMETHING\"...",
+"channel": "Giants OG Fans",
+"kind": "hl",
+"players": [
+"Malik Nabers|NYG"
+],
+"ts": 1792235514.0707815,
+"dur": 1058,
+"views": 106,
+"official": true
+},
+{
+"id": "yt_6oj1ettezIk",
+"vid": "6oj1ettezIk",
+"title": "Bryce Young, Tetairoa McMillan and Taylor Moton | Locker Room Sound | Week 6 vs. Eagles",
+"channel": "Carolina Panthers",
+"kind": "int",
+"players": [
+"Tetairoa McMillan|CAR"
+],
+"ts": 1792235514.0707815,
+"dur": 1283,
+"views": 16143,
+"official": true
+},
+{
+"id": "yt_70VD8I8TT_M",
+"vid": "70VD8I8TT_M",
+"title": "Devaughn Vele with the toe-tap touchdown \ud83c\udfc8",
+"channel": "Bino\u2019s Clips",
+"kind": "hl",
+"players": [
+"Devaughn Vele|NO"
+],
+"ts": 1792235514.0707815,
+"dur": 12,
+"views": 1000,
+"official": false
+},
+{
+"id": "yt_0Q6GUSfMeGw",
+"vid": "0Q6GUSfMeGw",
+"title": "Devaughn Vele\u2019s Toe-Tap TD\u2014Watch His Feet! #NFL #Shorts",
+"channel": "beyondthesnapmedia",
+"kind": "hl",
+"players": [
+"Devaughn Vele|NO"
+],
+"ts": 1792235514.0707815,
+"dur": 21,
+"views": 60,
+"official": false
+},
 {
 "id": "yt_U-AzhZNfS4Q",
 "vid": "U-AzhZNfS4Q",
@@ -13,7 +83,7 @@
 ],
 "ts": 1792219574.5525737,
 "dur": 649,
-"views": 57,
+"views": 88,
 "official": false
 },
 {
@@ -41,7 +111,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 1015,
+"views": 3426,
 "official": false
 },
 {
@@ -97,7 +167,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 271,
-"views": 2683,
+"views": 2905,
 "official": false
 },
 {
@@ -111,7 +181,7 @@
 ],
 "ts": 1792194946.8572202,
 "dur": 366,
-"views": 477,
+"views": 1715,
 "official": false
 },
 {
@@ -167,7 +237,7 @@
 ],
 "ts": 1792194946.8572202,
 "dur": 571,
-"views": 56437,
+"views": 57265,
 "official": false
 },
 {
@@ -237,7 +307,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 371,
+"views": 410,
 "official": false
 },
 {
@@ -251,7 +321,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 1461,
+"views": 1913,
 "official": false
 },
 {
@@ -321,7 +391,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 9188,
+"views": 9270,
 "official": false
 },
 {
@@ -335,7 +405,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 31991,
+"views": 32995,
 "official": true
 },
 {
@@ -349,7 +419,7 @@
 ],
 "ts": 1792124909.3382742,
 "dur": 487,
-"views": 1071,
+"views": 1089,
 "official": false
 },
 {
@@ -377,7 +447,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 6692,
+"views": 6810,
 "official": true
 },
 {
@@ -405,7 +475,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 183,
-"views": 7780,
+"views": 7781,
 "official": true
 },
 {
@@ -433,7 +503,7 @@
 ],
 "ts": 1792105741.8010962,
 "dur": 699,
-"views": 18858,
+"views": 18879,
 "official": true
 },
 {
@@ -475,7 +545,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 1159,
+"views": 1168,
 "official": false
 },
 {
@@ -489,7 +559,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 15682,
+"views": 15748,
 "official": false
 },
 {
@@ -643,7 +713,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 9457,
+"views": 9501,
 "official": false
 },
 {
@@ -657,7 +727,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 10,
-"views": 103,
+"views": 104,
 "official": false
 },
 {
@@ -671,7 +741,7 @@
 ],
 "ts": 1792074424.5690956,
 "dur": 783,
-"views": 25559,
+"views": 25568,
 "official": true
 },
 {
@@ -727,7 +797,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 362,
-"views": 1133,
+"views": 1134,
 "official": true
 },
 {
@@ -741,7 +811,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 291,
+"views": 292,
 "official": false
 },
 {
@@ -755,7 +825,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 154,
-"views": 31268,
+"views": 31348,
 "official": false
 },
 {
@@ -839,7 +909,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 3055,
+"views": 3143,
 "official": false
 },
 {
@@ -923,7 +993,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 315,
-"views": 592,
+"views": 594,
 "official": false
 },
 {
@@ -937,7 +1007,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 25549,
+"views": 25622,
 "official": false
 },
 {
@@ -971,7 +1041,7 @@
 {
 "id": "yt_NiOu2wSWgh8",
 "vid": "NiOu2wSWgh8",
-"title": "How Matt Nagy Set Malik Nabers Up For Big-Time Performance Against Commanders | Blue Rush",
+"title": "Matt Nagy Set Malik Nabers Up For A BIG Game Against The Commanders | Blue Rush",
 "channel": "New York Post Sports",
 "kind": "hl",
 "players": [
@@ -979,7 +1049,7 @@
 ],
 "ts": 1792006007.2208607,
 "dur": 1100,
-"views": 2954,
+"views": 2965,
 "official": false
 },
 {
@@ -993,7 +1063,7 @@
 ],
 "ts": 1792006007.2208607,
 "dur": 561,
-"views": 303,
+"views": 306,
 "official": false
 },
 {
@@ -1049,7 +1119,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 307,
-"views": 35639,
+"views": 35839,
 "official": true
 },
 {
@@ -1077,7 +1147,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 151,
-"views": 12461,
+"views": 12472,
 "official": true
 },
 {
@@ -1091,7 +1161,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 3952,
+"views": 3980,
 "official": false
 },
 {
@@ -1119,7 +1189,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 106,
-"views": 25,
+"views": 29,
 "official": false
 },
 {
@@ -1133,7 +1203,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 468,
+"views": 480,
 "official": false
 },
 {
@@ -1231,7 +1301,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 77,
-"views": 276,
+"views": 279,
 "official": true
 },
 {
@@ -1287,7 +1357,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 1466,
-"views": 2101,
+"views": 2106,
 "official": false
 },
 {
@@ -1372,7 +1442,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 634,
-"views": 21369,
+"views": 21381,
 "official": true
 },
 {
@@ -1386,7 +1456,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 348,
-"views": 15911,
+"views": 16865,
 "official": true
 },
 {
@@ -1428,7 +1498,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 2110,
+"views": 2160,
 "official": false
 },
 {
@@ -1456,7 +1526,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 743,
-"views": 14587,
+"views": 14600,
 "official": false
 },
 {
@@ -1471,7 +1541,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 105,
-"views": 14430,
+"views": 14489,
 "official": true
 },
 {
@@ -1485,7 +1555,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 261,
-"views": 114,
+"views": 118,
 "official": true
 },
 {
@@ -1527,7 +1597,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 811,
-"views": 4599,
+"views": 4694,
 "official": false
 },
 {
@@ -1555,7 +1625,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 164,
-"views": 42,
+"views": 44,
 "official": false
 },
 {
@@ -1583,7 +1653,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 148162,
+"views": 148486,
 "official": false
 },
 {
@@ -1597,7 +1667,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 79697,
+"views": 79808,
 "official": true
 },
 {
@@ -1625,7 +1695,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 485,
-"views": 15667,
+"views": 15668,
 "official": false
 },
 {
@@ -1640,7 +1710,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 23067,
+"views": 23116,
 "official": true
 },
 {
@@ -1655,7 +1725,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 44578,
+"views": 44658,
 "official": true
 },
 {
@@ -1715,7 +1785,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 369,
-"views": 16400,
+"views": 16411,
 "official": true
 },
 {
@@ -1744,7 +1814,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15166,
+"views": 15194,
 "official": true
 },
 {
@@ -1758,7 +1828,7 @@
 ],
 "ts": 1791861717.8038735,
 "dur": 695,
-"views": 114193,
+"views": 114243,
 "official": false
 },
 {
@@ -1856,7 +1926,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 176,
-"views": 261,
+"views": 270,
 "official": true
 },
 {
@@ -1926,7 +1996,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 33881,
+"views": 33954,
 "official": true
 },
 {
@@ -1940,7 +2010,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 15066,
+"views": 15090,
 "official": true
 },
 {
@@ -1982,7 +2052,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8662,
+"views": 8671,
 "official": true
 },
 {
@@ -2010,7 +2080,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17526,
+"views": 17539,
 "official": true
 },
 {
@@ -2080,7 +2150,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 1035,
+"views": 1104,
 "official": false
 },
 {
@@ -2220,7 +2290,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 27245,
+"views": 27281,
 "official": true
 },
 {
@@ -2248,7 +2318,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 28553,
+"views": 28567,
 "official": true
 },
 {
@@ -2262,7 +2332,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 22109,
+"views": 22295,
 "official": false
 },
 {
@@ -2290,7 +2360,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 65254,
+"views": 65277,
 "official": true
 },
 {
@@ -2304,7 +2374,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 32941,
+"views": 32954,
 "official": false
 },
 {
@@ -2318,7 +2388,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 4557,
+"views": 4586,
 "official": false
 },
 {
@@ -2486,7 +2556,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 70318,
+"views": 70589,
 "official": true
 },
 {
@@ -2500,7 +2570,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 563457,
+"views": 563935,
 "official": true
 },
 {
@@ -2514,7 +2584,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 197564,
+"views": 197739,
 "official": true
 },
 {
@@ -2528,7 +2598,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8806,
+"views": 8811,
 "official": true
 },
 {
@@ -2542,7 +2612,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 40750,
+"views": 40779,
 "official": true
 },
 {
@@ -2556,7 +2626,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 9084,
+"views": 9102,
 "official": true
 },
 {
@@ -2598,7 +2668,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 341790,
+"views": 342120,
 "official": false
 },
 {
@@ -2612,7 +2682,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37894,
+"views": 37941,
 "official": false
 },
 {
@@ -2640,7 +2710,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 482,
-"views": 271,
+"views": 272,
 "official": false
 },
 {
@@ -2654,7 +2724,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 56803,
+"views": 56852,
 "official": true
 },
 {
@@ -2909,7 +2979,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 264,
-"views": 44,
+"views": 45,
 "official": false
 },
 {
@@ -3021,7 +3091,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 518,
-"views": 312,
+"views": 313,
 "official": true
 },
 {
