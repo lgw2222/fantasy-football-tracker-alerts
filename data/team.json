@@ -6,7 +6,7 @@
   "record": "3-2-0"
  },
  "matchup": {
-  "me": 30.6,
+  "me": 40.9,
   "opp": 0,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Favre Dollar Footlong"
@@ -28,7 +28,7 @@
    "team": "JAX",
    "pos": "RB",
    "espnId": 4882093,
-   "pts": 11.6,
+   "pts": 0.3,
    "proj": 13.07,
    "injury": "ACTIVE"
   },
@@ -88,18 +88,18 @@
    "team": "JAX",
    "pos": "D/ST",
    "espnId": -16030,
-   "pts": 4.0,
+   "pts": 10.0,
    "proj": 6.13,
    "injury": "ACTIVE"
   },
   {
    "slot": "K",
-   "name": "Harrison Mevis",
-   "team": "",
+   "name": "Ryan Fitzgerald",
+   "team": "CAR",
    "pos": "K",
-   "espnId": 4574716,
-   "pts": 2.0,
-   "proj": 0.0,
+   "espnId": 4568263,
+   "pts": 0.0,
+   "proj": 8.42,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-18T05:49:39+00:00"
+ "updated": "2026-10-18T13:39:42+00:00"
 }
