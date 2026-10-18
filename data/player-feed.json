@@ -1,7 +1,77 @@
 {
-"ts": 1792355562.9564905,
-"updated": "2026-10-18T20:32:42.956491+00:00",
+"ts": 1792361064.6140132,
+"updated": "2026-10-18T22:04:24.614013+00:00",
 "items": [
+{
+"id": "yt_t3UBCnVJyLM",
+"vid": "t3UBCnVJyLM",
+"title": "Jameis Winston on J.J. McCarthy taking over: \u201cThe decision was made\u201d in Giants loss to Saints",
+"channel": "SNY",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792361064.6140132,
+"dur": 383,
+"views": 684,
+"official": false
+},
+{
+"id": "yt_nCh2J0hiDis",
+"vid": "nCh2J0hiDis",
+"title": "Emanuel Wilson NFL Week 6 Highlights | Every Play",
+"channel": "FOOTBALL ARCHIVE",
+"kind": "hl",
+"players": [
+"Emanuel Wilson|SEA"
+],
+"ts": 1792361064.6140132,
+"dur": 121,
+"views": 1,
+"official": false
+},
+{
+"id": "yt_hpws49TazxA",
+"vid": "hpws49TazxA",
+"title": "Emanuel Wilson NFL Week 5 Highlights | Every Play",
+"channel": "FOOTBALL ARCHIVE",
+"kind": "hl",
+"players": [
+"Emanuel Wilson|SEA"
+],
+"ts": 1792361064.6140132,
+"dur": 155,
+"views": 1,
+"official": false
+},
+{
+"id": "yt_pU3uu8IGQsI",
+"vid": "pU3uu8IGQsI",
+"title": "Malik Nabers' best plays in 165-yard game vs. Saints | Week 6",
+"channel": "NFL",
+"kind": "hl",
+"players": [
+"Malik Nabers|NYG"
+],
+"ts": 1792361064.6140132,
+"dur": 9,
+"views": 839,
+"official": true
+},
+{
+"id": "yt_EYcdSCJXPjE",
+"vid": "EYcdSCJXPjE",
+"title": "Highlights: Malik Nabers Top Plays vs. Saints | 2026 Regular Season Week 6 | New York Giants",
+"channel": "New York Giants",
+"kind": "hl",
+"players": [
+"Malik Nabers|NYG"
+],
+"ts": 1792361064.6140132,
+"dur": 181,
+"views": 246,
+"official": true
+},
 {
 "id": "yt_STIlw83R5cM",
 "vid": "STIlw83R5cM",
@@ -27,7 +97,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 1306,
-"views": 1,
+"views": 9,
 "official": false
 },
 {
@@ -69,7 +139,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 59,
-"views": 4469,
+"views": 7027,
 "official": false
 },
 {
@@ -139,7 +209,7 @@
 ],
 "ts": 1792330782.5618083,
 "dur": 206,
-"views": 393,
+"views": 394,
 "official": false
 },
 {
@@ -181,7 +251,7 @@
 ],
 "ts": 1792330782.5618083,
 "dur": 116,
-"views": 339,
+"views": 340,
 "official": false
 },
 {
@@ -503,7 +573,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 399,
-"views": 19657,
+"views": 19661,
 "official": false
 },
 {
@@ -517,7 +587,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 993,
-"views": 15945,
+"views": 15956,
 "official": true
 },
 {
@@ -587,7 +657,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 613,
-"views": 17728,
+"views": 17736,
 "official": false
 },
 {
@@ -601,7 +671,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 574,
-"views": 62827,
+"views": 62895,
 "official": true
 },
 {
@@ -621,7 +691,7 @@
 {
 "id": "yt_y1sJA8bULdE",
 "vid": "y1sJA8bULdE",
-"title": "Heartbreaking Collapse: Eagles Blow Lead With :08 Left vs. Jaguars | Eagles Postgame Live",
+"title": "Eagles vs. Jaguars London Postgame: Special Teams Disaster & Second-Half Collapse",
 "channel": "NBC Sports Philadelphia",
 "kind": "int",
 "players": [
@@ -629,7 +699,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 1085,
-"views": 183744,
+"views": 183799,
 "official": true
 },
 {
@@ -825,7 +895,7 @@
 ],
 "ts": 1792235514.0707815,
 "dur": 1283,
-"views": 16465,
+"views": 16479,
 "official": true
 },
 {
@@ -867,7 +937,7 @@
 ],
 "ts": 1792219574.5525737,
 "dur": 649,
-"views": 2904,
+"views": 2993,
 "official": false
 },
 {
@@ -895,7 +965,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 12589,
+"views": 12741,
 "official": false
 },
 {
@@ -1105,7 +1175,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 2450,
+"views": 2486,
 "official": false
 },
 {
@@ -1189,7 +1259,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 37216,
+"views": 37258,
 "official": true
 },
 {
@@ -1217,7 +1287,7 @@
 ],
 "ts": 1792124909.3382742,
 "dur": 43,
-"views": 659,
+"views": 660,
 "official": false
 },
 {
@@ -1345,7 +1415,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 17259,
+"views": 17316,
 "official": false
 },
 {
@@ -1527,7 +1597,7 @@
 ],
 "ts": 1792074424.5690956,
 "dur": 783,
-"views": 25667,
+"views": 25671,
 "official": true
 },
 {
@@ -1597,7 +1667,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 306,
+"views": 308,
 "official": false
 },
 {
@@ -1639,7 +1709,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 143,
-"views": 383,
+"views": 387,
 "official": false
 },
 {
@@ -1779,7 +1849,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 315,
-"views": 600,
+"views": 601,
 "official": false
 },
 {
@@ -1794,7 +1864,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 26093,
+"views": 26109,
 "official": false
 },
 {
@@ -1948,7 +2018,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4187,
+"views": 4191,
 "official": false
 },
 {
@@ -2440,7 +2510,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 150974,
+"views": 151048,
 "official": false
 },
 {
@@ -2454,7 +2524,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 80803,
+"views": 81092,
 "official": true
 },
 {
@@ -2783,7 +2853,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 34600,
+"views": 34680,
 "official": true
 },
 {
@@ -2797,7 +2867,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 15299,
+"views": 15323,
 "official": true
 },
 {
@@ -2839,7 +2909,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8712,
+"views": 8713,
 "official": true
 },
 {
@@ -2867,7 +2937,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17698,
+"views": 17710,
 "official": true
 },
 {
@@ -2937,7 +3007,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 1468,
+"views": 1492,
 "official": false
 },
 {
@@ -3077,7 +3147,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 27494,
+"views": 27496,
 "official": true
 },
 {
@@ -3119,7 +3189,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 23239,
+"views": 23256,
 "official": false
 },
 {
@@ -3147,7 +3217,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 65415,
+"views": 65423,
 "official": true
 },
 {
@@ -3175,7 +3245,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 4809,
+"views": 4841,
 "official": false
 },
 {
@@ -3343,7 +3413,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 72096,
+"views": 72240,
 "official": true
 },
 {
@@ -3357,7 +3427,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 566974,
+"views": 567092,
 "official": true
 },
 {
@@ -3385,7 +3455,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8844,
+"views": 8849,
 "official": true
 },
 {
@@ -3399,7 +3469,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 40951,
+"views": 40961,
 "official": true
 },
 {
@@ -3413,7 +3483,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 9163,
+"views": 9166,
 "official": true
 },
 {
@@ -3455,7 +3525,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 344148,
+"views": 344289,
 "official": false
 },
 {
@@ -3511,7 +3581,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 57545,
+"views": 57550,
 "official": true
 },
 {
