@@ -1,49 +1,7 @@
 {
-"ts": 1792347263.5786471,
-"updated": "2026-10-18T18:14:23.578647+00:00",
+"ts": 1792350060.1549203,
+"updated": "2026-10-18T19:01:00.154920+00:00",
 "items": [
-{
-"id": "yt_qWF8GiqCYRQ",
-"vid": "qWF8GiqCYRQ",
-"title": "What Can A CHRISTIAN Learn From JAMEIS WINSTON?",
-"channel": "DynasticCarrot",
-"kind": "hl",
-"players": [
-"Jameis Winston|NYG"
-],
-"ts": 1792347263.5786471,
-"dur": 359,
-"views": 32,
-"official": false
-},
-{
-"id": "yt_Yubm9rYUqMk",
-"vid": "Yubm9rYUqMk",
-"title": "Will Sports Fans Turn on Jameis Winston for Being Black Tim Tebow?",
-"channel": "Jason Whitlock Harmony",
-"kind": "hl",
-"players": [
-"Jameis Winston|NYG"
-],
-"ts": 1792347263.5786471,
-"dur": 2840,
-"views": 26368,
-"official": false
-},
-{
-"id": "yt_1oWhL35ITY0",
-"vid": "1oWhL35ITY0",
-"title": "\u201cThings I Think\u201d- Rich Eisen Explains Why Jameis Winston Is and Should Be the NY Giants\u2019 Quarterback",
-"channel": "NFL News Today",
-"kind": "int",
-"players": [
-"Jameis Winston|NYG"
-],
-"ts": 1792347263.5786471,
-"dur": 1131,
-"views": 754,
-"official": true
-},
 {
 "id": "yt_e-GOUUE90qo",
 "vid": "e-GOUUE90qo",
@@ -53,9 +11,9 @@
 "players": [
 "Mike Evans|SF"
 ],
-"ts": 1792347263.5786471,
+"ts": 1792350060.1549203,
 "dur": 289,
-"views": 2193,
+"views": 4055,
 "official": true
 },
 {
@@ -67,9 +25,9 @@
 "players": [
 "Jaguars|JAX"
 ],
-"ts": 1792347263.5786471,
+"ts": 1792350060.1549203,
 "dur": 115,
-"views": 164,
+"views": 579,
 "official": false
 },
 {
@@ -81,24 +39,52 @@
 "players": [
 "Jaguars|JAX"
 ],
-"ts": 1792347263.5786471,
+"ts": 1792350060.1549203,
 "dur": 59,
-"views": 1086,
+"views": 1684,
 "official": false
 },
 {
-"id": "yt_Y2ZKr8VWwD4",
-"vid": "Y2ZKr8VWwD4",
-"title": "Devaughn Vele: Every Touch of 2026 Week 5 | Full Film Compilation",
-"channel": "STACKED Fantasy | Film Breakdowns",
+"id": "yt_CVF_b1sbQNQ",
+"vid": "CVF_b1sbQNQ",
+"title": "Seahawks Injury News: Will Zach Charbonnet play against the Broncos?",
+"channel": "Seahawks Brendon Nelson",
 "kind": "hl",
 "players": [
-"Devaughn Vele|NO"
+"Zach Charbonnet|SEA"
 ],
-"ts": 1792347263.5786471,
-"dur": 107,
-"views": 131,
+"ts": 1792350060.1549203,
+"dur": 546,
+"views": 4726,
+"official": true
+},
+{
+"id": "yt__SqmoY6bOm8",
+"vid": "_SqmoY6bOm8",
+"title": "Why Isn't Zach Charbonnet Playing? Seahawks RB Fumbles Have Fans Asking",
+"channel": "Drift Theory",
+"kind": "hl",
+"players": [
+"Zach Charbonnet|SEA"
+],
+"ts": 1792350060.1549203,
+"dur": 88,
+"views": 150,
 "official": false
+},
+{
+"id": "yt_R3mqaAZMAEI",
+"vid": "R3mqaAZMAEI",
+"title": "Seahawks FINAL Injury Report: Last word on Drake Thomas, Zach Charbonnet, JSN, Pat Surtain, more",
+"channel": "Seahawks Brendon Nelson",
+"kind": "hl",
+"players": [
+"Zach Charbonnet|SEA"
+],
+"ts": 1792350060.1549203,
+"dur": 550,
+"views": 6360,
+"official": true
 },
 {
 "id": "yt_nEONqpQ_8Ug",
@@ -615,7 +601,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 1085,
-"views": 183583,
+"views": 183660,
 "official": true
 },
 {
@@ -811,7 +797,7 @@
 ],
 "ts": 1792235514.0707815,
 "dur": 1283,
-"views": 16460,
+"views": 16465,
 "official": true
 },
 {
@@ -881,7 +867,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 12135,
+"views": 12393,
 "official": false
 },
 {
@@ -1161,7 +1147,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 9869,
+"views": 9898,
 "official": false
 },
 {
@@ -1175,7 +1161,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 36876,
+"views": 37086,
 "official": true
 },
 {
@@ -1274,7 +1260,7 @@
 ],
 "ts": 1792105741.8010962,
 "dur": 699,
-"views": 18935,
+"views": 18937,
 "official": true
 },
 {
@@ -1316,7 +1302,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 1209,
+"views": 1210,
 "official": false
 },
 {
@@ -1331,7 +1317,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 17211,
+"views": 17255,
 "official": false
 },
 {
@@ -1569,7 +1555,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 362,
-"views": 1151,
+"views": 1153,
 "official": true
 },
 {
@@ -2018,7 +2004,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 8059,
+"views": 8124,
 "official": true
 },
 {
@@ -2271,7 +2257,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 2354,
+"views": 2344,
 "official": false
 },
 {
@@ -2783,7 +2769,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 15277,
+"views": 15276,
 "official": true
 },
 {
@@ -2825,7 +2811,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8706,
+"views": 8710,
 "official": true
 },
 {
@@ -2853,7 +2839,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17687,
+"views": 17693,
 "official": true
 },
 {
@@ -2923,7 +2909,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 1379,
+"views": 1461,
 "official": false
 },
 {
@@ -3105,7 +3091,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 23195,
+"views": 23232,
 "official": false
 },
 {
@@ -3133,7 +3119,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 65397,
+"views": 65415,
 "official": true
 },
 {
@@ -3161,7 +3147,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 4774,
+"views": 4808,
 "official": false
 },
 {
@@ -3329,7 +3315,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 71998,
+"views": 72096,
 "official": true
 },
 {
@@ -3343,7 +3329,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 566640,
+"views": 566766,
 "official": true
 },
 {
@@ -3441,7 +3427,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 344145,
+"views": 344148,
 "official": false
 },
 {

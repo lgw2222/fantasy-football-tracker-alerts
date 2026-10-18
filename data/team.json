@@ -6,8 +6,8 @@
   "record": "3-2-0"
  },
  "matchup": {
-  "me": 40.9,
-  "opp": 0,
+  "me": 88.6,
+  "opp": 59.6,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Favre Dollar Footlong"
  },
@@ -18,8 +18,8 @@
    "team": "NYG",
    "pos": "QB",
    "espnId": 2969939,
-   "pts": 25.7,
-   "proj": 16.96,
+   "pts": 8.4,
+   "proj": 16.98,
    "injury": "ACTIVE"
   },
   {
@@ -28,7 +28,7 @@
    "team": "JAX",
    "pos": "RB",
    "espnId": 4882093,
-   "pts": 0.3,
+   "pts": 24.7,
    "proj": 13.07,
    "injury": "ACTIVE"
   },
@@ -58,8 +58,8 @@
    "team": "NYG",
    "pos": "WR",
    "espnId": 4595348,
-   "pts": 29.1,
-   "proj": 17.36,
+   "pts": 9.0,
+   "proj": 17.35,
    "injury": "ACTIVE"
   },
   {
@@ -68,7 +68,7 @@
    "team": "CAR",
    "pos": "WR",
    "espnId": 4685472,
-   "pts": 0.0,
+   "pts": 12.9,
    "proj": 15.93,
    "injury": "ACTIVE"
   },
@@ -88,8 +88,8 @@
    "team": "JAX",
    "pos": "D/ST",
    "espnId": -16030,
-   "pts": 10.0,
-   "proj": 6.13,
+   "pts": -2.0,
+   "proj": 6.22,
    "injury": "ACTIVE"
   },
   {
@@ -98,7 +98,7 @@
    "team": "CAR",
    "pos": "K",
    "espnId": 4568263,
-   "pts": 0.0,
+   "pts": 5.0,
    "proj": 8.42,
    "injury": "ACTIVE"
   },
@@ -138,8 +138,8 @@
    "team": "IND",
    "pos": "WR",
    "espnId": 4688813,
-   "pts": 7.7,
-   "proj": 9.89,
+   "pts": 3.9,
+   "proj": 9.95,
    "injury": "ACTIVE"
   },
   {
@@ -158,7 +158,7 @@
    "team": "NO",
    "pos": "WR",
    "espnId": 4569559,
-   "pts": 6.6,
+   "pts": 5.4,
    "proj": 11.18,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-18T13:39:42+00:00"
+ "updated": "2026-10-18T19:01:00+00:00"
 }
