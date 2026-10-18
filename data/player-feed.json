@@ -1,7 +1,35 @@
 {
-"ts": 1792302579.2136514,
-"updated": "2026-10-18T05:49:39.213651+00:00",
+"ts": 1792317344.5631714,
+"updated": "2026-10-18T09:55:44.563171+00:00",
 "items": [
+{
+"id": "yt_naZ2jWrnJzk",
+"vid": "naZ2jWrnJzk",
+"title": "Are New York Giants using J.J. McCarthy to put pressure on Jameis Winston? | Pro Football Talk",
+"channel": "NFL on NBC",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792317344.5631714,
+"dur": 235,
+"views": 21617,
+"official": true
+},
+{
+"id": "yt_mI_Mq1PlOvQ",
+"vid": "mI_Mq1PlOvQ",
+"title": "Trevor Lawrence on Prep for Facing Texans Defense, First Divisional Matchup | Jacksonville Jaguars",
+"channel": "Jacksonville Jaguars",
+"kind": "hl",
+"players": [
+"Jaguars|JAX"
+],
+"ts": 1792317344.5631714,
+"dur": 525,
+"views": 13125,
+"official": true
+},
 {
 "id": "yt_xGjMGHGpH9g",
 "vid": "xGjMGHGpH9g",
@@ -223,7 +251,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 157,
-"views": 16461,
+"views": 16587,
 "official": true
 },
 {
@@ -251,7 +279,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 496,
-"views": 68696,
+"views": 68714,
 "official": false
 },
 {
@@ -279,7 +307,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 399,
-"views": 19418,
+"views": 19443,
 "official": false
 },
 {
@@ -293,7 +321,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 993,
-"views": 15927,
+"views": 15936,
 "official": true
 },
 {
@@ -307,7 +335,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 402,
-"views": 8228,
+"views": 8304,
 "official": true
 },
 {
@@ -321,7 +349,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 147,
-"views": 1062,
+"views": 1075,
 "official": false
 },
 {
@@ -335,7 +363,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 140,
-"views": 1609,
+"views": 1652,
 "official": false
 },
 {
@@ -363,7 +391,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 613,
-"views": 17708,
+"views": 17717,
 "official": false
 },
 {
@@ -377,7 +405,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 574,
-"views": 62717,
+"views": 62734,
 "official": true
 },
 {
@@ -405,7 +433,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 1085,
-"views": 183408,
+"views": 183442,
 "official": true
 },
 {
@@ -601,7 +629,7 @@
 ],
 "ts": 1792235514.0707815,
 "dur": 1283,
-"views": 16355,
+"views": 16413,
 "official": true
 },
 {
@@ -643,7 +671,7 @@
 ],
 "ts": 1792219574.5525737,
 "dur": 649,
-"views": 2561,
+"views": 2638,
 "official": false
 },
 {
@@ -663,7 +691,7 @@
 {
 "id": "yt_xhsBaMt2T1I",
 "vid": "xhsBaMt2T1I",
-"title": "The Truth About Joe Burrow | Joe Burrow All 22 Film Analysis",
+"title": "The Truth About The Cincinnati Bengals | Joe Burrow All-22 Film Analysis",
 "channel": "Talking Football",
 "kind": "hl",
 "players": [
@@ -671,7 +699,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 8978,
+"views": 10788,
 "official": false
 },
 {
@@ -867,7 +895,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 452,
+"views": 464,
 "official": false
 },
 {
@@ -881,7 +909,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 2207,
+"views": 2364,
 "official": false
 },
 {
@@ -951,7 +979,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 9742,
+"views": 9793,
 "official": false
 },
 {
@@ -965,7 +993,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 35624,
+"views": 36060,
 "official": true
 },
 {
@@ -1008,7 +1036,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 8070,
+"views": 8206,
 "official": true
 },
 {
@@ -1064,7 +1092,7 @@
 ],
 "ts": 1792105741.8010962,
 "dur": 699,
-"views": 18911,
+"views": 18918,
 "official": true
 },
 {
@@ -1106,7 +1134,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 1191,
+"views": 1201,
 "official": false
 },
 {
@@ -1121,7 +1149,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 16812,
+"views": 16952,
 "official": false
 },
 {
@@ -1275,7 +1303,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 9727,
+"views": 9756,
 "official": false
 },
 {
@@ -1303,7 +1331,7 @@
 ],
 "ts": 1792074424.5690956,
 "dur": 783,
-"views": 25618,
+"views": 25622,
 "official": true
 },
 {
@@ -1359,7 +1387,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 362,
-"views": 1144,
+"views": 1146,
 "official": true
 },
 {
@@ -1373,7 +1401,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 300,
+"views": 304,
 "official": false
 },
 {
@@ -1415,7 +1443,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 143,
-"views": 349,
+"views": 363,
 "official": false
 },
 {
@@ -1471,7 +1499,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 3401,
+"views": 3496,
 "official": false
 },
 {
@@ -1570,7 +1598,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 25737,
+"views": 26001,
 "official": false
 },
 {
@@ -1612,7 +1640,7 @@
 ],
 "ts": 1792006007.2208607,
 "dur": 1100,
-"views": 3038,
+"views": 3053,
 "official": false
 },
 {
@@ -1682,7 +1710,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 307,
-"views": 36188,
+"views": 36234,
 "official": true
 },
 {
@@ -1710,7 +1738,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 151,
-"views": 12492,
+"views": 12499,
 "official": true
 },
 {
@@ -1724,7 +1752,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4095,
+"views": 4155,
 "official": false
 },
 {
@@ -1738,7 +1766,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 192,
-"views": 913,
+"views": 928,
 "official": false
 },
 {
@@ -1766,7 +1794,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 510,
+"views": 531,
 "official": false
 },
 {
@@ -1808,7 +1836,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 7854,
+"views": 7882,
 "official": true
 },
 {
@@ -1864,7 +1892,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 77,
-"views": 283,
+"views": 289,
 "official": true
 },
 {
@@ -2005,7 +2033,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 634,
-"views": 21436,
+"views": 21450,
 "official": true
 },
 {
@@ -2061,7 +2089,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 2249,
+"views": 2286,
 "official": false
 },
 {
@@ -2104,7 +2132,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 105,
-"views": 14660,
+"views": 14683,
 "official": true
 },
 {
@@ -2188,7 +2216,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 164,
-"views": 45,
+"views": 49,
 "official": false
 },
 {
@@ -2202,7 +2230,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 186,
-"views": 34172,
+"views": 34265,
 "official": false
 },
 {
@@ -2216,7 +2244,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 150165,
+"views": 150454,
 "official": false
 },
 {
@@ -2230,7 +2258,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 911,
-"views": 80448,
+"views": 80636,
 "official": true
 },
 {
@@ -2273,7 +2301,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 23407,
+"views": 23466,
 "official": true
 },
 {
@@ -2288,7 +2316,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 60,
-"views": 45088,
+"views": 45187,
 "official": true
 },
 {
@@ -2348,7 +2376,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 369,
-"views": 16421,
+"views": 16432,
 "official": true
 },
 {
@@ -2377,7 +2405,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15279,
+"views": 15292,
 "official": true
 },
 {
@@ -2489,7 +2517,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 176,
-"views": 293,
+"views": 299,
 "official": true
 },
 {
@@ -2559,7 +2587,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 159,
-"views": 34295,
+"views": 34349,
 "official": true
 },
 {
@@ -2573,7 +2601,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 15202,
+"views": 15226,
 "official": true
 },
 {
@@ -2615,7 +2643,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8693,
+"views": 8701,
 "official": true
 },
 {
@@ -2643,7 +2671,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17635,
+"views": 17654,
 "official": true
 },
 {
@@ -2713,7 +2741,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 1200,
+"views": 1321,
 "official": false
 },
 {
@@ -2853,7 +2881,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 27413,
+"views": 27432,
 "official": true
 },
 {
@@ -2881,7 +2909,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 28621,
+"views": 28630,
 "official": true
 },
 {
@@ -2895,7 +2923,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 22973,
+"views": 23099,
 "official": false
 },
 {
@@ -2923,7 +2951,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1114,
-"views": 65345,
+"views": 65383,
 "official": true
 },
 {
@@ -2937,7 +2965,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 32980,
+"views": 32991,
 "official": false
 },
 {
@@ -2951,7 +2979,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 4742,
+"views": 4749,
 "official": false
 },
 {
@@ -3119,7 +3147,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 71619,
+"views": 71870,
 "official": true
 },
 {
@@ -3133,7 +3161,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 565959,
+"views": 566316,
 "official": true
 },
 {
@@ -3147,7 +3175,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 198827,
+"views": 199063,
 "official": true
 },
 {
@@ -3161,7 +3189,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8833,
+"views": 8840,
 "official": true
 },
 {
@@ -3175,7 +3203,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 40884,
+"views": 40908,
 "official": true
 },
 {
@@ -3189,7 +3217,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 9127,
+"views": 9147,
 "official": true
 },
 {
@@ -3231,7 +3259,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 343636,
+"views": 343735,
 "official": false
 },
 {
@@ -3245,7 +3273,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37973,
+"views": 37978,
 "official": false
 },
 {
@@ -3273,7 +3301,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 482,
-"views": 272,
+"views": 273,
 "official": false
 },
 {
@@ -3287,7 +3315,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 57368,
+"views": 57417,
 "official": true
 },
 {
@@ -3640,7 +3668,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 220,
-"views": 29,
+"views": 30,
 "official": false
 },
 {
