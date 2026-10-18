@@ -1,7 +1,35 @@
 {
-"ts": 1792350060.1549203,
-"updated": "2026-10-18T19:01:00.154920+00:00",
+"ts": 1792355562.9564905,
+"updated": "2026-10-18T20:32:42.956491+00:00",
 "items": [
+{
+"id": "yt_STIlw83R5cM",
+"vid": "STIlw83R5cM",
+"title": "Jameis Winston BENCHED for JJ McCarthy after AWFUL Performance",
+"channel": "BehindThePlay",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792355562.9564905,
+"dur": 73,
+"views": 124,
+"official": false
+},
+{
+"id": "yt_Qo4OxoFcJfc",
+"vid": "Qo4OxoFcJfc",
+"title": "Tetairoa McMillan Became Exactly What The NFL Feared",
+"channel": "Strip Sack",
+"kind": "hl",
+"players": [
+"Tetairoa McMillan|CAR"
+],
+"ts": 1792355562.9564905,
+"dur": 1306,
+"views": 1,
+"official": false
+},
 {
 "id": "yt_e-GOUUE90qo",
 "vid": "e-GOUUE90qo",
@@ -27,7 +55,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 115,
-"views": 579,
+"views": 2273,
 "official": false
 },
 {
@@ -41,7 +69,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 59,
-"views": 1684,
+"views": 4469,
 "official": false
 },
 {
@@ -167,7 +195,7 @@
 ],
 "ts": 1792330782.5618083,
 "dur": 151,
-"views": 1505,
+"views": 1506,
 "official": false
 },
 {
@@ -195,7 +223,7 @@
 ],
 "ts": 1792317344.5631714,
 "dur": 525,
-"views": 13249,
+"views": 13295,
 "official": true
 },
 {
@@ -419,7 +447,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 157,
-"views": 16673,
+"views": 16742,
 "official": true
 },
 {
@@ -447,7 +475,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 496,
-"views": 68742,
+"views": 68784,
 "official": false
 },
 {
@@ -475,7 +503,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 399,
-"views": 19574,
+"views": 19657,
 "official": false
 },
 {
@@ -503,7 +531,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 402,
-"views": 8368,
+"views": 8423,
 "official": true
 },
 {
@@ -517,7 +545,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 147,
-"views": 1079,
+"views": 1080,
 "official": false
 },
 {
@@ -601,7 +629,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 1085,
-"views": 183660,
+"views": 183744,
 "official": true
 },
 {
@@ -839,7 +867,7 @@
 ],
 "ts": 1792219574.5525737,
 "dur": 649,
-"views": 2891,
+"views": 2904,
 "official": false
 },
 {
@@ -867,7 +895,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 12393,
+"views": 12589,
 "official": false
 },
 {
@@ -1063,7 +1091,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 484,
+"views": 486,
 "official": false
 },
 {
@@ -1161,7 +1189,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 37086,
+"views": 37216,
 "official": true
 },
 {
@@ -1204,7 +1232,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 8319,
+"views": 8367,
 "official": true
 },
 {
@@ -1260,7 +1288,7 @@
 ],
 "ts": 1792105741.8010962,
 "dur": 699,
-"views": 18937,
+"views": 18944,
 "official": true
 },
 {
@@ -1317,7 +1345,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 17255,
+"views": 17259,
 "official": false
 },
 {
@@ -1471,7 +1499,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 9790,
+"views": 9806,
 "official": false
 },
 {
@@ -1499,7 +1527,7 @@
 ],
 "ts": 1792074424.5690956,
 "dur": 783,
-"views": 25645,
+"views": 25667,
 "official": true
 },
 {
@@ -1569,7 +1597,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 308,
+"views": 306,
 "official": false
 },
 {
@@ -1667,7 +1695,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 3516,
+"views": 3523,
 "official": false
 },
 {
@@ -1766,7 +1794,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 26069,
+"views": 26093,
 "official": false
 },
 {
@@ -1906,7 +1934,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 151,
-"views": 12512,
+"views": 12521,
 "official": true
 },
 {
@@ -1920,7 +1948,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4175,
+"views": 4187,
 "official": false
 },
 {
@@ -1962,7 +1990,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 581,
+"views": 583,
 "official": false
 },
 {
@@ -2004,7 +2032,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 8124,
+"views": 8195,
 "official": true
 },
 {
@@ -2257,7 +2285,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 196,
-"views": 2344,
+"views": 2364,
 "official": false
 },
 {
@@ -2412,7 +2440,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 150728,
+"views": 150974,
 "official": false
 },
 {
@@ -2573,7 +2601,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15323,
+"views": 15334,
 "official": true
 },
 {
@@ -2685,7 +2713,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 176,
-"views": 306,
+"views": 307,
 "official": true
 },
 {
@@ -2769,7 +2797,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 41,
-"views": 15276,
+"views": 15299,
 "official": true
 },
 {
@@ -2811,7 +2839,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 855,
-"views": 8710,
+"views": 8712,
 "official": true
 },
 {
@@ -2839,7 +2867,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 421,
-"views": 17693,
+"views": 17698,
 "official": true
 },
 {
@@ -2909,7 +2937,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 1461,
+"views": 1468,
 "official": false
 },
 {
@@ -3049,7 +3077,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 27472,
+"views": 27494,
 "official": true
 },
 {
@@ -3077,7 +3105,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 28652,
+"views": 28654,
 "official": true
 },
 {
@@ -3091,7 +3119,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 23232,
+"views": 23239,
 "official": false
 },
 {
@@ -3133,7 +3161,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 499,
-"views": 33002,
+"views": 33012,
 "official": false
 },
 {
@@ -3147,7 +3175,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 567,
-"views": 4808,
+"views": 4809,
 "official": false
 },
 {
@@ -3329,7 +3357,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 566766,
+"views": 566974,
 "official": true
 },
 {
@@ -3343,7 +3371,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 46,
-"views": 199271,
+"views": 199437,
 "official": true
 },
 {
@@ -3371,7 +3399,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 40925,
+"views": 40951,
 "official": true
 },
 {
@@ -3441,7 +3469,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37992,
+"views": 37995,
 "official": false
 },
 {
@@ -3483,7 +3511,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 57518,
+"views": 57545,
 "official": true
 },
 {
