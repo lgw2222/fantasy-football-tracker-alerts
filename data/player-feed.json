@@ -1,7 +1,49 @@
 {
-"ts": 1792369336.4445994,
-"updated": "2026-10-19T00:22:16.444599+00:00",
+"ts": 1792374813.1350887,
+"updated": "2026-10-19T01:53:33.135089+00:00",
 "items": [
+{
+"id": "yt_0p-uhUpPvzI",
+"vid": "0p-uhUpPvzI",
+"title": "J.J. McCarthy on replacing Jameis Winston in Giants\u2019 near comeback: \u201cFelt at home playing QB\u201d",
+"channel": "SNY",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792374813.1350887,
+"dur": 399,
+"views": 15798,
+"official": false
+},
+{
+"id": "yt_1oWhL35ITY0",
+"vid": "1oWhL35ITY0",
+"title": "\u201cThings I Think\u201d- Rich Eisen Explains Why Jameis Winston Is and Should Be the NY Giants\u2019 Quarterback",
+"channel": "NFL News Today",
+"kind": "int",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792374813.1350887,
+"dur": 1131,
+"views": 755,
+"official": true
+},
+{
+"id": "yt_uuvTKpYKhTo",
+"vid": "uuvTKpYKhTo",
+"title": "Kevin Dotson, Ethan Evans, Colby Parkinson & Blake Corum Reflect On Week 6 Cardinals Matchup",
+"channel": "Los Angeles Rams",
+"kind": "hl",
+"players": [
+"Blake Corum|LAR"
+],
+"ts": 1792374813.1350887,
+"dur": 418,
+"views": 915,
+"official": true
+},
 {
 "id": "yt_JBbpvMKDako",
 "vid": "JBbpvMKDako",
@@ -13,7 +55,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 900,
-"views": 2403,
+"views": 6288,
 "official": true
 },
 {
@@ -28,7 +70,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 2014,
-"views": 728,
+"views": 2239,
 "official": true
 },
 {
@@ -42,7 +84,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 607,
-"views": 2105,
+"views": 5856,
 "official": false
 },
 {
@@ -98,7 +140,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 383,
-"views": 5251,
+"views": 9196,
 "official": false
 },
 {
@@ -140,7 +182,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 9,
-"views": 5203,
+"views": 6933,
 "official": true
 },
 {
@@ -154,7 +196,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 181,
-"views": 1783,
+"views": 3168,
 "official": true
 },
 {
@@ -168,7 +210,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 73,
-"views": 27583,
+"views": 37254,
 "official": false
 },
 {
@@ -182,7 +224,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 1306,
-"views": 94,
+"views": 252,
 "official": false
 },
 {
@@ -196,7 +238,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 289,
-"views": 38618,
+"views": 43505,
 "official": true
 },
 {
@@ -224,7 +266,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 59,
-"views": 11377,
+"views": 12524,
 "official": false
 },
 {
@@ -336,7 +378,7 @@
 ],
 "ts": 1792330782.5618083,
 "dur": 116,
-"views": 342,
+"views": 343,
 "official": false
 },
 {
@@ -378,7 +420,7 @@
 ],
 "ts": 1792317344.5631714,
 "dur": 525,
-"views": 13356,
+"views": 13389,
 "official": true
 },
 {
@@ -686,7 +728,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 402,
-"views": 8514,
+"views": 8515,
 "official": true
 },
 {
@@ -700,7 +742,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 147,
-"views": 1086,
+"views": 1077,
 "official": false
 },
 {
@@ -714,7 +756,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 140,
-"views": 1784,
+"views": 1823,
 "official": false
 },
 {
@@ -728,7 +770,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 811,
-"views": 17,
+"views": 20,
 "official": false
 },
 {
@@ -1042,7 +1084,7 @@
 {
 "id": "yt_xhsBaMt2T1I",
 "vid": "xhsBaMt2T1I",
-"title": "The Truth About The Cincinnati Bengals | Joe Burrow All-22 Film Analysis",
+"title": "The Truth About Joe Burrow | Joe Burrow All 22 Film Analysis",
 "channel": "Talking Football",
 "kind": "hl",
 "players": [
@@ -1050,7 +1092,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 13100,
+"views": 13471,
 "official": false
 },
 {
@@ -1330,7 +1372,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 9913,
+"views": 9942,
 "official": false
 },
 {
@@ -1344,7 +1386,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 37295,
+"views": 37388,
 "official": true
 },
 {
@@ -1485,7 +1527,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 1210,
+"views": 1214,
 "official": false
 },
 {
@@ -1654,7 +1696,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 9856,
+"views": 9864,
 "official": false
 },
 {
@@ -1752,7 +1794,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 315,
+"views": 318,
 "official": false
 },
 {
@@ -1949,7 +1991,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 26109,
+"views": 26142,
 "official": false
 },
 {
@@ -2033,7 +2075,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 809,
-"views": 43,
+"views": 44,
 "official": false
 },
 {
@@ -2089,7 +2131,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 151,
-"views": 12526,
+"views": 12523,
 "official": true
 },
 {
@@ -2103,7 +2145,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4192,
+"views": 4232,
 "official": false
 },
 {
@@ -2187,7 +2229,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 8322,
+"views": 8333,
 "official": true
 },
 {
@@ -2257,7 +2299,7 @@
 ],
 "ts": 1791938894.0923822,
 "dur": 2292,
-"views": 202,
+"views": 204,
 "official": false
 },
 {
@@ -2398,7 +2440,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 348,
-"views": 16954,
+"views": 17130,
 "official": true
 },
 {
@@ -2595,7 +2637,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 151305,
+"views": 151416,
 "official": false
 },
 {
@@ -2756,7 +2798,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15369,
+"views": 15413,
 "official": true
 },
 {
@@ -3092,7 +3134,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 1494,
+"views": 1528,
 "official": false
 },
 {
@@ -3232,7 +3274,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 27496,
+"views": 27511,
 "official": true
 },
 {
@@ -3260,7 +3302,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 28657,
+"views": 28662,
 "official": true
 },
 {
@@ -3512,7 +3554,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 567422,
+"views": 567476,
 "official": true
 },
 {
@@ -3610,7 +3652,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 344381,
+"views": 344431,
 "official": false
 },
 {
@@ -3624,7 +3666,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37995,
+"views": 37997,
 "official": false
 },
 {
