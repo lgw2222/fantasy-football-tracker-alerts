@@ -168,7 +168,7 @@
    "team": "GB",
    "pos": "RB",
    "espnId": 4429023,
-   "pts": 16.7,
+   "pts": 1.0,
    "proj": 10.95,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-19T00:22:16+00:00"
+ "updated": "2026-10-19T06:19:08+00:00"
 }

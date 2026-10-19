@@ -1,7 +1,21 @@
 {
-"ts": 1792380318.1774054,
-"updated": "2026-10-19T03:25:18.177405+00:00",
+"ts": 1792390748.2828093,
+"updated": "2026-10-19T06:19:08.282809+00:00",
 "items": [
+{
+"id": "yt_CDrRaKGXb30",
+"vid": "CDrRaKGXb30",
+"title": "Joe Burrow's Patriots vs Brock Purdy's Bengals \u2022 AFC Championship | League 3",
+"channel": "Any Given Sim",
+"kind": "hl",
+"players": [
+"Joe Burrow|CIN"
+],
+"ts": 1792390748.2828093,
+"dur": 497,
+"views": 156,
+"official": false
+},
 {
 "id": "yt_oAG2W-gF-1A",
 "vid": "oAG2W-gF-1A",
@@ -55,7 +69,7 @@
 ],
 "ts": 1792374813.1350887,
 "dur": 399,
-"views": 25668,
+"views": 36844,
 "official": false
 },
 {
@@ -83,7 +97,7 @@
 ],
 "ts": 1792374813.1350887,
 "dur": 418,
-"views": 2536,
+"views": 6600,
 "official": true
 },
 {
@@ -97,7 +111,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 900,
-"views": 11180,
+"views": 15848,
 "official": true
 },
 {
@@ -112,7 +126,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 2014,
-"views": 4915,
+"views": 11232,
 "official": true
 },
 {
@@ -126,7 +140,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 607,
-"views": 9247,
+"views": 12683,
 "official": false
 },
 {
@@ -168,7 +182,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 1463,
-"views": 8016,
+"views": 8019,
 "official": false
 },
 {
@@ -182,7 +196,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 383,
-"views": 14127,
+"views": 19495,
 "official": false
 },
 {
@@ -224,7 +238,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 9,
-"views": 7808,
+"views": 9141,
 "official": true
 },
 {
@@ -238,7 +252,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 181,
-"views": 4591,
+"views": 6525,
 "official": true
 },
 {
@@ -252,7 +266,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 73,
-"views": 44055,
+"views": 50451,
 "official": false
 },
 {
@@ -266,7 +280,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 1306,
-"views": 491,
+"views": 1148,
 "official": false
 },
 {
@@ -280,7 +294,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 289,
-"views": 48434,
+"views": 56637,
 "official": true
 },
 {
@@ -308,7 +322,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 59,
-"views": 13473,
+"views": 14945,
 "official": false
 },
 {
@@ -462,7 +476,7 @@
 ],
 "ts": 1792317344.5631714,
 "dur": 525,
-"views": 13389,
+"views": 13414,
 "official": true
 },
 {
@@ -770,7 +784,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 402,
-"views": 8515,
+"views": 8535,
 "official": true
 },
 {
@@ -784,7 +798,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 147,
-"views": 1077,
+"views": 1161,
 "official": false
 },
 {
@@ -826,7 +840,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 613,
-"views": 17774,
+"views": 17780,
 "official": false
 },
 {
@@ -1064,7 +1078,7 @@
 ],
 "ts": 1792235514.0707815,
 "dur": 1283,
-"views": 16557,
+"views": 16583,
 "official": true
 },
 {
@@ -1106,7 +1120,7 @@
 ],
 "ts": 1792219574.5525737,
 "dur": 649,
-"views": 3033,
+"views": 3129,
 "official": false
 },
 {
@@ -1126,7 +1140,7 @@
 {
 "id": "yt_xhsBaMt2T1I",
 "vid": "xhsBaMt2T1I",
-"title": "The Truth About The Cincinnati Bengals | Joe Burrow All-22 Film Analysis",
+"title": "The Truth About Joe Burrow | Joe Burrow All 22 Film Analysis",
 "channel": "Talking Football",
 "kind": "hl",
 "players": [
@@ -1134,7 +1148,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 13820,
+"views": 15000,
 "official": false
 },
 {
@@ -1330,7 +1344,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 503,
+"views": 515,
 "official": false
 },
 {
@@ -1344,7 +1358,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 2575,
+"views": 2620,
 "official": false
 },
 {
@@ -1414,7 +1428,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 9942,
+"views": 9963,
 "official": false
 },
 {
@@ -1428,7 +1442,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 37444,
+"views": 37556,
 "official": true
 },
 {
@@ -1471,7 +1485,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 8468,
+"views": 8498,
 "official": true
 },
 {
@@ -1569,7 +1583,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 1214,
+"views": 1220,
 "official": false
 },
 {
@@ -1836,7 +1850,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 139,
-"views": 318,
+"views": 321,
 "official": false
 },
 {
@@ -1878,7 +1892,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 143,
-"views": 399,
+"views": 410,
 "official": false
 },
 {
@@ -1934,7 +1948,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 3539,
+"views": 3555,
 "official": false
 },
 {
@@ -2018,7 +2032,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 315,
-"views": 601,
+"views": 602,
 "official": false
 },
 {
@@ -2187,7 +2201,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4232,
+"views": 4302,
 "official": false
 },
 {
@@ -2201,7 +2215,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 192,
-"views": 934,
+"views": 940,
 "official": false
 },
 {
@@ -2229,7 +2243,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 601,
+"views": 607,
 "official": false
 },
 {
@@ -2271,7 +2285,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 36,
-"views": 8387,
+"views": 8505,
 "official": true
 },
 {
@@ -2581,7 +2595,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 261,
-"views": 151,
+"views": 157,
 "official": true
 },
 {
@@ -2840,7 +2854,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15413,
+"views": 15431,
 "official": true
 },
 {
@@ -2952,7 +2966,7 @@
 ],
 "ts": 1791850650.5018563,
 "dur": 176,
-"views": 308,
+"views": 309,
 "official": true
 },
 {
@@ -3176,7 +3190,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 232,
-"views": 1528,
+"views": 1568,
 "official": false
 },
 {
@@ -3316,7 +3330,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 283,
-"views": 27511,
+"views": 27523,
 "official": true
 },
 {
@@ -3344,7 +3358,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1720,
-"views": 28662,
+"views": 28669,
 "official": true
 },
 {
@@ -3358,7 +3372,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 171,
-"views": 23480,
+"views": 23611,
 "official": false
 },
 {
@@ -3582,7 +3596,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 153,
-"views": 72420,
+"views": 72573,
 "official": true
 },
 {
@@ -3596,7 +3610,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 93,
-"views": 567623,
+"views": 567796,
 "official": true
 },
 {
@@ -3624,7 +3638,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 356,
-"views": 8853,
+"views": 8856,
 "official": true
 },
 {
@@ -3638,7 +3652,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 227,
-"views": 40998,
+"views": 41023,
 "official": true
 },
 {
@@ -3652,7 +3666,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1477,
-"views": 9170,
+"views": 9177,
 "official": true
 },
 {
@@ -3694,7 +3708,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 717,
-"views": 344433,
+"views": 344566,
 "official": false
 },
 {
@@ -3708,7 +3722,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 492,
-"views": 37997,
+"views": 38001,
 "official": false
 },
 {
@@ -3750,7 +3764,7 @@
 ],
 "ts": 1791845008.5833495,
 "dur": 1411,
-"views": 57614,
+"views": 57622,
 "official": true
 },
 {
