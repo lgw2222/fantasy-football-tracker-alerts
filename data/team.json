@@ -80,7 +80,7 @@
    "espnId": 16737,
    "pts": 26.3,
    "proj": 14.86,
-   "injury": "QUESTIONABLE"
+   "injury": "ACTIVE"
   },
   {
    "slot": "D/ST",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-19T06:19:08+00:00"
+ "updated": "2026-10-19T22:57:54+00:00"
 }
