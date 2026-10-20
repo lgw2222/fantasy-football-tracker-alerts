@@ -1,7 +1,105 @@
 {
-"ts": 1792465418.287872,
-"updated": "2026-10-20T03:03:38.287872+00:00",
+"ts": 1792477163.371701,
+"updated": "2026-10-20T06:19:23.371701+00:00",
 "items": [
+{
+"id": "yt_TbJd5UE5CAE",
+"vid": "TbJd5UE5CAE",
+"title": "Unc & Ocho HEATED ARGUMENT Over Giants BENCHING Jameis Winston for JJ McCarthy! | Nightcap",
+"channel": "Nightcap",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792477163.371701,
+"dur": 1918,
+"views": 208860,
+"official": false
+},
+{
+"id": "yt_904qxtlG1rU",
+"vid": "904qxtlG1rU",
+"title": "Did J.J. McCarthy just jolt past Jameis Winston on Giants\u2019 depth chart? | Blue Rush",
+"channel": "New York Post Sports",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792477163.371701,
+"dur": 1515,
+"views": 4114,
+"official": false
+},
+{
+"id": "yt_6kYpCF2PHNw",
+"vid": "6kYpCF2PHNw",
+"title": "Is J.J. McCarthy good enough to get Jameis Winston benched? | NYG411",
+"channel": "SNY",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792477163.371701,
+"dur": 3549,
+"views": 2413,
+"official": false
+},
+{
+"id": "yt_rgXmg_6GH_U",
+"vid": "rgXmg_6GH_U",
+"title": "Mike Evans exits game early in 49ers' 23-17 win over Commanders | NBC Sports Bay Area",
+"channel": "NBC Sports Bay Area & California",
+"kind": "hl",
+"players": [
+"Mike Evans|SF"
+],
+"ts": 1792477163.371701,
+"dur": 135,
+"views": 288,
+"official": true
+},
+{
+"id": "yt_yy0BOrPZGZM",
+"vid": "yy0BOrPZGZM",
+"title": "\ud83d\udea8BREAKING: Major Mike Evans Injury Update + 49ers Win Thriller vs. Commanders | Reaction",
+"channel": "49ers Report by Chat Sports",
+"kind": "hl",
+"players": [
+"Mike Evans|SF"
+],
+"ts": 1792477163.371701,
+"dur": 1172,
+"views": 3745,
+"official": true
+},
+{
+"id": "yt_HpSAwqqZ-uc",
+"vid": "HpSAwqqZ-uc",
+"title": "Ventrell Miller MIC'D UP in Week 5 | Jacksonville Jaguars",
+"channel": "Jacksonville Jaguars",
+"kind": "int",
+"players": [
+"Jaguars|JAX"
+],
+"ts": 1792477163.371701,
+"dur": 254,
+"views": 25383,
+"official": true
+},
+{
+"id": "yt_jYcuqRTsScQ",
+"vid": "jYcuqRTsScQ",
+"title": "Travis Hunter\u2019s HISTORIC Texans-Jaguars game: Blueprint for using two-way superstar | Sherman Reacts",
+"channel": "The Richard Sherman Podcast",
+"kind": "int",
+"players": [
+"Jaguars|JAX"
+],
+"ts": 1792477163.371701,
+"dur": 751,
+"views": 10171,
+"official": false
+},
 {
 "id": "yt_17rNkzYJLg4",
 "vid": "17rNkzYJLg4",
@@ -13,7 +111,7 @@
 ],
 "ts": 1792465418.287872,
 "dur": 355,
-"views": 44174,
+"views": 48886,
 "official": false
 },
 {
@@ -41,7 +139,7 @@
 ],
 "ts": 1792465418.287872,
 "dur": 2840,
-"views": 26665,
+"views": 26705,
 "official": false
 },
 {
@@ -55,7 +153,7 @@
 ],
 "ts": 1792456221.5507917,
 "dur": 359,
-"views": 62,
+"views": 68,
 "official": false
 },
 {
@@ -69,7 +167,7 @@
 ],
 "ts": 1792456221.5507917,
 "dur": 873,
-"views": 57040,
+"views": 57046,
 "official": false
 },
 {
@@ -83,7 +181,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 1014,
-"views": 35658,
+"views": 41496,
 "official": false
 },
 {
@@ -97,7 +195,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 163,
-"views": 1267,
+"views": 2004,
 "official": false
 },
 {
@@ -111,7 +209,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 638,
-"views": 20902,
+"views": 21262,
 "official": true
 },
 {
@@ -125,7 +223,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 105,
-"views": 49,
+"views": 50,
 "official": false
 },
 {
@@ -139,7 +237,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 129,
-"views": 101,
+"views": 109,
 "official": false
 },
 {
@@ -153,7 +251,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 271,
-"views": 159,
+"views": 164,
 "official": false
 },
 {
@@ -167,7 +265,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 203,
-"views": 4696,
+"views": 4703,
 "official": false
 },
 {
@@ -181,7 +279,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 167,
-"views": 7837,
+"views": 9017,
 "official": false
 },
 {
@@ -195,7 +293,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 206,
-"views": 6259,
+"views": 6279,
 "official": true
 },
 {
@@ -209,7 +307,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 281,
-"views": 30,
+"views": 35,
 "official": true
 },
 {
@@ -223,7 +321,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 1046,
-"views": 18451,
+"views": 19482,
 "official": false
 },
 {
@@ -237,7 +335,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 1161,
-"views": 8379,
+"views": 8397,
 "official": true
 },
 {
@@ -251,7 +349,7 @@
 ],
 "ts": 1792416755.4282892,
 "dur": 732,
-"views": 16655,
+"views": 16662,
 "official": false
 },
 {
@@ -279,7 +377,7 @@
 ],
 "ts": 1792416755.4282892,
 "dur": 211,
-"views": 2065,
+"views": 2066,
 "official": true
 },
 {
@@ -335,7 +433,7 @@
 ],
 "ts": 1792380318.1774054,
 "dur": 663,
-"views": 20808,
+"views": 20819,
 "official": false
 },
 {
@@ -349,7 +447,7 @@
 ],
 "ts": 1792374813.1350887,
 "dur": 399,
-"views": 55524,
+"views": 65220,
 "official": false
 },
 {
@@ -377,7 +475,7 @@
 ],
 "ts": 1792374813.1350887,
 "dur": 418,
-"views": 11962,
+"views": 12020,
 "official": true
 },
 {
@@ -391,7 +489,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 900,
-"views": 23798,
+"views": 24519,
 "official": true
 },
 {
@@ -406,7 +504,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 2014,
-"views": 31942,
+"views": 32417,
 "official": true
 },
 {
@@ -420,7 +518,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 607,
-"views": 22376,
+"views": 23003,
 "official": false
 },
 {
@@ -462,7 +560,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 1463,
-"views": 8046,
+"views": 8047,
 "official": false
 },
 {
@@ -476,7 +574,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 383,
-"views": 36160,
+"views": 40577,
 "official": false
 },
 {
@@ -518,7 +616,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 9,
-"views": 11560,
+"views": 11597,
 "official": true
 },
 {
@@ -532,7 +630,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 181,
-"views": 12120,
+"views": 12367,
 "official": true
 },
 {
@@ -546,7 +644,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 73,
-"views": 62159,
+"views": 62583,
 "official": false
 },
 {
@@ -602,7 +700,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 59,
-"views": 19641,
+"views": 19884,
 "official": false
 },
 {
@@ -658,7 +756,7 @@
 ],
 "ts": 1792336263.5189078,
 "dur": 1946,
-"views": 36796,
+"views": 36830,
 "official": false
 },
 {
@@ -714,7 +812,7 @@
 ],
 "ts": 1792330782.5618083,
 "dur": 116,
-"views": 376,
+"views": 382,
 "official": false
 },
 {
@@ -742,7 +840,7 @@
 ],
 "ts": 1792317344.5631714,
 "dur": 235,
-"views": 22030,
+"views": 22033,
 "official": true
 },
 {
@@ -756,7 +854,7 @@
 ],
 "ts": 1792317344.5631714,
 "dur": 525,
-"views": 13502,
+"views": 13526,
 "official": true
 },
 {
@@ -882,7 +980,7 @@
 ],
 "ts": 1792264603.5277872,
 "dur": 71,
-"views": null,
+"views": 1,
 "official": false
 },
 {
@@ -952,7 +1050,7 @@
 ],
 "ts": 1792264603.5277872,
 "dur": 137,
-"views": 2579,
+"views": 2581,
 "official": false
 },
 {
@@ -1036,7 +1134,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 399,
-"views": 20134,
+"views": 20163,
 "official": false
 },
 {
@@ -1064,7 +1162,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 402,
-"views": 8557,
+"views": 8568,
 "official": true
 },
 {
@@ -1078,7 +1176,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 147,
-"views": 1184,
+"views": 1183,
 "official": false
 },
 {
@@ -1092,7 +1190,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 140,
-"views": 1897,
+"views": 1906,
 "official": false
 },
 {
@@ -1120,7 +1218,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 613,
-"views": 17822,
+"views": 17828,
 "official": false
 },
 {
@@ -1358,7 +1456,7 @@
 ],
 "ts": 1792235514.0707815,
 "dur": 1283,
-"views": 16670,
+"views": 16685,
 "official": true
 },
 {
@@ -1400,7 +1498,7 @@
 ],
 "ts": 1792219574.5525737,
 "dur": 649,
-"views": 3269,
+"views": 3285,
 "official": false
 },
 {
@@ -1420,7 +1518,7 @@
 {
 "id": "yt_xhsBaMt2T1I",
 "vid": "xhsBaMt2T1I",
-"title": "The Truth About Joe Burrow | Joe Burrow All 22 Film Analysis",
+"title": "The Truth About The Cincinnati Bengals | Joe Burrow All-22 Film Analysis",
 "channel": "Talking Football",
 "kind": "hl",
 "players": [
@@ -1428,7 +1526,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 22017,
+"views": 23408,
 "official": false
 },
 {
@@ -1498,7 +1596,7 @@
 ],
 "ts": 1792194946.8572202,
 "dur": 366,
-"views": 2872,
+"views": 2926,
 "official": false
 },
 {
@@ -1526,7 +1624,7 @@
 ],
 "ts": 1792194946.8572202,
 "dur": 270,
-"views": 223,
+"views": 227,
 "official": false
 },
 {
@@ -1624,7 +1722,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 572,
+"views": 589,
 "official": false
 },
 {
@@ -1638,7 +1736,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 3065,
+"views": 3101,
 "official": false
 },
 {
@@ -1708,7 +1806,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 10109,
+"views": 10126,
 "official": false
 },
 {
@@ -1722,7 +1820,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 38091,
+"views": 38181,
 "official": true
 },
 {
@@ -1765,7 +1863,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 8604,
+"views": 8624,
 "official": true
 },
 {
@@ -1878,7 +1976,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 17768,
+"views": 17773,
 "official": false
 },
 {
@@ -2032,7 +2130,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 10090,
+"views": 10097,
 "official": false
 },
 {
@@ -2172,7 +2270,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 143,
-"views": 424,
+"views": 423,
 "official": false
 },
 {
@@ -2228,7 +2326,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 3663,
+"views": 3743,
 "official": false
 },
 {
@@ -2327,7 +2425,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 26256,
+"views": 26258,
 "official": false
 },
 {
@@ -2369,7 +2467,7 @@
 ],
 "ts": 1792006007.2208607,
 "dur": 1100,
-"views": 3093,
+"views": 3094,
 "official": false
 },
 {
@@ -2481,7 +2579,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4340,
+"views": 4348,
 "official": false
 },
 {
@@ -2523,7 +2621,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 635,
+"views": 636,
 "official": false
 },
 {
@@ -2733,7 +2831,7 @@
 ],
 "ts": 1791928638.6172817,
 "dur": 108,
-"views": 31,
+"views": 33,
 "official": false
 },
 {
@@ -2776,7 +2874,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 348,
-"views": 17162,
+"views": 17164,
 "official": true
 },
 {
@@ -2917,7 +3015,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 811,
-"views": 4874,
+"views": 4878,
 "official": false
 },
 {
@@ -2973,7 +3071,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 152042,
+"views": 152190,
 "official": false
 },
 {
@@ -3134,7 +3232,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15477,
+"views": 15487,
 "official": true
 },
 {
