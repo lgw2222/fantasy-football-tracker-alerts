@@ -1,23 +1,20 @@
 """
 Live play alerts for Knee-ver Over the Hill, sent to Discord.
 
-Every run (GitHub Actions; one run stays on for hours, checking every 40s while games are live):
-  - checks ESPN's public NFL data for touchdowns, 10+ yard plays and D/ST takeaways by your players
+Every run (GitHub Actions, every ~5 min; loops every 40s while games are live):
+  - checks ESPN's public NFL data for touchdowns, 40+ yard plays and D/ST takeaways by your players
   - posts the alert to Discord right away, with a one-tap X search for that game
   - keeps watching for ESPN's clip of the play and posts the video into Discord when it appears
 
 Roster comes from data/team.json (ESPN sync) or the default roster below.
 """
-import json, os, re, sys, time, subprocess, uuid, pathlib, datetime, urllib.request, urllib.parse
+import json, os, re, sys, time, uuid, pathlib, datetime, urllib.request, urllib.parse
 
-WEBHOOK = os.environ.get("DISCORD_WEBHOOK") or "https://discord.com/api/webhooks/1557042917086863378/6YmcA-UBA3B2Z8tYI2aWpsqUuH-Z2vgbpXtK29h2I4Yip2UTji-AmWYYZo-3bbfRSm34"
+WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "").strip()  # stored as a private GitHub secret, never in the code
 SITE_URL = os.environ.get("SITE_URL", "")
-BIG_PLAY = 10            # yards
+BIG_PLAY = 40            # yards
 CLIP_WAIT_MIN = 120      # keep looking for a clip this long after the play
-LOOP_SECONDS = 5 * 3600 + 20 * 60   # one run keeps watching up to ~5h20m while games are live or about to start
-SOON_HOURS = 3           # keep the run alive if one of your games kicks off within this many hours
-FEED_EVERY = 45 * 60     # refresh the Clips tab's YouTube highlights/interviews this often during a long run
-PUSH_EVERY = 300         # save alert state back to the repo this often during a long run
+LOOP_SECONDS = 240       # how long one run keeps checking while games are live
 LOOP_EVERY = 40
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -290,22 +287,12 @@ def run_once(state, ros, first_run):
     live = False
     now = time.time()
     state["_active"] = set()
-    state["_soon"] = False
     for ev in sb.get("events") or []:
         c = ev["competitions"][0]
         st = c["status"]["type"]["state"]
         comp = {x["homeAway"]: x for x in c["competitors"]}
         h, a = comp["home"]["team"]["abbreviation"], comp["away"]["team"]["abbreviation"]
-        if not ({h, a} & teams):
-            continue
-        if st == "pre":
-            try:
-                until_h = (datetime.datetime.fromisoformat(ev["date"].replace("Z", "+00:00")) -
-                           datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 3600
-                if until_h < SOON_HOURS:
-                    state["_soon"] = True
-            except Exception:
-                pass
+        if not ({h, a} & teams) or st == "pre":
             continue
         live = live or st == "in"
         try:
@@ -371,23 +358,6 @@ def run_once(state, ros, first_run):
     return live
 
 
-def push_state():
-    """Commit data/ mid-run so a long run's progress is saved (only inside GitHub Actions)."""
-    if not os.environ.get("GITHUB_ACTIONS"):
-        return
-    try:
-        subprocess.run(["git", "config", "user.name", "github-actions[bot]"], cwd=ROOT, check=False)
-        subprocess.run(["git", "config", "user.email", "41898283+github-actions[bot]@users.noreply.github.com"], cwd=ROOT, check=False)
-        subprocess.run(["git", "add", "data/"], cwd=ROOT, check=False)
-        if subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=ROOT).returncode == 0:
-            return
-        subprocess.run(["git", "commit", "-q", "-m", "Update alert state"], cwd=ROOT, check=False)
-        subprocess.run(["git", "pull", "-q", "--rebase", "-X", "theirs"], cwd=ROOT, check=False)
-        subprocess.run(["git", "push", "-q"], cwd=ROOT, check=False)
-    except Exception as e:
-        print("push failed:", e)
-
-
 def main():
     state = load_state()
     first_run = state is None
@@ -395,11 +365,10 @@ def main():
     ros = roster()
     if first_run:
         discord({"embeds": [{"title": "✅ Knee-ver Alerts connected",
-                             "description": f"Watching {len(ros)} players. Touchdowns, 10+ yard plays and D/ST takeaways will post here, then ESPN's clip when it's up."
+                             "description": f"Watching {len(ros)} players. Touchdowns, 40+ yard plays and D/ST takeaways will post here, then ESPN's clip when it's up."
                                             + (f"\n[Open tracker]({SITE_URL})" if SITE_URL else ""),
                              "color": 0x1F5136}]})
     start = time.time()
-    last_push = start
     while True:
         try:
             live = run_once(state, ros, first_run)
@@ -414,26 +383,14 @@ def main():
                 print("X scan failed:", e)
             state["xLast"] = time.time()
         state.pop("_active", None)
-        soon = state.pop("_soon", False)
         state["seen"] = state["seen"][-4000:]
         state["sentClips"] = state["sentClips"][-1000:]
         state["doneEvents"] = state.get("doneEvents", [])[-300:]
         STATE.parent.mkdir(parents=True, exist_ok=True)
         STATE.write_text(json.dumps(state))
-        if not (live or soon or state["pending"]) or time.time() - start > LOOP_SECONDS:
+        if not (live or state["pending"]) or time.time() - start > LOOP_SECONDS:
             break
-        if time.time() - state.get("feedLast", 0) >= FEED_EVERY:
-            try:
-                import player_feed
-                player_feed.update()
-            except Exception as e:
-                print("player feed failed:", e)
-            state["feedLast"] = time.time()
-            STATE.write_text(json.dumps(state))
-        if time.time() - last_push >= PUSH_EVERY:
-            push_state()
-            last_push = time.time()
-        time.sleep(LOOP_EVERY if (live or state["pending"]) else 120)
+        time.sleep(LOOP_EVERY)
 
 
 if __name__ == "__main__":

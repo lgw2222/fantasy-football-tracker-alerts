@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 355   # one run can watch a whole game window
+    timeout-minutes: 9
     steps:
       - uses: actions/checkout@v4
 
@@ -31,11 +31,6 @@ jobs:
         run: |
           export SITE_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"
           python scripts/fetch_team.py
-
-      - name: Player highlights and interviews feed
-        continue-on-error: true
-        timeout-minutes: 6
-        run: python scripts/player_feed.py
 
       - name: Live play alerts and clips to Discord
         continue-on-error: true
