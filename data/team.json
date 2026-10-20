@@ -6,7 +6,7 @@
   "record": "3-2-0"
  },
  "matchup": {
-  "me": 112.8,
+  "me": 125.2,
   "opp": 88.8,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Favre Dollar Footlong"
@@ -78,9 +78,9 @@
    "team": "SF",
    "pos": "WR",
    "espnId": 16737,
-   "pts": 26.3,
+   "pts": 12.4,
    "proj": 14.86,
-   "injury": "ACTIVE"
+   "injury": "OUT"
   },
   {
    "slot": "D/ST",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-19T22:57:54+00:00"
+ "updated": "2026-10-20T03:03:38+00:00"
 }
