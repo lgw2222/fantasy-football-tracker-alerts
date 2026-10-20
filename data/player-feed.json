@@ -1,7 +1,35 @@
 {
-"ts": 1792450674.4073513,
-"updated": "2026-10-19T22:57:54.407351+00:00",
+"ts": 1792456221.5507917,
+"updated": "2026-10-20T00:30:21.550792+00:00",
 "items": [
+{
+"id": "yt_qWF8GiqCYRQ",
+"vid": "qWF8GiqCYRQ",
+"title": "What Can A CHRISTIAN Learn From JAMEIS WINSTON?",
+"channel": "DynasticCarrot",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792456221.5507917,
+"dur": 359,
+"views": 62,
+"official": false
+},
+{
+"id": "yt_IZXEIDpXGoM",
+"vid": "IZXEIDpXGoM",
+"title": "49ers Kyle Shanahan provides optimistic news on Nick Bosa, Kyle Juszczyk + Mike Evans development ",
+"channel": "TheSFNiners",
+"kind": "hl",
+"players": [
+"Mike Evans|SF"
+],
+"ts": 1792456221.5507917,
+"dur": 873,
+"views": 57020,
+"official": false
+},
 {
 "id": "yt_DVx5TTjxHn8",
 "vid": "DVx5TTjxHn8",
@@ -13,7 +41,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 1014,
-"views": 7280,
+"views": 22071,
 "official": false
 },
 {
@@ -27,7 +55,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 163,
-"views": 313,
+"views": 629,
 "official": false
 },
 {
@@ -41,7 +69,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 638,
-"views": 19963,
+"views": 20292,
 "official": true
 },
 {
@@ -55,7 +83,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 105,
-"views": 44,
+"views": 49,
 "official": false
 },
 {
@@ -83,7 +111,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 271,
-"views": 149,
+"views": 151,
 "official": false
 },
 {
@@ -97,7 +125,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 203,
-"views": 4681,
+"views": 4690,
 "official": false
 },
 {
@@ -111,7 +139,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 167,
-"views": 6327,
+"views": 6978,
 "official": false
 },
 {
@@ -125,7 +153,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 206,
-"views": 6226,
+"views": 6260,
 "official": true
 },
 {
@@ -139,7 +167,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 281,
-"views": 15,
+"views": 27,
 "official": true
 },
 {
@@ -153,7 +181,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 1046,
-"views": 13870,
+"views": 15881,
 "official": false
 },
 {
@@ -209,7 +237,7 @@
 ],
 "ts": 1792416755.4282892,
 "dur": 211,
-"views": 2064,
+"views": 2062,
 "official": true
 },
 {
@@ -265,7 +293,7 @@
 ],
 "ts": 1792380318.1774054,
 "dur": 663,
-"views": 20782,
+"views": 20804,
 "official": false
 },
 {
@@ -307,7 +335,7 @@
 ],
 "ts": 1792374813.1350887,
 "dur": 418,
-"views": 11394,
+"views": 11662,
 "official": true
 },
 {
@@ -321,7 +349,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 900,
-"views": 22529,
+"views": 22794,
 "official": true
 },
 {
@@ -336,7 +364,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 2014,
-"views": 30708,
+"views": 31270,
 "official": true
 },
 {
@@ -350,7 +378,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 607,
-"views": 21160,
+"views": 21563,
 "official": false
 },
 {
@@ -364,7 +392,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 481,
-"views": 24,
+"views": 25,
 "official": false
 },
 {
@@ -392,7 +420,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 1463,
-"views": 8044,
+"views": 8045,
 "official": false
 },
 {
@@ -406,7 +434,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 383,
-"views": 29635,
+"views": 30889,
 "official": false
 },
 {
@@ -448,7 +476,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 9,
-"views": 11466,
+"views": 11561,
 "official": true
 },
 {
@@ -462,7 +490,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 181,
-"views": 11705,
+"views": 11838,
 "official": true
 },
 {
@@ -490,7 +518,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 1306,
-"views": 2806,
+"views": 2921,
 "official": false
 },
 {
@@ -504,7 +532,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 289,
-"views": 81755,
+"views": 83181,
 "official": true
 },
 {
@@ -532,7 +560,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 59,
-"views": 19174,
+"views": 19387,
 "official": false
 },
 {
@@ -588,7 +616,7 @@
 ],
 "ts": 1792336263.5189078,
 "dur": 1946,
-"views": 36065,
+"views": 36760,
 "official": false
 },
 {
@@ -622,7 +650,7 @@
 {
 "id": "yt_sLDK-cuAcJE",
 "vid": "sLDK-cuAcJE",
-"title": "Mike Evans Is Becoming Everything Jerry Rice Warned Us About..",
+"title": "Jerry Rice Tried to Warn Us About Mike Evans, But Nobody Listened..",
 "channel": "KRICH Productions",
 "kind": "hl",
 "players": [
@@ -630,7 +658,7 @@
 ],
 "ts": 1792330782.5618083,
 "dur": 1229,
-"views": 62270,
+"views": 63519,
 "official": false
 },
 {
@@ -686,7 +714,7 @@
 ],
 "ts": 1792317344.5631714,
 "dur": 525,
-"views": 13479,
+"views": 13502,
 "official": true
 },
 {
@@ -882,7 +910,7 @@
 ],
 "ts": 1792264603.5277872,
 "dur": 137,
-"views": 2544,
+"views": 2575,
 "official": false
 },
 {
@@ -966,7 +994,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 399,
-"views": 20109,
+"views": 20119,
 "official": false
 },
 {
@@ -994,7 +1022,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 402,
-"views": 8554,
+"views": 8556,
 "official": true
 },
 {
@@ -1008,7 +1036,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 147,
-"views": 1169,
+"views": 1176,
 "official": false
 },
 {
@@ -1022,7 +1050,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 140,
-"views": 1869,
+"views": 1889,
 "official": false
 },
 {
@@ -1288,7 +1316,7 @@
 ],
 "ts": 1792235514.0707815,
 "dur": 1283,
-"views": 16639,
+"views": 16655,
 "official": true
 },
 {
@@ -1358,7 +1386,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 20096,
+"views": 20701,
 "official": false
 },
 {
@@ -1456,7 +1484,7 @@
 ],
 "ts": 1792194946.8572202,
 "dur": 270,
-"views": 195,
+"views": 222,
 "official": false
 },
 {
@@ -1554,7 +1582,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 551,
+"views": 561,
 "official": false
 },
 {
@@ -1568,7 +1596,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 3012,
+"views": 3063,
 "official": false
 },
 {
@@ -1638,7 +1666,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 10056,
+"views": 10105,
 "official": false
 },
 {
@@ -1652,7 +1680,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 37925,
+"views": 38019,
 "official": true
 },
 {
@@ -1695,7 +1723,7 @@
 ],
 "ts": 1792119424.3013573,
 "dur": 529,
-"views": 8574,
+"views": 8591,
 "official": true
 },
 {
@@ -1793,7 +1821,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 1251,
+"views": 1254,
 "official": false
 },
 {
@@ -1808,7 +1836,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 17750,
+"views": 17762,
 "official": false
 },
 {
@@ -1836,7 +1864,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 1532,
-"views": 67356,
+"views": 68254,
 "official": false
 },
 {
@@ -1962,7 +1990,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 10076,
+"views": 10089,
 "official": false
 },
 {
@@ -2355,7 +2383,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 1691,
-"views": 2770,
+"views": 2777,
 "official": false
 },
 {
@@ -2411,7 +2439,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4330,
+"views": 4339,
 "official": false
 },
 {
@@ -2453,7 +2481,7 @@
 ],
 "ts": 1791955730.9242766,
 "dur": 476,
-"views": 629,
+"views": 633,
 "official": false
 },
 {
@@ -2706,7 +2734,7 @@
 ],
 "ts": 1791913343.7018223,
 "dur": 348,
-"views": 17157,
+"views": 17158,
 "official": true
 },
 {
@@ -2847,7 +2875,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 811,
-"views": 4819,
+"views": 4872,
 "official": false
 },
 {
@@ -2903,7 +2931,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 151723,
+"views": 151922,
 "official": false
 },
 {
