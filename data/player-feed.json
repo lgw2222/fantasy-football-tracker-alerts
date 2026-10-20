@@ -1,7 +1,35 @@
 {
-"ts": 1792496929.7159946,
-"updated": "2026-10-20T11:48:49.715995+00:00",
+"ts": 1792511459.2081425,
+"updated": "2026-10-20T15:50:59.208143+00:00",
 "items": [
+{
+"id": "yt_8P73oDEl8pQ",
+"vid": "8P73oDEl8pQ",
+"title": "How will John Harbaugh handle decision with J.J. McCarthy, Jameis Winston? | Pro Football Talk",
+"channel": "NFL on NBC",
+"kind": "hl",
+"players": [
+"Jameis Winston|NYG"
+],
+"ts": 1792511459.2081425,
+"dur": 313,
+"views": 1518,
+"official": true
+},
+{
+"id": "yt_K2dA3qpY9lY",
+"vid": "K2dA3qpY9lY",
+"title": "Bhayshul Tuten NFL Week 6 Highlights | Every Play",
+"channel": "FOOTBALL ARCHIVE",
+"kind": "hl",
+"players": [
+"Bhayshul Tuten|JAX"
+],
+"ts": 1792511459.2081425,
+"dur": 157,
+"views": null,
+"official": false
+},
 {
 "id": "yt_h9TN82w_ZNk",
 "vid": "h9TN82w_ZNk",
@@ -27,7 +55,7 @@
 ],
 "ts": 1792496929.7159946,
 "dur": 605,
-"views": 40944,
+"views": 50187,
 "official": false
 },
 {
@@ -41,7 +69,7 @@
 ],
 "ts": 1792477163.371701,
 "dur": 1918,
-"views": 216271,
+"views": 220249,
 "official": false
 },
 {
@@ -83,7 +111,7 @@
 ],
 "ts": 1792477163.371701,
 "dur": 135,
-"views": 749,
+"views": 876,
 "official": true
 },
 {
@@ -97,7 +125,7 @@
 ],
 "ts": 1792477163.371701,
 "dur": 1172,
-"views": 12078,
+"views": 15901,
 "official": true
 },
 {
@@ -111,7 +139,7 @@
 ],
 "ts": 1792477163.371701,
 "dur": 254,
-"views": 25383,
+"views": 25395,
 "official": true
 },
 {
@@ -125,7 +153,7 @@
 ],
 "ts": 1792477163.371701,
 "dur": 751,
-"views": 11146,
+"views": 11757,
 "official": false
 },
 {
@@ -139,7 +167,7 @@
 ],
 "ts": 1792465418.287872,
 "dur": 355,
-"views": 51477,
+"views": 53810,
 "official": false
 },
 {
@@ -153,7 +181,7 @@
 ],
 "ts": 1792465418.287872,
 "dur": 1948,
-"views": 8998,
+"views": 9001,
 "official": false
 },
 {
@@ -195,7 +223,7 @@
 ],
 "ts": 1792456221.5507917,
 "dur": 873,
-"views": 57125,
+"views": 57135,
 "official": false
 },
 {
@@ -209,7 +237,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 1014,
-"views": 44083,
+"views": 45729,
 "official": false
 },
 {
@@ -223,7 +251,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 163,
-"views": 2647,
+"views": 2902,
 "official": false
 },
 {
@@ -237,7 +265,7 @@
 ],
 "ts": 1792450674.4073513,
 "dur": 638,
-"views": 21416,
+"views": 21540,
 "official": true
 },
 {
@@ -265,7 +293,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 129,
-"views": 117,
+"views": 120,
 "official": false
 },
 {
@@ -293,7 +321,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 203,
-"views": 4712,
+"views": 4715,
 "official": false
 },
 {
@@ -307,7 +335,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 167,
-"views": 10225,
+"views": 10780,
 "official": false
 },
 {
@@ -321,7 +349,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 206,
-"views": 6286,
+"views": 6291,
 "official": true
 },
 {
@@ -335,7 +363,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 281,
-"views": 43,
+"views": 48,
 "official": true
 },
 {
@@ -349,7 +377,7 @@
 ],
 "ts": 1792437978.9817138,
 "dur": 1046,
-"views": 19982,
+"views": 20230,
 "official": false
 },
 {
@@ -377,7 +405,7 @@
 ],
 "ts": 1792416755.4282892,
 "dur": 732,
-"views": 16668,
+"views": 16672,
 "official": false
 },
 {
@@ -447,7 +475,7 @@
 ],
 "ts": 1792380318.1774054,
 "dur": 716,
-"views": 35516,
+"views": 35782,
 "official": true
 },
 {
@@ -461,7 +489,7 @@
 ],
 "ts": 1792380318.1774054,
 "dur": 663,
-"views": 20827,
+"views": 20842,
 "official": false
 },
 {
@@ -503,7 +531,7 @@
 ],
 "ts": 1792374813.1350887,
 "dur": 418,
-"views": 12119,
+"views": 12157,
 "official": true
 },
 {
@@ -517,7 +545,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 900,
-"views": 24761,
+"views": 24902,
 "official": true
 },
 {
@@ -532,7 +560,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 2014,
-"views": 32747,
+"views": 32977,
 "official": true
 },
 {
@@ -546,7 +574,7 @@
 ],
 "ts": 1792369336.4445994,
 "dur": 607,
-"views": 23369,
+"views": 23545,
 "official": false
 },
 {
@@ -602,7 +630,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 383,
-"views": 42916,
+"views": 44499,
 "official": false
 },
 {
@@ -644,7 +672,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 9,
-"views": 11742,
+"views": 11796,
 "official": true
 },
 {
@@ -658,7 +686,7 @@
 ],
 "ts": 1792361064.6140132,
 "dur": 181,
-"views": 12526,
+"views": 12688,
 "official": true
 },
 {
@@ -672,7 +700,7 @@
 ],
 "ts": 1792355562.9564905,
 "dur": 73,
-"views": 62860,
+"views": 62970,
 "official": false
 },
 {
@@ -700,7 +728,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 289,
-"views": 84670,
+"views": 84743,
 "official": true
 },
 {
@@ -728,7 +756,7 @@
 ],
 "ts": 1792350060.1549203,
 "dur": 59,
-"views": 20045,
+"views": 20125,
 "official": false
 },
 {
@@ -784,7 +812,7 @@
 ],
 "ts": 1792336263.5189078,
 "dur": 1946,
-"views": 36861,
+"views": 36886,
 "official": false
 },
 {
@@ -840,7 +868,7 @@
 ],
 "ts": 1792330782.5618083,
 "dur": 116,
-"views": 392,
+"views": 396,
 "official": false
 },
 {
@@ -1162,7 +1190,7 @@
 ],
 "ts": 1792256805.185111,
 "dur": 399,
-"views": 20173,
+"views": 20184,
 "official": false
 },
 {
@@ -1484,7 +1512,7 @@
 ],
 "ts": 1792235514.0707815,
 "dur": 1283,
-"views": 16688,
+"views": 16699,
 "official": true
 },
 {
@@ -1554,7 +1582,7 @@
 ],
 "ts": 1792202489.7064066,
 "dur": 895,
-"views": 24421,
+"views": 25108,
 "official": false
 },
 {
@@ -1708,7 +1736,7 @@
 ],
 "ts": 1792194946.8572202,
 "dur": 721,
-"views": 21403,
+"views": 21492,
 "official": true
 },
 {
@@ -1750,7 +1778,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 127,
-"views": 604,
+"views": 608,
 "official": false
 },
 {
@@ -1764,7 +1792,7 @@
 ],
 "ts": 1792164601.651666,
 "dur": 144,
-"views": 3163,
+"views": 3178,
 "official": false
 },
 {
@@ -1834,7 +1862,7 @@
 ],
 "ts": 1792150625.6383116,
 "dur": 1491,
-"views": 10177,
+"views": 10194,
 "official": false
 },
 {
@@ -1848,7 +1876,7 @@
 ],
 "ts": 1792131714.7679946,
 "dur": 96,
-"views": 38278,
+"views": 38318,
 "official": true
 },
 {
@@ -1989,7 +2017,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 163,
-"views": 1272,
+"views": 1276,
 "official": false
 },
 {
@@ -2004,7 +2032,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 968,
-"views": 17784,
+"views": 17795,
 "official": false
 },
 {
@@ -2018,7 +2046,7 @@
 ],
 "ts": 1792100127.6819,
 "dur": 888,
-"views": 11964,
+"views": 22508,
 "official": true
 },
 {
@@ -2158,7 +2186,7 @@
 ],
 "ts": 1792088851.4836361,
 "dur": 589,
-"views": 10104,
+"views": 10107,
 "official": false
 },
 {
@@ -2298,7 +2326,7 @@
 ],
 "ts": 1792057794.3074584,
 "dur": 143,
-"views": 429,
+"views": 430,
 "official": false
 },
 {
@@ -2354,7 +2382,7 @@
 ],
 "ts": 1792024811.984813,
 "dur": 141,
-"views": 3754,
+"views": 3770,
 "official": false
 },
 {
@@ -2453,7 +2481,7 @@
 ],
 "ts": 1792016815.4725647,
 "dur": 311,
-"views": 26271,
+"views": 26274,
 "official": false
 },
 {
@@ -2551,7 +2579,7 @@
 ],
 "ts": 1791991055.7709591,
 "dur": 1691,
-"views": 2777,
+"views": 2779,
 "official": false
 },
 {
@@ -2607,7 +2635,7 @@
 ],
 "ts": 1791973590.2049446,
 "dur": 113,
-"views": 4355,
+"views": 4356,
 "official": false
 },
 {
@@ -3043,7 +3071,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 811,
-"views": 4893,
+"views": 4900,
 "official": false
 },
 {
@@ -3099,7 +3127,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 568,
-"views": 152323,
+"views": 152364,
 "official": false
 },
 {
@@ -3260,7 +3288,7 @@
 ],
 "ts": 1791887307.3600912,
 "dur": 32,
-"views": 15505,
+"views": 15507,
 "official": true
 },
 {
