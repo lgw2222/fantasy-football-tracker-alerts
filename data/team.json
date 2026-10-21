@@ -19,7 +19,7 @@
    "pos": "QB",
    "espnId": 3915511,
    "pts": 0.0,
-   "proj": 18.6,
+   "proj": 18.64,
    "injury": "ACTIVE"
   },
   {
@@ -29,7 +29,7 @@
    "pos": "RB",
    "espnId": 4429096,
    "pts": 14.0,
-   "proj": 10.0,
+   "proj": 9.99,
    "injury": "ACTIVE"
   },
   {
@@ -139,7 +139,7 @@
    "pos": "WR",
    "espnId": 4688813,
    "pts": 8.7,
-   "proj": 8.38,
+   "proj": 8.37,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-21T10:19:34+00:00"
+ "updated": "2026-10-21T22:28:04+00:00"
 }
