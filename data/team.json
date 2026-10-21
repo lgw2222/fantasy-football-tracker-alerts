@@ -14,22 +14,22 @@
  "roster": [
   {
    "slot": "QB",
-   "name": "Jameis Winston",
-   "team": "NYG",
+   "name": "Joe Burrow",
+   "team": "CIN",
    "pos": "QB",
-   "espnId": 2969939,
-   "pts": 6.4,
-   "proj": 0.0,
+   "espnId": 3915511,
+   "pts": 0.0,
+   "proj": 18.6,
    "injury": "ACTIVE"
   },
   {
    "slot": "RB",
-   "name": "Bhayshul Tuten",
-   "team": "JAX",
+   "name": "Blake Corum",
+   "team": "LAR",
    "pos": "RB",
-   "espnId": 4882093,
-   "pts": 24.7,
-   "proj": 0.0,
+   "espnId": 4429096,
+   "pts": 14.0,
+   "proj": 10.0,
    "injury": "ACTIVE"
   },
   {
@@ -44,26 +44,6 @@
   },
   {
    "slot": "WR",
-   "name": "Jaxon Smith-Njigba",
-   "team": "SEA",
-   "pos": "WR",
-   "espnId": 4430878,
-   "pts": 25.4,
-   "proj": 20.07,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "WR",
-   "name": "Malik Nabers",
-   "team": "NYG",
-   "pos": "WR",
-   "espnId": 4595348,
-   "pts": 28.5,
-   "proj": 17.69,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "FLEX",
    "name": "Tetairoa McMillan",
    "team": "CAR",
    "pos": "WR",
@@ -73,14 +53,34 @@
    "injury": "ACTIVE"
   },
   {
-   "slot": "FLEX",
-   "name": "Mike Evans",
-   "team": "SF",
+   "slot": "WR",
+   "name": "Devaughn Vele",
+   "team": "NO",
    "pos": "WR",
-   "espnId": 16737,
-   "pts": 12.4,
-   "proj": 0.0,
-   "injury": "QUESTIONABLE"
+   "espnId": 4569559,
+   "pts": 7.2,
+   "proj": 10.28,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "FLEX",
+   "name": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "pos": "WR",
+   "espnId": 4430878,
+   "pts": 25.4,
+   "proj": 20.07,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "FLEX",
+   "name": "Malik Nabers",
+   "team": "NYG",
+   "pos": "WR",
+   "espnId": 4595348,
+   "pts": 28.5,
+   "proj": 17.69,
+   "injury": "ACTIVE"
   },
   {
    "slot": "D/ST",
@@ -114,23 +114,23 @@
   },
   {
    "slot": "Bench",
-   "name": "Joe Burrow",
-   "team": "CIN",
-   "pos": "QB",
-   "espnId": 3915511,
-   "pts": 0.0,
-   "proj": 18.6,
+   "name": "Bhayshul Tuten",
+   "team": "JAX",
+   "pos": "RB",
+   "espnId": 4882093,
+   "pts": 24.7,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
    "slot": "Bench",
-   "name": "Blake Corum",
-   "team": "LAR",
-   "pos": "RB",
-   "espnId": 4429096,
-   "pts": 14.0,
-   "proj": 10.0,
-   "injury": "ACTIVE"
+   "name": "Mike Evans",
+   "team": "SF",
+   "pos": "WR",
+   "espnId": 16737,
+   "pts": 12.4,
+   "proj": 0.0,
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "Bench",
@@ -154,22 +154,22 @@
   },
   {
    "slot": "Bench",
-   "name": "Devaughn Vele",
-   "team": "NO",
-   "pos": "WR",
-   "espnId": 4569559,
-   "pts": 7.2,
-   "proj": 10.28,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
    "name": "MarShawn Lloyd",
    "team": "GB",
    "pos": "RB",
    "espnId": 4429023,
    "pts": 1.0,
    "proj": 3.18,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
+   "name": "Jameis Winston",
+   "team": "NYG",
+   "pos": "QB",
+   "espnId": 2969939,
+   "pts": 6.4,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-20T19:39:33+00:00"
+ "updated": "2026-10-21T05:23:40+00:00"
 }
