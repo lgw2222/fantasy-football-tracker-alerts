@@ -164,12 +164,12 @@
   },
   {
    "slot": "Bench",
-   "name": "Jameis Winston",
+   "name": "Tyrone Tracy Jr.",
    "team": "NYG",
-   "pos": "QB",
-   "espnId": 2969939,
-   "pts": 6.4,
-   "proj": 0.0,
+   "pos": "RB",
+   "espnId": 4360516,
+   "pts": 18.5,
+   "proj": 5.62,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-21T05:23:40+00:00"
+ "updated": "2026-10-21T10:19:34+00:00"
 }
