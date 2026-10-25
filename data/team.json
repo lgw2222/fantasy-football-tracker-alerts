@@ -84,12 +84,12 @@
   },
   {
    "slot": "D/ST",
-   "name": "Jaguars",
-   "team": "JAX",
+   "name": "Panthers",
+   "team": "CAR",
    "pos": "D/ST",
-   "espnId": -16030,
-   "pts": -2.0,
-   "proj": 0.0,
+   "espnId": -16029,
+   "pts": 6.0,
+   "proj": 6.12,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-24T21:24:12+00:00"
+ "updated": "2026-10-25T01:20:40+00:00"
 }
