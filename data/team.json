@@ -6,8 +6,8 @@
   "record": "4-2-0"
  },
  "matchup": {
-  "me": 34.0,
-  "opp": 18.7,
+  "me": 71.9,
+  "opp": 54.0,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Kickers Only B Team"
  },
@@ -18,7 +18,7 @@
    "team": "CIN",
    "pos": "QB",
    "espnId": 3915511,
-   "pts": 1.2,
+   "pts": 28.2,
    "proj": 18.61,
    "injury": "ACTIVE"
   },
@@ -28,7 +28,7 @@
    "team": "LAR",
    "pos": "RB",
    "espnId": 4429096,
-   "pts": 14.0,
+   "pts": 3.2,
    "proj": 10.02,
    "injury": "ACTIVE"
   },
@@ -48,7 +48,7 @@
    "team": "CAR",
    "pos": "WR",
    "espnId": 4685472,
-   "pts": 3.7,
+   "pts": 8.0,
    "proj": 15.81,
    "injury": "ACTIVE"
   },
@@ -78,7 +78,7 @@
    "team": "NYG",
    "pos": "WR",
    "espnId": 4595348,
-   "pts": 9.7,
+   "pts": 18.1,
    "proj": 17.69,
    "injury": "ACTIVE"
   },
@@ -88,7 +88,7 @@
    "team": "CAR",
    "pos": "D/ST",
    "espnId": -16029,
-   "pts": 3.0,
+   "pts": -3.0,
    "proj": 6.12,
    "injury": "ACTIVE"
   },
@@ -98,7 +98,7 @@
    "team": "CAR",
    "pos": "K",
    "espnId": 4568263,
-   "pts": 0.0,
+   "pts": 1.0,
    "proj": 9.48,
    "injury": "ACTIVE"
   },
@@ -138,7 +138,7 @@
    "team": "IND",
    "pos": "WR",
    "espnId": 4688813,
-   "pts": 1.5,
+   "pts": 3.8,
    "proj": 8.37,
    "injury": "ACTIVE"
   },
@@ -158,7 +158,7 @@
    "team": "GB",
    "pos": "RB",
    "espnId": 4429023,
-   "pts": 1.0,
+   "pts": 2.0,
    "proj": 3.18,
    "injury": "ACTIVE"
   },
@@ -170,7 +170,7 @@
    "espnId": 4360516,
    "pts": 8.7,
    "proj": 5.47,
-   "injury": "ACTIVE"
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "IR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-25T18:15:27+00:00"
+ "updated": "2026-10-25T20:51:58+00:00"
 }
