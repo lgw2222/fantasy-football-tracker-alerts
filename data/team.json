@@ -6,8 +6,8 @@
   "record": "4-2-0"
  },
  "matchup": {
-  "me": 0,
-  "opp": 0,
+  "me": 13.0,
+  "opp": 14.4,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Kickers Only B Team"
  },
@@ -29,7 +29,7 @@
    "pos": "RB",
    "espnId": 4429096,
    "pts": 14.0,
-   "proj": 10.6,
+   "proj": 10.02,
    "injury": "ACTIVE"
   },
   {
@@ -58,7 +58,7 @@
    "team": "NO",
    "pos": "WR",
    "espnId": 4569559,
-   "pts": 7.2,
+   "pts": 13.0,
    "proj": 10.28,
    "injury": "ACTIVE"
   },
@@ -79,7 +79,7 @@
    "pos": "WR",
    "espnId": 4595348,
    "pts": 28.5,
-   "proj": 17.68,
+   "proj": 17.69,
    "injury": "ACTIVE"
   },
   {
@@ -169,7 +169,7 @@
    "pos": "RB",
    "espnId": 4360516,
    "pts": 18.5,
-   "proj": 5.62,
+   "proj": 4.77,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-25T01:20:40+00:00"
+ "updated": "2026-10-25T15:01:13+00:00"
 }
