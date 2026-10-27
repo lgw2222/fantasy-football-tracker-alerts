@@ -170,7 +170,7 @@
    "espnId": 4360516,
    "pts": 8.7,
    "proj": 0.0,
-   "injury": "QUESTIONABLE"
+   "injury": "OUT"
   },
   {
    "slot": "IR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-27T16:12:45+00:00"
+ "updated": "2026-10-27T20:41:24+00:00"
 }
