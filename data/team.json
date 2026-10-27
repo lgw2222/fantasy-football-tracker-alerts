@@ -1,15 +1,15 @@
 {
  "season": 2026,
- "week": 7,
+ "week": 8,
  "team": {
   "name": "Knee-ver Over the Hill",
-  "record": "4-2-0"
+  "record": "5-2-0"
  },
  "matchup": {
-  "me": 135.6,
-  "opp": 126.0,
+  "me": 0,
+  "opp": 0,
   "meName": "Knee-ver Over the Hill",
-  "oppName": "Kickers Only B Team"
+  "oppName": "TEs Final Stand"
  },
  "roster": [
   {
@@ -19,7 +19,7 @@
    "pos": "QB",
    "espnId": 3915511,
    "pts": 28.2,
-   "proj": 18.61,
+   "proj": 21.3,
    "injury": "ACTIVE"
   },
   {
@@ -29,7 +29,7 @@
    "pos": "RB",
    "espnId": 4429096,
    "pts": 17.1,
-   "proj": 10.02,
+   "proj": 11.48,
    "injury": "ACTIVE"
   },
   {
@@ -39,7 +39,7 @@
    "pos": "RB",
    "espnId": 4887558,
    "pts": 18.5,
-   "proj": 10.68,
+   "proj": 8.76,
    "injury": "ACTIVE"
   },
   {
@@ -49,7 +49,7 @@
    "pos": "WR",
    "espnId": 4685472,
    "pts": 8.0,
-   "proj": 15.81,
+   "proj": 15.63,
    "injury": "ACTIVE"
   },
   {
@@ -59,7 +59,7 @@
    "pos": "WR",
    "espnId": 4569559,
    "pts": 16.4,
-   "proj": 10.28,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
@@ -69,7 +69,7 @@
    "pos": "WR",
    "espnId": 4430878,
    "pts": 31.3,
-   "proj": 20.03,
+   "proj": 21.99,
    "injury": "ACTIVE"
   },
   {
@@ -79,7 +79,7 @@
    "pos": "WR",
    "espnId": 4595348,
    "pts": 18.1,
-   "proj": 17.69,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
@@ -89,7 +89,7 @@
    "pos": "D/ST",
    "espnId": -16029,
    "pts": -3.0,
-   "proj": 6.12,
+   "proj": 4.67,
    "injury": "ACTIVE"
   },
   {
@@ -99,7 +99,7 @@
    "pos": "K",
    "espnId": 4568263,
    "pts": 1.0,
-   "proj": 9.48,
+   "proj": 7.37,
    "injury": "ACTIVE"
   },
   {
@@ -108,8 +108,8 @@
    "team": "LAC",
    "pos": "RB",
    "espnId": 4685382,
-   "pts": 7.9,
-   "proj": 0.0,
+   "pts": 0.0,
+   "proj": 8.16,
    "injury": "ACTIVE"
   },
   {
@@ -118,8 +118,8 @@
    "team": "JAX",
    "pos": "RB",
    "espnId": 4882093,
-   "pts": 24.7,
-   "proj": 0.0,
+   "pts": 0.0,
+   "proj": 14.71,
    "injury": "ACTIVE"
   },
   {
@@ -149,7 +149,7 @@
    "pos": "RB",
    "espnId": 4426385,
    "pts": 0.0,
-   "proj": 0.0,
+   "proj": 11.37,
    "injury": "OUT"
   },
   {
@@ -159,7 +159,7 @@
    "pos": "RB",
    "espnId": 4429023,
    "pts": 5.5,
-   "proj": 3.18,
+   "proj": 4.91,
    "injury": "ACTIVE"
   },
   {
@@ -169,7 +169,7 @@
    "pos": "RB",
    "espnId": 4360516,
    "pts": 8.7,
-   "proj": 5.47,
+   "proj": 0.0,
    "injury": "QUESTIONABLE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-27T05:42:22+00:00"
+ "updated": "2026-10-27T10:59:27+00:00"
 }
