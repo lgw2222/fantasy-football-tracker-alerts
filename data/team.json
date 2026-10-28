@@ -24,6 +24,16 @@
   },
   {
    "slot": "RB",
+   "name": "Bhayshul Tuten",
+   "team": "JAX",
+   "pos": "RB",
+   "espnId": 4882093,
+   "pts": 0.0,
+   "proj": 14.72,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "RB",
    "name": "Blake Corum",
    "team": "LAR",
    "pos": "RB",
@@ -33,13 +43,13 @@
    "injury": "ACTIVE"
   },
   {
-   "slot": "RB",
-   "name": "Emanuel Wilson",
+   "slot": "WR",
+   "name": "Jaxon Smith-Njigba",
    "team": "SEA",
-   "pos": "RB",
-   "espnId": 4887558,
-   "pts": 18.5,
-   "proj": 8.75,
+   "pos": "WR",
+   "espnId": 4430878,
+   "pts": 31.3,
+   "proj": 21.99,
    "injury": "ACTIVE"
   },
   {
@@ -53,33 +63,23 @@
    "injury": "ACTIVE"
   },
   {
-   "slot": "WR",
-   "name": "Devaughn Vele",
-   "team": "NO",
-   "pos": "WR",
-   "espnId": 4569559,
-   "pts": 16.4,
-   "proj": 0.0,
-   "injury": "ACTIVE"
-  },
-  {
    "slot": "FLEX",
-   "name": "Jaxon Smith-Njigba",
+   "name": "Zach Charbonnet",
    "team": "SEA",
-   "pos": "WR",
-   "espnId": 4430878,
-   "pts": 31.3,
-   "proj": 21.99,
-   "injury": "ACTIVE"
+   "pos": "RB",
+   "espnId": 4426385,
+   "pts": 0.0,
+   "proj": 11.36,
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "FLEX",
-   "name": "Malik Nabers",
-   "team": "NYG",
-   "pos": "WR",
-   "espnId": 4595348,
-   "pts": 18.1,
-   "proj": 0.0,
+   "name": "Emanuel Wilson",
+   "team": "SEA",
+   "pos": "RB",
+   "espnId": 4887558,
+   "pts": 18.5,
+   "proj": 8.75,
    "injury": "ACTIVE"
   },
   {
@@ -114,12 +114,12 @@
   },
   {
    "slot": "Bench",
-   "name": "Bhayshul Tuten",
-   "team": "JAX",
-   "pos": "RB",
-   "espnId": 4882093,
-   "pts": 0.0,
-   "proj": 14.71,
+   "name": "Malik Nabers",
+   "team": "NYG",
+   "pos": "WR",
+   "espnId": 4595348,
+   "pts": 18.1,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
@@ -134,23 +134,13 @@
   },
   {
    "slot": "Bench",
-   "name": "Josh Downs",
-   "team": "IND",
+   "name": "Devaughn Vele",
+   "team": "NO",
    "pos": "WR",
-   "espnId": 4688813,
-   "pts": 3.8,
-   "proj": 8.37,
+   "espnId": 4569559,
+   "pts": 16.4,
+   "proj": 0.0,
    "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
-   "name": "Zach Charbonnet",
-   "team": "SEA",
-   "pos": "RB",
-   "espnId": 4426385,
-   "pts": 0.0,
-   "proj": 11.36,
-   "injury": "QUESTIONABLE"
   },
   {
    "slot": "Bench",
@@ -164,13 +154,23 @@
   },
   {
    "slot": "Bench",
-   "name": "Tyrone Tracy Jr.",
-   "team": "NYG",
+   "name": "Rico Dowdle",
+   "team": "PIT",
    "pos": "RB",
-   "espnId": 4360516,
-   "pts": 8.7,
-   "proj": 0.0,
-   "injury": "INJURY_RESERVE"
+   "espnId": 4038815,
+   "pts": 14.6,
+   "proj": 9.33,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
+   "name": "Makai Lemon",
+   "team": "PHI",
+   "pos": "WR",
+   "espnId": 4870795,
+   "pts": 19.7,
+   "proj": 6.48,
+   "injury": "ACTIVE"
   },
   {
    "slot": "IR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-27T23:59:45+00:00"
+ "updated": "2026-10-28T16:48:41+00:00"
 }
