@@ -6,7 +6,7 @@
   "record": "5-2-0"
  },
  "matchup": {
-  "me": 0,
+  "me": 21.2,
   "opp": 0,
   "meName": "Knee-ver Over the Hill",
   "oppName": "TEs Final Stand"
@@ -58,7 +58,7 @@
    "team": "CAR",
    "pos": "WR",
    "espnId": 4685472,
-   "pts": 8.0,
+   "pts": 6.2,
    "proj": 15.64,
    "injury": "ACTIVE"
   },
@@ -88,7 +88,7 @@
    "team": "CAR",
    "pos": "D/ST",
    "espnId": -16029,
-   "pts": -3.0,
+   "pts": 6.0,
    "proj": 4.68,
    "injury": "ACTIVE"
   },
@@ -98,7 +98,7 @@
    "team": "CAR",
    "pos": "K",
    "espnId": 4568263,
-   "pts": 1.0,
+   "pts": 9.0,
    "proj": 7.37,
    "injury": "ACTIVE"
   },
@@ -148,7 +148,7 @@
    "team": "GB",
    "pos": "RB",
    "espnId": 4429023,
-   "pts": 5.5,
+   "pts": 2.6,
    "proj": 4.9,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-10-29T23:19:10+00:00"
+ "updated": "2026-10-30T02:39:55+00:00"
 }
