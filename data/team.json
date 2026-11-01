@@ -6,8 +6,8 @@
   "record": "5-2-0"
  },
  "matchup": {
-  "me": 25.8,
-  "opp": 0,
+  "me": 28.1,
+  "opp": 20.0,
   "meName": "Knee-ver Over the Hill",
   "oppName": "TEs Final Stand"
  },
@@ -18,8 +18,8 @@
    "team": "CIN",
    "pos": "QB",
    "espnId": 3915511,
-   "pts": 28.2,
-   "proj": 21.96,
+   "pts": -2.0,
+   "proj": 21.97,
    "injury": "ACTIVE"
   },
   {
@@ -28,8 +28,8 @@
    "team": "JAX",
    "pos": "RB",
    "espnId": 4882093,
-   "pts": 0.0,
-   "proj": 14.72,
+   "pts": 2.8,
+   "proj": 14.56,
    "injury": "ACTIVE"
   },
   {
@@ -64,22 +64,22 @@
   },
   {
    "slot": "FLEX",
-   "name": "Zach Charbonnet",
-   "team": "SEA",
-   "pos": "RB",
-   "espnId": 4426385,
-   "pts": 0.0,
-   "proj": 10.4,
+   "name": "Makai Lemon",
+   "team": "PHI",
+   "pos": "WR",
+   "espnId": 4870795,
+   "pts": 19.7,
+   "proj": 10.18,
    "injury": "ACTIVE"
   },
   {
    "slot": "FLEX",
-   "name": "Emanuel Wilson",
-   "team": "SEA",
-   "pos": "RB",
-   "espnId": 4887558,
-   "pts": 18.5,
-   "proj": 6.94,
+   "name": "Kyle Pitts Sr.",
+   "team": "ATL",
+   "pos": "TE",
+   "espnId": 4360248,
+   "pts": 1.5,
+   "proj": 10.23,
    "injury": "ACTIVE"
   },
   {
@@ -134,6 +134,16 @@
   },
   {
    "slot": "Bench",
+   "name": "Zach Charbonnet",
+   "team": "SEA",
+   "pos": "RB",
+   "espnId": 4426385,
+   "pts": 0.0,
+   "proj": 10.4,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
    "name": "Devaughn Vele",
    "team": "NO",
    "pos": "WR",
@@ -144,32 +154,22 @@
   },
   {
    "slot": "Bench",
+   "name": "Emanuel Wilson",
+   "team": "SEA",
+   "pos": "RB",
+   "espnId": 4887558,
+   "pts": 18.5,
+   "proj": 6.94,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
    "name": "MarShawn Lloyd",
    "team": "GB",
    "pos": "RB",
    "espnId": 4429023,
    "pts": 2.6,
    "proj": 4.91,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
-   "name": "Rico Dowdle",
-   "team": "PIT",
-   "pos": "RB",
-   "espnId": 4038815,
-   "pts": 14.6,
-   "proj": 9.33,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
-   "name": "Makai Lemon",
-   "team": "PHI",
-   "pos": "WR",
-   "espnId": 4870795,
-   "pts": 19.7,
-   "proj": 10.18,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-01T13:47:07+00:00"
+ "updated": "2026-11-01T18:36:20+00:00"
 }
