@@ -6,8 +6,8 @@
   "record": "5-2-0"
  },
  "matchup": {
-  "me": 28.1,
-  "opp": 20.0,
+  "me": 98.1,
+  "opp": 69.2,
   "meName": "Knee-ver Over the Hill",
   "oppName": "TEs Final Stand"
  },
@@ -18,7 +18,7 @@
    "team": "CIN",
    "pos": "QB",
    "espnId": 3915511,
-   "pts": -2.0,
+   "pts": 39.0,
    "proj": 21.97,
    "injury": "ACTIVE"
   },
@@ -28,7 +28,7 @@
    "team": "JAX",
    "pos": "RB",
    "espnId": 4882093,
-   "pts": 2.8,
+   "pts": 29.9,
    "proj": 14.56,
    "injury": "ACTIVE"
   },
@@ -38,7 +38,7 @@
    "team": "LAR",
    "pos": "RB",
    "espnId": 4429096,
-   "pts": 17.1,
+   "pts": 0.8,
    "proj": 11.51,
    "injury": "ACTIVE"
   },
@@ -49,7 +49,7 @@
    "pos": "WR",
    "espnId": 4430878,
    "pts": 31.3,
-   "proj": 21.47,
+   "proj": 22.06,
    "injury": "ACTIVE"
   },
   {
@@ -78,7 +78,7 @@
    "team": "ATL",
    "pos": "TE",
    "espnId": 4360248,
-   "pts": 1.5,
+   "pts": 2.6,
    "proj": 10.23,
    "injury": "ACTIVE"
   },
@@ -108,7 +108,7 @@
    "team": "LAC",
    "pos": "RB",
    "espnId": 4685382,
-   "pts": 0.0,
+   "pts": 3.5,
    "proj": 8.15,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-01T18:36:20+00:00"
+ "updated": "2026-11-01T22:19:51+00:00"
 }
