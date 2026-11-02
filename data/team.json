@@ -6,7 +6,7 @@
   "record": "5-2-0"
  },
  "matchup": {
-  "me": 110.6,
+  "me": 122.3,
   "opp": 77.5,
   "meName": "Knee-ver Over the Hill",
   "oppName": "TEs Final Stand"
@@ -68,7 +68,7 @@
    "team": "PHI",
    "pos": "WR",
    "espnId": 4870795,
-   "pts": 0.0,
+   "pts": 11.7,
    "proj": 10.18,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-02T01:34:30+00:00"
+ "updated": "2026-11-02T08:11:13+00:00"
 }
