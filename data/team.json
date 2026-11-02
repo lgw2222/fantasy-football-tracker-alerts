@@ -6,8 +6,8 @@
   "record": "5-2-0"
  },
  "matchup": {
-  "me": 98.1,
-  "opp": 69.2,
+  "me": 110.6,
+  "opp": 77.5,
   "meName": "Knee-ver Over the Hill",
   "oppName": "TEs Final Stand"
  },
@@ -38,7 +38,7 @@
    "team": "LAR",
    "pos": "RB",
    "espnId": 4429096,
-   "pts": 0.8,
+   "pts": 13.3,
    "proj": 11.51,
    "injury": "ACTIVE"
   },
@@ -68,7 +68,7 @@
    "team": "PHI",
    "pos": "WR",
    "espnId": 4870795,
-   "pts": 19.7,
+   "pts": 0.0,
    "proj": 10.18,
    "injury": "ACTIVE"
   },
@@ -108,7 +108,7 @@
    "team": "LAC",
    "pos": "RB",
    "espnId": 4685382,
-   "pts": 3.5,
+   "pts": 4.7,
    "proj": 8.15,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-01T22:19:51+00:00"
+ "updated": "2026-11-02T01:34:30+00:00"
 }
