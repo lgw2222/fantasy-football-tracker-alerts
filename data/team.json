@@ -30,7 +30,7 @@
    "espnId": 4882093,
    "pts": 29.9,
    "proj": 14.56,
-   "injury": "ACTIVE"
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "RB",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-02T08:11:13+00:00"
+ "updated": "2026-11-03T00:59:26+00:00"
 }
