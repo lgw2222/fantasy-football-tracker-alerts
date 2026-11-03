@@ -6,8 +6,8 @@
   "record": "5-2-0"
  },
  "matchup": {
-  "me": 122.3,
-  "opp": 77.5,
+  "me": 146.1,
+  "opp": 90.2,
   "meName": "Knee-ver Over the Hill",
   "oppName": "TEs Final Stand"
  },
@@ -48,7 +48,7 @@
    "team": "SEA",
    "pos": "WR",
    "espnId": 4430878,
-   "pts": 31.3,
+   "pts": 23.8,
    "proj": 22.06,
    "injury": "ACTIVE"
   },
@@ -138,7 +138,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4426385,
-   "pts": 0.0,
+   "pts": 5.9,
    "proj": 10.4,
    "injury": "ACTIVE"
   },
@@ -158,7 +158,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4887558,
-   "pts": 18.5,
+   "pts": 0.0,
    "proj": 6.94,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-03T00:59:26+00:00"
+ "updated": "2026-11-03T07:36:04+00:00"
 }
