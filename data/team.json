@@ -34,22 +34,22 @@
   },
   {
    "slot": "RB",
-   "name": "Blake Corum",
-   "team": "LAR",
+   "name": "Zach Charbonnet",
+   "team": "SEA",
    "pos": "RB",
-   "espnId": 4429096,
-   "pts": 13.3,
-   "proj": 9.84,
+   "espnId": 4426385,
+   "pts": 5.9,
+   "proj": 10.76,
    "injury": "ACTIVE"
   },
   {
    "slot": "WR",
-   "name": "Jaxon Smith-Njigba",
-   "team": "SEA",
+   "name": "Malik Nabers",
+   "team": "NYG",
    "pos": "WR",
-   "espnId": 4430878,
-   "pts": 23.8,
-   "proj": 22.5,
+   "espnId": 4595348,
+   "pts": 0.0,
+   "proj": 17.12,
    "injury": "ACTIVE"
   },
   {
@@ -64,23 +64,23 @@
   },
   {
    "slot": "FLEX",
-   "name": "Kyle Pitts Sr.",
-   "team": "ATL",
-   "pos": "TE",
-   "espnId": 4360248,
-   "pts": 2.6,
-   "proj": 10.1,
+   "name": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "pos": "WR",
+   "espnId": 4430878,
+   "pts": 23.8,
+   "proj": 22.1,
    "injury": "ACTIVE"
   },
   {
    "slot": "FLEX",
-   "name": "Adonai Mitchell",
-   "team": "NYJ",
+   "name": "Mike Evans",
+   "team": "SF",
    "pos": "WR",
-   "espnId": 4597500,
-   "pts": 27.2,
-   "proj": 9.76,
-   "injury": "ACTIVE"
+   "espnId": 16737,
+   "pts": 0.0,
+   "proj": 15.79,
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "D/ST",
@@ -89,7 +89,7 @@
    "pos": "D/ST",
    "espnId": -16029,
    "pts": 5.0,
-   "proj": 4.79,
+   "proj": 4.87,
    "injury": "ACTIVE"
   },
   {
@@ -114,32 +114,12 @@
   },
   {
    "slot": "Bench",
-   "name": "Malik Nabers",
-   "team": "NYG",
-   "pos": "WR",
-   "espnId": 4595348,
-   "pts": 0.0,
-   "proj": 17.12,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
-   "name": "Mike Evans",
-   "team": "SF",
-   "pos": "WR",
-   "espnId": 16737,
-   "pts": 0.0,
-   "proj": 15.79,
-   "injury": "QUESTIONABLE"
-  },
-  {
-   "slot": "Bench",
-   "name": "Zach Charbonnet",
-   "team": "SEA",
+   "name": "Blake Corum",
+   "team": "LAR",
    "pos": "RB",
-   "espnId": 4426385,
-   "pts": 5.9,
-   "proj": 10.93,
+   "espnId": 4429096,
+   "pts": 13.3,
+   "proj": 9.84,
    "injury": "ACTIVE"
   },
   {
@@ -173,6 +153,26 @@
    "injury": "ACTIVE"
   },
   {
+   "slot": "Bench",
+   "name": "Kyle Pitts Sr.",
+   "team": "ATL",
+   "pos": "TE",
+   "espnId": 4360248,
+   "pts": 2.6,
+   "proj": 10.1,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
+   "name": "Adonai Mitchell",
+   "team": "NYJ",
+   "pos": "WR",
+   "espnId": 4597500,
+   "pts": 27.2,
+   "proj": 9.76,
+   "injury": "ACTIVE"
+  },
+  {
    "slot": "IR",
    "name": "Jonathon Brooks",
    "team": "CAR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-04T15:41:17+00:00"
+ "updated": "2026-11-04T21:29:37+00:00"
 }
