@@ -29,7 +29,7 @@
    "pos": "RB",
    "espnId": 4882093,
    "pts": 29.9,
-   "proj": 15.29,
+   "proj": 15.3,
    "injury": "QUESTIONABLE"
   },
   {
@@ -149,7 +149,7 @@
    "pos": "WR",
    "espnId": 4569559,
    "pts": 0.0,
-   "proj": 9.92,
+   "proj": 10.0,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-03T21:10:25+00:00"
+ "updated": "2026-11-04T07:31:22+00:00"
 }
