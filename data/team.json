@@ -6,8 +6,8 @@
   "record": "6-2-0"
  },
  "matchup": {
-  "me": 8.2,
-  "opp": 7.4,
+  "me": 8.9,
+  "opp": 11.0,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Bench Players Win Leagues"
  },
@@ -28,7 +28,7 @@
    "team": "JAX",
    "pos": "RB",
    "espnId": 4882093,
-   "pts": 8.2,
+   "pts": 8.9,
    "proj": 15.3,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-06T02:25:38+00:00"
+ "updated": "2026-11-06T09:34:45+00:00"
 }
