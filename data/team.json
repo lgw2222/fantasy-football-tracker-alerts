@@ -34,12 +34,12 @@
   },
   {
    "slot": "RB",
-   "name": "Zach Charbonnet",
-   "team": "SEA",
+   "name": "Blake Corum",
+   "team": "LAR",
    "pos": "RB",
-   "espnId": 4426385,
-   "pts": 5.9,
-   "proj": 10.76,
+   "espnId": 4429096,
+   "pts": 13.3,
+   "proj": 9.84,
    "injury": "ACTIVE"
   },
   {
@@ -74,13 +74,13 @@
   },
   {
    "slot": "FLEX",
-   "name": "Mike Evans",
-   "team": "SF",
+   "name": "Devaughn Vele",
+   "team": "NO",
    "pos": "WR",
-   "espnId": 16737,
+   "espnId": 4569559,
    "pts": 0.0,
-   "proj": 0.0,
-   "injury": "QUESTIONABLE"
+   "proj": 10.0,
+   "injury": "ACTIVE"
   },
   {
    "slot": "D/ST",
@@ -114,22 +114,22 @@
   },
   {
    "slot": "Bench",
-   "name": "Blake Corum",
-   "team": "LAR",
-   "pos": "RB",
-   "espnId": 4429096,
-   "pts": 13.3,
-   "proj": 9.84,
-   "injury": "ACTIVE"
+   "name": "Mike Evans",
+   "team": "SF",
+   "pos": "WR",
+   "espnId": 16737,
+   "pts": 0.0,
+   "proj": 0.0,
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "Bench",
-   "name": "Devaughn Vele",
-   "team": "NO",
-   "pos": "WR",
-   "espnId": 4569559,
-   "pts": 0.0,
-   "proj": 10.0,
+   "name": "Zach Charbonnet",
+   "team": "SEA",
+   "pos": "RB",
+   "espnId": 4426385,
+   "pts": 5.9,
+   "proj": 10.76,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-06T09:34:45+00:00"
+ "updated": "2026-11-06T16:54:15+00:00"
 }
