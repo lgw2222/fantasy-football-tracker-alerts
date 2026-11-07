@@ -120,7 +120,7 @@
    "espnId": 16737,
    "pts": 0.0,
    "proj": 0.0,
-   "injury": "QUESTIONABLE"
+   "injury": "OUT"
   },
   {
    "slot": "Bench",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-06T21:47:43+00:00"
+ "updated": "2026-11-07T01:16:44+00:00"
 }
