@@ -6,8 +6,8 @@
   "record": "6-2-0"
  },
  "matchup": {
-  "me": 48.4,
-  "opp": 28.1,
+  "me": 97.6,
+  "opp": 77.3,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Bench Players Win Leagues"
  },
@@ -19,7 +19,7 @@
    "pos": "QB",
    "espnId": 3915511,
    "pts": 28.7,
-   "proj": 21.29,
+   "proj": 20.36,
    "injury": "ACTIVE"
   },
   {
@@ -29,7 +29,7 @@
    "pos": "RB",
    "espnId": 4882093,
    "pts": 8.9,
-   "proj": 15.3,
+   "proj": 15.45,
    "injury": "ACTIVE"
   },
   {
@@ -38,7 +38,7 @@
    "team": "LAR",
    "pos": "RB",
    "espnId": 4429096,
-   "pts": 0.4,
+   "pts": 11.8,
    "proj": 9.84,
    "injury": "ACTIVE"
   },
@@ -48,7 +48,7 @@
    "team": "NYG",
    "pos": "WR",
    "espnId": 4595348,
-   "pts": 3.2,
+   "pts": 9.3,
    "proj": 17.06,
    "injury": "ACTIVE"
   },
@@ -58,7 +58,7 @@
    "team": "CAR",
    "pos": "WR",
    "espnId": 4685472,
-   "pts": 2.2,
+   "pts": 15.6,
    "proj": 13.56,
    "injury": "ACTIVE"
   },
@@ -68,7 +68,7 @@
    "team": "SEA",
    "pos": "WR",
    "espnId": 4430878,
-   "pts": 23.8,
+   "pts": 5.6,
    "proj": 22.46,
    "injury": "ACTIVE"
   },
@@ -78,7 +78,7 @@
    "team": "NO",
    "pos": "WR",
    "espnId": 4569559,
-   "pts": 0.0,
+   "pts": 3.7,
    "proj": 8.73,
    "injury": "ACTIVE"
   },
@@ -88,7 +88,7 @@
    "team": "KC",
    "pos": "D/ST",
    "espnId": -16012,
-   "pts": 6.0,
+   "pts": 12.0,
    "proj": 6.05,
    "injury": "ACTIVE"
   },
@@ -98,7 +98,7 @@
    "team": "CAR",
    "pos": "K",
    "espnId": 4568263,
-   "pts": -1.0,
+   "pts": 2.0,
    "proj": 7.29,
    "injury": "ACTIVE"
   },
@@ -108,7 +108,7 @@
    "team": "LAC",
    "pos": "RB",
    "espnId": 4685382,
-   "pts": 4.7,
+   "pts": 0.9,
    "proj": 8.81,
    "injury": "ACTIVE"
   },
@@ -128,7 +128,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4426385,
-   "pts": 5.9,
+   "pts": 4.1,
    "proj": 10.76,
    "injury": "ACTIVE"
   },
@@ -148,9 +148,9 @@
    "team": "GB",
    "pos": "RB",
    "espnId": 4429023,
-   "pts": 2.6,
-   "proj": 3.87,
-   "injury": "QUESTIONABLE"
+   "pts": 0.0,
+   "proj": 0.0,
+   "injury": "OUT"
   },
   {
    "slot": "Bench",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-08T18:55:44+00:00"
+ "updated": "2026-11-08T22:34:58+00:00"
 }
