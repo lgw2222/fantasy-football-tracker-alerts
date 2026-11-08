@@ -84,12 +84,12 @@
   },
   {
    "slot": "D/ST",
-   "name": "Panthers",
-   "team": "CAR",
+   "name": "Chiefs",
+   "team": "KC",
    "pos": "D/ST",
-   "espnId": -16029,
-   "pts": 5.0,
-   "proj": 4.6,
+   "espnId": -16012,
+   "pts": 2.0,
+   "proj": 6.05,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-07T22:11:23+00:00"
+ "updated": "2026-11-08T07:31:36+00:00"
 }
