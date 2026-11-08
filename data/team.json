@@ -6,8 +6,8 @@
   "record": "6-2-0"
  },
  "matchup": {
-  "me": 8.9,
-  "opp": 11.0,
+  "me": 48.4,
+  "opp": 28.1,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Bench Players Win Leagues"
  },
@@ -18,7 +18,7 @@
    "team": "CIN",
    "pos": "QB",
    "espnId": 3915511,
-   "pts": 39.0,
+   "pts": 28.7,
    "proj": 21.29,
    "injury": "ACTIVE"
   },
@@ -38,7 +38,7 @@
    "team": "LAR",
    "pos": "RB",
    "espnId": 4429096,
-   "pts": 13.3,
+   "pts": 0.4,
    "proj": 9.84,
    "injury": "ACTIVE"
   },
@@ -48,7 +48,7 @@
    "team": "NYG",
    "pos": "WR",
    "espnId": 4595348,
-   "pts": 0.0,
+   "pts": 3.2,
    "proj": 17.06,
    "injury": "ACTIVE"
   },
@@ -58,8 +58,8 @@
    "team": "CAR",
    "pos": "WR",
    "espnId": 4685472,
-   "pts": 11.8,
-   "proj": 13.55,
+   "pts": 2.2,
+   "proj": 13.56,
    "injury": "ACTIVE"
   },
   {
@@ -88,7 +88,7 @@
    "team": "KC",
    "pos": "D/ST",
    "espnId": -16012,
-   "pts": 2.0,
+   "pts": 6.0,
    "proj": 6.05,
    "injury": "ACTIVE"
   },
@@ -98,7 +98,7 @@
    "team": "CAR",
    "pos": "K",
    "espnId": 4568263,
-   "pts": 9.0,
+   "pts": -1.0,
    "proj": 7.29,
    "injury": "ACTIVE"
   },
@@ -158,7 +158,7 @@
    "team": "ATL",
    "pos": "TE",
    "espnId": 4360248,
-   "pts": 2.6,
+   "pts": 5.3,
    "proj": 10.14,
    "injury": "ACTIVE"
   },
@@ -168,8 +168,8 @@
    "team": "NYJ",
    "pos": "WR",
    "espnId": 4597500,
-   "pts": 27.2,
-   "proj": 11.34,
+   "pts": 0.0,
+   "proj": 11.35,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-08T07:31:36+00:00"
+ "updated": "2026-11-08T18:55:44+00:00"
 }
