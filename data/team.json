@@ -6,8 +6,8 @@
   "record": "6-2-0"
  },
  "matchup": {
-  "me": 97.6,
-  "opp": 77.3,
+  "me": 104.1,
+  "opp": 92.6,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Bench Players Win Leagues"
  },
@@ -68,7 +68,7 @@
    "team": "SEA",
    "pos": "WR",
    "espnId": 4430878,
-   "pts": 5.6,
+   "pts": 12.1,
    "proj": 22.46,
    "injury": "ACTIVE"
   },
@@ -108,7 +108,7 @@
    "team": "LAC",
    "pos": "RB",
    "espnId": 4685382,
-   "pts": 0.9,
+   "pts": 6.0,
    "proj": 8.81,
    "injury": "ACTIVE"
   },
@@ -128,7 +128,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4426385,
-   "pts": 4.1,
+   "pts": 9.6,
    "proj": 10.76,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-08T22:34:58+00:00"
+ "updated": "2026-11-09T01:54:56+00:00"
 }
