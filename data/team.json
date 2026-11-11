@@ -30,7 +30,7 @@
    "espnId": 4882093,
    "pts": 8.9,
    "proj": 17.26,
-   "injury": "ACTIVE"
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "RB",
@@ -89,7 +89,7 @@
    "pos": "D/ST",
    "espnId": -16012,
    "pts": 12.0,
-   "proj": 4.89,
+   "proj": 4.9,
    "injury": "ACTIVE"
   },
   {
@@ -150,7 +150,7 @@
    "espnId": 4429023,
    "pts": 0.0,
    "proj": 7.38,
-   "injury": "QUESTIONABLE"
+   "injury": "OUT"
   },
   {
    "slot": "Bench",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-11T08:52:06+00:00"
+ "updated": "2026-11-11T23:01:14+00:00"
 }
