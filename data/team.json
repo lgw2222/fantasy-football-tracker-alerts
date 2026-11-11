@@ -154,22 +154,22 @@
   },
   {
    "slot": "Bench",
-   "name": "Kyle Pitts Sr.",
-   "team": "ATL",
-   "pos": "TE",
-   "espnId": 4360248,
-   "pts": 5.3,
-   "proj": 9.16,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
    "name": "Adonai Mitchell",
    "team": "NYJ",
    "pos": "WR",
    "espnId": 4597500,
    "pts": 0.0,
    "proj": 10.34,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
+   "name": "Audric Estime",
+   "team": "NO",
+   "pos": "RB",
+   "espnId": 4569682,
+   "pts": 14.7,
+   "proj": 10.33,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-10T22:22:03+00:00"
+ "updated": "2026-11-11T08:52:06+00:00"
 }
