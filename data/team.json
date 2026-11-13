@@ -6,7 +6,7 @@
   "record": "7-2-0"
  },
  "matchup": {
-  "me": 0,
+  "me": 7.4,
   "opp": 0,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Free the  Tight Ends (PA KING)"
@@ -48,7 +48,7 @@
    "team": "NYG",
    "pos": "WR",
    "espnId": 4595348,
-   "pts": 9.3,
+   "pts": 7.4,
    "proj": 16.07,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-13T00:16:58+00:00"
+ "updated": "2026-11-13T06:50:41+00:00"
 }
