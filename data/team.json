@@ -49,7 +49,7 @@
    "pos": "WR",
    "espnId": 4595348,
    "pts": 9.3,
-   "proj": 16.41,
+   "proj": 16.07,
    "injury": "ACTIVE"
   },
   {
@@ -79,7 +79,7 @@
    "pos": "RB",
    "espnId": 4429096,
    "pts": 11.8,
-   "proj": 11.59,
+   "proj": 11.58,
    "injury": "ACTIVE"
   },
   {
@@ -89,7 +89,7 @@
    "pos": "D/ST",
    "espnId": -16012,
    "pts": 12.0,
-   "proj": 4.9,
+   "proj": 4.91,
    "injury": "ACTIVE"
   },
   {
@@ -129,7 +129,7 @@
    "pos": "WR",
    "espnId": 4569559,
    "pts": 3.7,
-   "proj": 7.4,
+   "proj": 7.41,
    "injury": "ACTIVE"
   },
   {
@@ -150,7 +150,7 @@
    "espnId": 4429023,
    "pts": 0.0,
    "proj": 7.38,
-   "injury": "OUT"
+   "injury": "ACTIVE"
   },
   {
    "slot": "Bench",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-11T23:01:14+00:00"
+ "updated": "2026-11-13T00:16:58+00:00"
 }
