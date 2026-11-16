@@ -6,8 +6,8 @@
   "record": "7-2-0"
  },
  "matchup": {
-  "me": 57.8,
-  "opp": 48.3,
+  "me": 118.6,
+  "opp": 96.2,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Free the  Tight Ends (PA KING)"
  },
@@ -38,7 +38,7 @@
    "team": "SEA",
    "pos": "RB",
    "espnId": 4426385,
-   "pts": 0.6,
+   "pts": 9.4,
    "proj": 14.52,
    "injury": "ACTIVE"
   },
@@ -68,7 +68,7 @@
    "team": "SEA",
    "pos": "WR",
    "espnId": 4430878,
-   "pts": 0.0,
+   "pts": 31.1,
    "proj": 22.29,
    "injury": "ACTIVE"
   },
@@ -78,7 +78,7 @@
    "team": "LAR",
    "pos": "RB",
    "espnId": 4429096,
-   "pts": 0.0,
+   "pts": 20.9,
    "proj": 11.58,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-15T21:14:06+00:00"
+ "updated": "2026-11-16T01:01:25+00:00"
 }
