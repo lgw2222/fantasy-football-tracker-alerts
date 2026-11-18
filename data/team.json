@@ -40,7 +40,7 @@
    "espnId": 4882093,
    "pts": 20.3,
    "proj": 16.9,
-   "injury": "ACTIVE"
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "WR",
@@ -59,7 +59,7 @@
    "pos": "WR",
    "espnId": 4597500,
    "pts": 8.9,
-   "proj": 10.56,
+   "proj": 10.69,
    "injury": "ACTIVE"
   },
   {
@@ -134,16 +134,6 @@
   },
   {
    "slot": "Bench",
-   "name": "Devaughn Vele",
-   "team": "NO",
-   "pos": "WR",
-   "espnId": 4569559,
-   "pts": 3.4,
-   "proj": 6.13,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
    "name": "Emanuel Wilson",
    "team": "SEA",
    "pos": "RB",
@@ -173,6 +163,16 @@
    "injury": "ACTIVE"
   },
   {
+   "slot": "Bench",
+   "name": "Jaydon Blue",
+   "team": "PHI",
+   "pos": "RB",
+   "espnId": 4685279,
+   "pts": 0.0,
+   "proj": 0.0,
+   "injury": "ACTIVE"
+  },
+  {
    "slot": "IR",
    "name": "Jonathon Brooks",
    "team": "CAR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-18T06:53:14+00:00"
+ "updated": "2026-11-18T22:51:18+00:00"
 }
