@@ -24,32 +24,22 @@
   },
   {
    "slot": "RB",
+   "name": "Omarion Hampton",
+   "team": "LAC",
+   "pos": "RB",
+   "espnId": 4685382,
+   "pts": 17.5,
+   "proj": 12.58,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "RB",
    "name": "Bhayshul Tuten",
    "team": "JAX",
    "pos": "RB",
    "espnId": 4882093,
    "pts": 20.3,
    "proj": 16.9,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "RB",
-   "name": "Zach Charbonnet",
-   "team": "SEA",
-   "pos": "RB",
-   "espnId": 4426385,
-   "pts": 9.4,
-   "proj": 0.0,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "WR",
-   "name": "Malik Nabers",
-   "team": "NYG",
-   "pos": "WR",
-   "espnId": 4595348,
-   "pts": 7.4,
-   "proj": 16.19,
    "injury": "ACTIVE"
   },
   {
@@ -63,24 +53,34 @@
    "injury": "ACTIVE"
   },
   {
-   "slot": "FLEX",
-   "name": "Jaxon Smith-Njigba",
-   "team": "SEA",
+   "slot": "WR",
+   "name": "Adonai Mitchell",
+   "team": "NYJ",
    "pos": "WR",
-   "espnId": 4430878,
-   "pts": 31.1,
-   "proj": 0.0,
+   "espnId": 4597500,
+   "pts": 8.9,
+   "proj": 10.56,
    "injury": "ACTIVE"
   },
   {
    "slot": "FLEX",
-   "name": "Blake Corum",
-   "team": "LAR",
-   "pos": "RB",
-   "espnId": 4429096,
-   "pts": 20.9,
-   "proj": 0.0,
+   "name": "Malik Nabers",
+   "team": "NYG",
+   "pos": "WR",
+   "espnId": 4595348,
+   "pts": 7.4,
+   "proj": 16.19,
    "injury": "ACTIVE"
+  },
+  {
+   "slot": "FLEX",
+   "name": "Mike Evans",
+   "team": "SF",
+   "pos": "WR",
+   "espnId": 16737,
+   "pts": 0.0,
+   "proj": 12.05,
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "D/ST",
@@ -104,23 +104,33 @@
   },
   {
    "slot": "Bench",
-   "name": "Omarion Hampton",
-   "team": "LAC",
-   "pos": "RB",
-   "espnId": 4685382,
-   "pts": 17.5,
-   "proj": 12.58,
+   "name": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "pos": "WR",
+   "espnId": 4430878,
+   "pts": 31.1,
+   "proj": 0.0,
    "injury": "ACTIVE"
   },
   {
    "slot": "Bench",
-   "name": "Mike Evans",
-   "team": "SF",
-   "pos": "WR",
-   "espnId": 16737,
-   "pts": 0.0,
-   "proj": 12.05,
-   "injury": "QUESTIONABLE"
+   "name": "Blake Corum",
+   "team": "LAR",
+   "pos": "RB",
+   "espnId": 4429096,
+   "pts": 20.9,
+   "proj": 0.0,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "Bench",
+   "name": "Zach Charbonnet",
+   "team": "SEA",
+   "pos": "RB",
+   "espnId": 4426385,
+   "pts": 9.4,
+   "proj": 0.0,
+   "injury": "ACTIVE"
   },
   {
    "slot": "Bench",
@@ -154,16 +164,6 @@
   },
   {
    "slot": "Bench",
-   "name": "Adonai Mitchell",
-   "team": "NYJ",
-   "pos": "WR",
-   "espnId": 4597500,
-   "pts": 8.9,
-   "proj": 10.56,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
    "name": "Audric Estime",
    "team": "NO",
    "pos": "RB",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-17T17:52:31+00:00"
+ "updated": "2026-11-18T06:53:14+00:00"
 }
