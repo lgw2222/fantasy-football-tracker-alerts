@@ -7,7 +7,7 @@
  },
  "matchup": {
   "me": 0,
-  "opp": 0,
+  "opp": 5.5,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Brownie 2.0 \ud83c\udfc8"
  },
@@ -134,16 +134,6 @@
   },
   {
    "slot": "Bench",
-   "name": "Emanuel Wilson",
-   "team": "SEA",
-   "pos": "RB",
-   "espnId": 4887558,
-   "pts": 0.0,
-   "proj": 0.0,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
    "name": "MarShawn Lloyd",
    "team": "GB",
    "pos": "RB",
@@ -173,6 +163,16 @@
    "injury": "ACTIVE"
   },
   {
+   "slot": "Bench",
+   "name": "Konata Mumpfield",
+   "team": "LAR",
+   "pos": "WR",
+   "espnId": 4710855,
+   "pts": 11.1,
+   "proj": 0.0,
+   "injury": "ACTIVE"
+  },
+  {
    "slot": "IR",
    "name": "Jonathon Brooks",
    "team": "CAR",
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-19T20:37:38+00:00"
+ "updated": "2026-11-20T01:53:07+00:00"
 }
