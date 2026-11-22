@@ -6,8 +6,8 @@
   "record": "8-2-0"
  },
  "matchup": {
-  "me": 0,
-  "opp": 35.1,
+  "me": 13.0,
+  "opp": 50.7,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Brownie 2.0 \ud83c\udfc8"
  },
@@ -44,32 +44,22 @@
   },
   {
    "slot": "WR",
-   "name": "Tetairoa McMillan",
-   "team": "CAR",
-   "pos": "WR",
-   "espnId": 4685472,
-   "pts": 6.5,
-   "proj": 13.86,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "WR",
-   "name": "Adonai Mitchell",
-   "team": "NYJ",
-   "pos": "WR",
-   "espnId": 4597500,
-   "pts": 8.9,
-   "proj": 10.68,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "FLEX",
    "name": "Malik Nabers",
    "team": "NYG",
    "pos": "WR",
    "espnId": 4595348,
    "pts": 7.4,
    "proj": 16.19,
+   "injury": "ACTIVE"
+  },
+  {
+   "slot": "WR",
+   "name": "Tetairoa McMillan",
+   "team": "CAR",
+   "pos": "WR",
+   "espnId": 4685472,
+   "pts": 2.0,
+   "proj": 13.86,
    "injury": "ACTIVE"
   },
   {
@@ -83,13 +73,23 @@
    "injury": "QUESTIONABLE"
   },
   {
+   "slot": "FLEX",
+   "name": "Adonai Mitchell",
+   "team": "NYJ",
+   "pos": "WR",
+   "espnId": 4597500,
+   "pts": 8.9,
+   "proj": 10.68,
+   "injury": "ACTIVE"
+  },
+  {
    "slot": "D/ST",
    "name": "Chiefs",
    "team": "KC",
    "pos": "D/ST",
    "espnId": -16012,
-   "pts": 9.0,
-   "proj": 7.03,
+   "pts": 11.0,
+   "proj": 7.01,
    "injury": "ACTIVE"
   },
   {
@@ -134,23 +134,13 @@
   },
   {
    "slot": "Bench",
-   "name": "MarShawn Lloyd",
-   "team": "GB",
-   "pos": "RB",
-   "espnId": 4429023,
-   "pts": 6.9,
-   "proj": 0.0,
-   "injury": "ACTIVE"
-  },
-  {
-   "slot": "Bench",
    "name": "Audric Estime",
    "team": "NO",
    "pos": "RB",
    "espnId": 4569682,
-   "pts": 2.1,
-   "proj": 4.47,
-   "injury": "ACTIVE"
+   "pts": 0.0,
+   "proj": 0.0,
+   "injury": "OUT"
   },
   {
    "slot": "Bench",
@@ -179,7 +169,7 @@
    "pos": "RB",
    "espnId": 4678008,
    "pts": 0.0,
-   "proj": 4.29,
+   "proj": 0.0,
    "injury": "INJURY_RESERVE"
   },
   {
@@ -193,5 +183,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-21T19:38:27+00:00"
+ "updated": "2026-11-22T18:42:43+00:00"
 }
