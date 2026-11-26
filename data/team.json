@@ -6,8 +6,8 @@
   "record": "9-2-0"
  },
  "matchup": {
-  "me": 0,
-  "opp": 0,
+  "me": 28.5,
+  "opp": 33.0,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Brown Kids are in the Fields"
  },
@@ -38,7 +38,7 @@
    "team": "LAR",
    "pos": "RB",
    "espnId": 4429096,
-   "pts": 0.0,
+   "pts": 28.5,
    "proj": 13.82,
    "injury": "ACTIVE"
   },
@@ -70,7 +70,7 @@
    "espnId": 4430878,
    "pts": 0.0,
    "proj": 21.6,
-   "injury": "ACTIVE"
+   "injury": "QUESTIONABLE"
   },
   {
    "slot": "FLEX",
@@ -158,7 +158,7 @@
    "team": "LAR",
    "pos": "WR",
    "espnId": 4710855,
-   "pts": 0.0,
+   "pts": 10.9,
    "proj": 8.45,
    "injury": "ACTIVE"
   },
@@ -183,5 +183,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-25T23:20:50+00:00"
+ "updated": "2026-11-26T05:10:43+00:00"
 }
