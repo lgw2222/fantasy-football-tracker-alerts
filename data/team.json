@@ -7,7 +7,7 @@
  },
  "matchup": {
   "me": 28.5,
-  "opp": 41.7,
+  "opp": 78.5,
   "meName": "Knee-ver Over the Hill",
   "oppName": "Brown Kids are in the Fields"
  },
@@ -138,7 +138,7 @@
    "team": "KC",
    "pos": "D/ST",
    "espnId": -16012,
-   "pts": 8.0,
+   "pts": 11.0,
    "proj": 5.18,
    "injury": "ACTIVE"
   },
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-26T23:44:50+00:00"
+ "updated": "2026-11-27T05:22:15+00:00"
 }
