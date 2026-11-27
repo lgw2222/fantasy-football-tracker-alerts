@@ -29,8 +29,8 @@
    "pos": "RB",
    "espnId": 4882093,
    "pts": 8.3,
-   "proj": 18.63,
-   "injury": "QUESTIONABLE"
+   "proj": 0.0,
+   "injury": "OUT"
   },
   {
    "slot": "RB",
@@ -50,7 +50,7 @@
    "espnId": 4430878,
    "pts": 0.0,
    "proj": 21.6,
-   "injury": "QUESTIONABLE"
+   "injury": "ACTIVE"
   },
   {
    "slot": "WR",
@@ -79,7 +79,7 @@
    "pos": "WR",
    "espnId": 16737,
    "pts": 22.9,
-   "proj": 14.91,
+   "proj": 13.52,
    "injury": "QUESTIONABLE"
   },
   {
@@ -89,7 +89,7 @@
    "pos": "D/ST",
    "espnId": -16005,
    "pts": 0.0,
-   "proj": 6.69,
+   "proj": 6.53,
    "injury": "ACTIVE"
   },
   {
@@ -109,7 +109,7 @@
    "pos": "RB",
    "espnId": 4685382,
    "pts": 10.3,
-   "proj": 13.6,
+   "proj": 12.72,
    "injury": "ACTIVE"
   },
   {
@@ -129,7 +129,7 @@
    "pos": "WR",
    "espnId": 4597500,
    "pts": 5.0,
-   "proj": 10.24,
+   "proj": 10.92,
    "injury": "ACTIVE"
   },
   {
@@ -139,7 +139,7 @@
    "pos": "D/ST",
    "espnId": -16012,
    "pts": 11.0,
-   "proj": 5.17,
+   "proj": 5.11,
    "injury": "ACTIVE"
   },
   {
@@ -193,5 +193,5 @@
    "injury": "INJURY_RESERVE"
   }
  ],
- "updated": "2026-11-27T15:18:58+00:00"
+ "updated": "2026-11-27T23:31:08+00:00"
 }
